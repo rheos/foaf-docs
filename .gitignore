@@ -1,0 +1,44 @@
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore logs
+*.log
+logs/
+
+# Ignore node modules (for frontend dependencies)
+node_modules/
+
+# Ignore build artifacts
+dist/
+build/
+
+# Ignore environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Ignore database files
+*.sqlite3
+*.db
+
+# Ignore IDE files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Ruby-specific files
+*.gem
+Gemfile.lock
+.bundle/
+vendor/bundle/
+
+# Ignore sensitive documentation
+secrets/
+private/
