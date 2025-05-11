@@ -10,12 +10,15 @@ Local communities face **economic resilience** challenges:
 ## The Solution: Mutual Credit with a Crypto Backbone
 Growoperative revolutionizes local trade with:
 - **Marketplace App**: Users list offers (e.g., tomatoes) and requests (e.g., bread) in a user-friendly app, starting with gardening.
-- **Mutual Credit**: Users “owe” credits, settled later with goods, services, or cash.
+- **Flexible Trade Settlement**: Users can settle trades using:
+  - **Cash**: For those who prefer traditional currency.
+  - **Mutual Credit**: An encouraged option to earn and spend credits within the community, fostering local resilience.
+  - **RHEO**: The platform’s utility token for seamless, community-driven transactions.
+- **Transaction Fees**: A 3% fee in RHEO on all trades, plus action fees (e.g., 0.25 RHEO for listing), funds node operators (50%), treasury (30%), and burning (20%).
 - **Crypto Integration**:
   - **FOAF**: Governance and staking token (25M fixed supply).
-  - **RHEO**: Depegged transaction token, priced natively (e.g., 2 RHEO for tomatoes).
-  - **3% transaction fee** in RHEO, plus action fees (e.g., 0.25 RHEO for listing), funds node operators (50%), treasury (30%), and burning (20%).
-- **Inclusive Access**: No tokens required; RHEO flows through trusted networks.
+  - **RHEO**: Depegged utility token for fees and optional trade settlement.
+- **Inclusive Access**: No tokens required to start; RHEO for fees can be earned or facilitated through trusted networks.
 
 ## Market Opportunity
 - **Gardening Niche**: 35% of U.S. households garden (Pitch Deck Page 2), with surplus often wasted.
@@ -37,9 +40,9 @@ Seeking **$300K** (Pitch Deck Page 13) to:
 
 ## Why It Matters
 Growoperative is a movement to:
-- **Save Cash**: Trade without fiat.
-- **Build Resilience**: Strengthen local ties.
-- **End Burnout**: Sustain maintainers with RHEO fees.
+- **Reduce Cash Dependence**: Offer flexible settlement options, encouraging trade without fiat.
+- **Build Resilience**: Strengthen local ties through collaborative exchange.
+- **Sustain the System**: Use RHEO fees to compensate maintainers and ensure longevity.
 It starts with gardening and scales to the FOAF marketplace, creating unstoppable local economies.
 
 Explore more in [tokenomics](../../foaf-foundation/tokenomics.md) and [fee structure](../../foaf-foundation/fee-structure.md).
