@@ -1,43 +1,49 @@
-# FOAF Foundation Overview
+# FOAF Documentation
 
-The **FOAF Foundation** is a decentralized platform empowering communities to trade goods and services without fiat currency, starting with the **Growoperative app** for gardening surplus and scaling to a **FOAF marketplace** for broader trade. Using a dual-token system (**FOAF** for governance, **RHEO** for transactions), we foster sustainable food systems, reduce waste, and build resilient local economies. Our mission begins in Crawford Bay, British Columbia, with alpha testing in May 2026, and invites global communities to join a movement for real food and disruptive trade.
+What if every gardener’s surplus—every unpicked tomato, every extra zucchini—became the currency of thriving communities? What if local trade, powered by technology and trust, could reshape economies from the ground up? The **FOAF Foundation** is turning this vision into reality with the **Growoperative app**, starting in Crawford Bay, British Columbia, and scaling toward a global **FOAF marketplace**. Fueled by a dual-token system (**FOAF** for governance, **RHEO** for trade), we’re not just building a platform—we’re igniting a movement for real food, resilient networks, and unstoppable innovation.
 
-## Mission
-- **Reduce Food Waste**: Enable gardeners to trade surplus (e.g., tomatoes), addressing the $1,600/year household waste problem (Pitch Deck Page 6).
-- **Eliminate Fiat Dependence**: Facilitate cash-free trade with mutual credit and RHEO, a depegged currency.
-- **Sustain Communities**: Use a 3% RHEO transaction fee to reward maintainers, ending volunteer burnout.
-- **Scale Resilience**: Start locally in the Kootenays and inspire global networks through the FOAF marketplace.
+This repository, `foaf-docs`, is your window into that movement. It’s a living blueprint for a decentralized future, blending practical guides, technical depth, and a bold call to action. Whether you’re a gardener trading basil, a developer coding the next feature, or a visionary ready to invest, here’s where you’ll see how we’re rewriting the rules of sustainability and scale.
 
-## Structure
-- **FOAF Foundation**: Oversees the token system (FOAF/RHEO), governance, and ecosystem growth, governed by a DAO by Q4 2023–2024.
-- **Growoperative App**: A progressive web app (PWA) piloting mutual credit trading in Crawford Bay, expanding to Kaslo, Nelson, and Winlaw.
-- **FOAF Marketplace (Future)**: A platform for trading diverse goods/services (e.g., tools, childcare), launching Q4 2024.
-- **Community Networks**: Engages resilience groups via Signal, Telegram, and Facebook to bootstrap adoption.
+## Our Vision: From Waste to Wealth
+- **Reclaiming the Lost Harvest**: Canadian households waste $1,600 in food annually—31% of what they buy (Pitch Deck Page 6). In Crawford Bay, we’re piloting a system to trade surplus (e.g., 5 lbs of tomatoes for 2 lbs of carrots), cutting waste and building abundance. Now imagine this in every backyard worldwide.
+- **Cash-Free Resilience**: With **RHEO**, a depegged utility token, neighbors trade without dollars, starting with Kootenay resilience groups on Signal and Telegram. It’s mutual credit reborn—accessible, scalable, and free from centralized control.
+- **Sustainability That Pays**: A 3% RHEO fee on every trade (e.g., 0.06 RHEO on a 2 RHEO tomato swap) funds the network—50% to node operators, 30% to the treasury, 20% burned. Unlike traditional LETS, which collapsed under volunteer burnout, this self-sustaining model thrives as it grows.
+- **A Global Blueprint**: From a progressive web app (PWA) to native iOS/Android apps and a DAO-governed marketplace, we’re crafting a system that scales from rural gardens to urban hubs, all while dodging regulatory overreach with a community-first ethos.
 
-## Current Status
-- **Growoperative App**: Built with Ruby on Rails, MySQL, and React.js, the PWA supports listing, requesting, matching, and fulfilling trades.
-- **Development Needs**: Payment and mutual credit tracking to be added by Q4 2025, with native iOS/Android apps planned for Q2 2026.
-- **Funding Goal**: Seeking $300K to complete the MVP and develop apps, enabling alpha testing in May 2026 (Pitch Deck Page 13).
-- **Community Pilot**: Targeting Crawford Bay’s resilience groups, with outreach to Kaslo, Nelson, and Winlaw for 2026 gardening season.
+## Where We Stand
+- **Growoperative Today**: Our PWA, built on Ruby on Rails, MySQL, and React.js, lets users list surplus, match trades, and track fulfillment. It’s live but lean—payment and credit tracking are still in progress.
+- **Roadmap Ahead**:
+  - **Q4 2025**: Integrate payment systems and mutual credit, making trades seamless.
+  - **Q2 2026**: Launch native apps for iOS and Android, timed for Crawford Bay’s May 2026 alpha test—peak gardening season.
+- **The $300K Bridge**: We need $300K to finish the PWA, build native apps, and expand outreach to Kaslo, Nelson, and Winlaw (Pitch Deck Page 13). This isn’t just funding—it’s fuel for a food system revolution.
+- **Grassroots Momentum**: We’re already engaging Kootenay resilience networks on Facebook and beyond. Crawford Bay is our lab; the world is our canvas.
 
-## Team
-- **Founder and Project Manager**: Leading the vision for resilient economies.
-- **Lead Programmer (Recruiting)**: To enhance the PWA and build native apps.
-- **Junior Programmer (Recruiting)**: To support coding tasks.
-- **Graphic Designer (Recruiting)**: To craft an intuitive interface.
-- **Marketing Representative (Recruiting)**: To drive adoption in gardening communities.
-- **Blockchain Developer (Recruiting)**: To implement RHEO fees and DAO contracts.
-- **Community Manager (Recruiting)**: To engage resilience groups on Signal, Telegram, and Facebook.
-- **Advisors (Recruiting)**: Seeking expertise in sustainability, food systems, and technology.
+## What Makes FOAF Different
+- **Dual-Token Engine**:
+  - **FOAF**: 25M fixed tokens (8M for airdrops) empower governance and staking. Think of it as a vote for the future, held by pioneers like Crawford Bay’s gardeners.
+  - **RHEO**: A fluid, community-priced token for trades (e.g., 2 RHEO for a jar of pickles). No crypto wallet? No barrier—trust networks make it inclusive.
+- **Economic Alchemy**: The 3% fee isn’t a tax—it’s a cycle of value, sustaining operators and the DAO while pruning excess RHEO. It’s decentralized economics, refined.
+- **DAO at the Core**: By Q4 2024, the community calls the shots—fees, features, expansion. This isn’t a startup; it’s a self-governing ecosystem.
+- **Built for All**: No gatekeepers, no jargon. RHEO flows where trust does, from rural co-ops to city collectives.
 
-## Token System
-- **FOAF**: Fixed 25M supply, indivisible, for staking and governance, with 8M allocated for airdrops to communities like Crawford Bay.
-- **RHEO**: Depegged utility token for transactions (e.g., 2 RHEO for tomatoes), with a 3% fee supporting node operators (50%), treasury (30%), and burning (20%).
+## Dive Into the Docs
+- **[FOAF Foundation](./docs/foaf-foundation/overview.md)**: Mission, tokenomics, and the DAO’s DNA.
+- **[Growoperative](./docs/growoperative)**: Gardener guides, pitch decks, and tech specs.
+- **[FOAF Marketplace](./docs/foaf-marketplace)**: The scalable vision beyond gardening.
+- **[Technical](./docs/technical)**: Roadmaps, architecture, and developer docs.
+- **[Community](./docs/community)**: Airdrops, incentives, and collaboration hubs.
 
-## Why FOAF?
-- **Local Impact**: Starts in Crawford Bay, reducing food waste and strengthening Kootenay resilience, a model for global replication.
-- **Community-Driven**: Engages Signal, Telegram, and Facebook groups to build trusted networks, per the pitch’s inclusivity focus.
-- **Scalable Innovation**: Evolves from a PWA to native apps and a FOAF marketplace, disrupting traditional trade.
-- **Sustainable**: Funds operations through RHEO fees, not centralized control, ensuring longevity.
+## Your Role in the Revolution
+- **Gardeners**: Swap your surplus in Crawford Bay or seed a network anywhere. No tech savvy required—just a shovel and a dream.
+- **Developers**: Shape the PWA, native apps, or DAO logic. Check the [contribution guide](./docs/technical/contributing.md).
+- **Investors**: $300K unlocks a scalable model for resilient economies—starting local, dreaming global.
+- **Champions**: Amplify us on X, Telegram, or your local co-op. Every voice grows the roots.
 
-Explore detailed plans in [tokenomics](./tokenomics.md), [fee structure](./fee-structure.md), and [Growoperative pitch](../growoperative/pitch.md).
+## License
+Open under the [MIT License](./LICENSE)—because true innovation doesn’t hide behind walls.
+
+## Disclaimer
+FOAF is a decentralized experiment in community-driven trade, not a financial product. Join at your own curiosity.
+
+---
+*Last updated: May 11, 2025*
