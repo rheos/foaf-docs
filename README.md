@@ -1,43 +1,22 @@
-# FOAF Documentation
+# FOAF Foundation Documentation
 
-Welcome to the documentation repository for the **FOAF Foundation**, a decentralized platform empowering communities to trade goods and services without fiat currency reliance. The **Growoperative app** is our first application, introducing mutual credit trading for gardening surplus, with plans to expand into a broader **FOAF marketplace** for diverse goods and services. Built on a dual-token system (**FOAF** for governance, **RHEO** for transactions), FOAF fosters local resilience, reduces waste, and creates sustainable economies.
+Welcome to the documentation repository for the **FOAF (Friend of a Friend) Foundation**, a Decentralized Autonomous Organization (DAO) dedicated to fostering community resilience and promoting independence from fiat currency systems. Our mission is to empower communities through decentralized, people-powered solutions, starting with innovative projects like the **Growoperative app**.
 
-This repository contains all project documentation, including pitches, tokenomics, technical plans, and governance strategies. Contributions are welcome via pull requests.
+## What is the FOAF Foundation?
+The FOAF Foundation is a DAO focused on building sustainable, equitable systems that enable communities to thrive outside traditional financial frameworks. By leveraging mutual credit systems and decentralized governance, we aim to create tools that strengthen local networks and reduce reliance on centralized institutions.
 
-## Mission
-The FOAF Foundation enables peer-to-peer trade within trusted networks, using a crypto-powered system to:
-- Reduce fiat dependence through mutual credit and RHEO, the native denomination.
-- Eliminate volunteer burnout with a 3% transaction fee and RHEO rewards for maintainers.
-- Start with gardening via Growoperative and scale to a comprehensive FOAF marketplace.
+## Our Mission
+- **Enhance Community Resilience**: Develop tools that empower local networks.
+- **Promote Fiat Independence**: Create alternative economic models like mutual credit.
+- **Foster Decentralized Governance**: Ensure transparent, community-driven decision-making.
 
-## Key Features
-- **Growoperative App**: Trade gardening surplus (e.g., tomatoes) using mutual credit, with a user-friendly interface.
-- **FOAF Marketplace (Future)**: Expand to trade diverse goods/services (e.g., tools, childcare).
-- **Dual-Token System**:
-  - **FOAF**: Fixed supply (25M), indivisible token for staking and governance.
-  - **RHEO**: Depegged utility token for fees and transactions, evolving into the platform’s currency.
-- **3% Transaction Fee**: Paid in RHEO, supporting node operators (50%), treasury (30%), and burning (20%) for sustainability.
-- **Inclusive Access**: No tokens required to start; RHEO flows through trusted networks.
-- **DAO Governance**: Transitioning to community control by Q4 2023–2024.
+## First Project: Growoperative
+Our inaugural project, the **Growoperative app**, is a pioneering initiative to bootstrap a mutual credit system, starting with garden sharing as a niche. It serves as the first step toward a broader vision of people-powered money. For more details, explore the [Growoperative documentation](./docs/growoperative/).
 
-## Documentation
-Documentation is organized into key areas (coming soon):
-- **Pitch**: Project overview, problem, solution, and team.
-- **Tokenomics**: FOAF/RHEO roles, allocation, and fee structure.
-- **Technical**: MVP, dApp architecture, and roadmap.
-- **Governance**: DAO transition and community governance plans.
-- **Community**: User onboarding and airdrop incentives.
+## Explore the Docs
+- **[FOAF Foundation Overview](./docs/foaf-foundation/overview.md)**: Learn about our governance, token system, and long-term vision.
+- **[Growoperative Docs](./docs/growoperative/)**: Discover how the app is helping communities trade surplus and build resilience.
+- **[Technical Roadmap](./docs/technical/roadmap.md)**: See our development milestones and future plans.
 
-## Getting Involved
-- **Users**: Join Growoperative to trade gardening surplus, no crypto knowledge needed.
-- **Contributors**: Submit pull requests for docs or code (coming soon).
-- **Node Operators**: Run a node to earn RHEO and FOAF rewards.
-
-## License
-This project is licensed under the [MIT License](./LICENSE), ensuring open access and community-driven development.
-
-## Disclaimer
-The FOAF Foundation is an experimental, community-driven project with no central authority. Participation is at your own risk, and the platform is not intended as a financial or investment product.
-
----
-*Last updated: May 11, 2025*
+## Get Involved
+We welcome gardeners, developers, community organizers, and anyone passionate about decentralized systems. Join us in shaping a resilient future! Explore our docs or reach out to our community on [Signal, Telegram, or Facebook](#).
