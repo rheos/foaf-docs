@@ -3,7 +3,8 @@
 **Growoperative** is the flagship application of the **FOAF Foundation**, a Decentralized Autonomous Organization (DAO) fostering community resilience through mutual credit trading. Starting with gardening surplus, Growoperative empowers local communities to trade without fiat reliance, paving the way for the broader **FOAF marketplace**. This summary highlights key points from the pitch deck, updated to reflect flexible trade settlement options and the project’s roadmap, correcting the outdated 10% FOAF fee (Pitch Deck Page 7) to the current 3% RHEO fee.
 
 ## Problem (Pages 2-3)
-- **Fiat Dependence**: Cash scarcity limits local trade, leaving surplus garden produce wasted.
+- **Fiat Dependence**: Cash scarcity limits trade, leaving surplus garden produce wasted.
+- **Untapped Gardening Potential**: Many gardeners grow less than they could because they lack a reliable outlet for surplus, fearing waste.
 - **Food Waste**: 35% of U.S. households garden, yet much of their surplus rots (Pitch Deck Page 2).
 - **Volunteer Burnout**: Traditional Local Exchange Trading Systems (LETS) collapse due to uncompensated maintainers.
 - **Supply Chain Fragility**: Recent disruptions highlight the need for resilient local economies.
@@ -18,7 +19,7 @@
 - **Inclusive Access**: No tokens required; RHEO flows through trusted networks.
 
 ## Market Opportunity (Page 6)
-- **Gardening Boom**: 18.3M new gardeners in the U.S. since 2020, with $1,600/year in household food waste.
+- **Gardening Boom**: 18.3M new gardeners in the U.S. since 2020, with potential to expand gardens if surplus has a market.
 - **Local Focus**: Initial alpha testing in Crawford Bay, BC, with outreach to Kaslo, Nelson, and Winlaw resilience groups via Signal, Telegram, and Facebook.
 - **Global Potential**: Scalable to resilience communities worldwide (e.g., Kootenays, Asheville).
 
@@ -38,7 +39,7 @@
 
 ## Funding (Page 13)
 - **Seeking $300K**: To complete PWA, develop native apps, market to gardening communities, and launch operations.
-- **Impact**: Enables a scalable model for fiat-independent local economies, starting in the Kootenays.
+- **Impact**: Unlocks expanded gardening, reduces waste, and scales resilient economies, starting in the Kootenays.
 
 ## Team
 - **Founder and Project Manager**: Leads the vision for resilient economies.
@@ -50,6 +51,7 @@
 - **Advisors (Recruiting)**: Seeking expertise in sustainability and technology.
 
 ## Why Growoperative?
+- **Expands Gardening**: Encourages gardeners to grow more by providing a reliable market for surplus.
 - **Reduces Waste**: Turns surplus into community wealth.
 - **Empowers Communities**: Offers flexible trading options to suit all users.
 - **Scales Resilience**: From Crawford Bay to a global FOAF marketplace.
