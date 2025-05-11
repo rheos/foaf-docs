@@ -1,6 +1,8 @@
 Growoperative Documentation
+
 Welcome to the documentation repository for Growoperative, a decentralized exchange system empowering local communities to trade goods and services—starting with gardening surplus—without reliance on fiat currency. Built on a dual-token model (FOAF for governance, RHEO for transactions), Growoperative fosters resilience, reduces food waste, and creates sustainable local economies.
 This repository contains all project documentation, including the pitch, tokenomics, technical roadmap, and governance plans. Contributions are welcome via pull requests.
+
 Mission
 Growoperative enables peer-to-peer trade within trusted networks, using a crypto-powered platform to:
 
