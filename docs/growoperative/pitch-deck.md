@@ -33,12 +33,12 @@
 ## Roadmap (Page 12)
 - **Current**: PWA supports listing, requesting, matching, and fulfilling trades.
 - **Q4 2025**: Add payment and mutual credit tracking to PWA.
-- **Q2 2026**: Launch native iOS/Android apps for May 2026 alpha in Crawford Bay and other interested communities.
+- **Q2 2026**: Launch native iOS/Android apps and explainer videos for May 2026 alpha in Crawford Bay and other interested communities.
 - **Q4 2026**: Expand to additional regions and refine based on feedback.
 - **2027**: Scale to global resilience networks, transition to dApp.
 
 ## Funding (Page 13)
-- **Seeking $300K**: To complete PWA, develop native apps, market to gardening communities, and support multi-location launches.
+- **Seeking $300K**: To complete PWA, develop native apps, produce marketing and instructional explainer videos, and support multi-location launches.
 - **Impact**: Unlocks expanded gardening, reduces waste, and scales resilient economies globally, starting with community-driven pilots.
 
 ## Team
@@ -46,8 +46,8 @@
 - **Lead Programmer (Recruiting)**: To enhance PWA and build native apps.
 - **Junior Programmer (Recruiting)**: To support coding tasks.
 - **Graphic Designer (Recruiting)**: To craft intuitive interfaces.
-- **Marketing Representative (Recruiting)**: To drive grassroots adoption.
-- **Community Manager (Recruiting)**: To engage resilience groups.
+- **Marketing Representative (Recruiting)**: To drive grassroots adoption via explainer videos and community outreach.
+- **Community Manager (Recruiting)**: To engage resilience groups on Signal, Telegram, and Facebook.
 - **Advisors (Recruiting)**: Seeking expertise in sustainability and technology.
 
 ## Why Growoperative?
@@ -56,5 +56,6 @@
 - **Empowers Communities**: Offers flexible trading options to suit all users.
 - **Scales Globally**: Launchable in multiple locations, from Crawford Bay to anywhere with interested communities.
 - **Sustainable**: RHEO fees eliminate burnout, ensuring longevity.
+- **Engaging Outreach**: Explainer videos for marketing and instructions simplify adoption for gardeners and resilience groups.
 
 Explore more in [pitch](./pitch.md), [tokenomics](../../foaf-foundation/tokenomics.md), and [onboarding](./onboarding.md).
