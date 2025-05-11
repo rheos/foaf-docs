@@ -1,0 +1,124 @@
+**FOAF/RHEO Tokenomics Whitepaper**
+
+---
+
+**Project Vision**
+
+This project is designed to build local community resilience through a decentralized exchange system that minimizes reliance on fiat currency. By enabling peer-to-peer trade of goods and services—starting with gardening surplus and scaling to include all community-driven commerce—the system empowers individuals to create and exchange value within trusted networks.
+
+The system uses two tokens: **FOAF**, the core stake and trust token, and **RHEO**, the dynamic utility token used for transaction execution.
+
+**FOAF** stands for **Friend of a Friend**, reflecting its role in building trust through social connection.
+**RHEO** means **flow**, emphasizing its use in powering value exchange and system operations.
+
+---
+
+**Token Overview**
+
+| Token               | Symbol | Type          | Supply               | Divisibility | Purpose                                                 |
+| ------------------- | ------ | ------------- | -------------------- | ------------ | ------------------------------------------------------- |
+| Friends-of-a-Friend | FOAF   | Main token    | 25,000,000 (fixed)   | Indivisible  | Governance, staking, trust, gas generation              |
+| RHEO                | RHEO   | Utility token | Dynamic/inflationary | Divisible    | Transaction fees, IOU settlements, marketplace activity |
+
+---
+
+**Token Roles and Flow**
+
+**FOAF (Main Token)**
+
+* Fixed supply of 25,000,000 units
+* Indivisible: each token represents a whole share of network trust
+* Generates RHEO when staked
+* Staking is required to earn RHEO, and larger or longer-term stakes may yield proportionally more
+* Used in governance and to secure the network
+
+**RHEO (Utility Token)**
+
+* Used for all platform transactions, listings, claims, and settlements
+* Emitted to FOAF stakers based on stake amount
+* May be burned or recycled on use
+* Distributed partially to node operators, treasury, and protocol functions
+
+---
+
+**FOAF Allocation Model**
+
+| Category                        | Allocation | %   | Purpose                                  |
+| ------------------------------- | ---------- | --- | ---------------------------------------- |
+| Community Incentives & Airdrops | 8,000,000  | 32% | Grow user base and early adoption        |
+| Ecosystem Development Fund      | 6,000,000  | 24% | Partner integrations, dev support        |
+| Node/Validator Reward Pool      | 5,000,000  | 20% | Reward network maintenance and uptime    |
+| Founders & Core Team            | 4,000,000  | 16% | Long-term aligned project leadership     |
+| Advisors & Strategic Backers    | 1,500,000  | 6%  | Early ecosystem support and guidance     |
+| Treasury Reserve                | 500,000    | 2%  | Emergency or DAO-governed future funding |
+
+---
+
+**Node Operator Incentives**
+
+Node operators (community validators or coordinators) play a key role in:
+
+* Verifying credit relationships and trust paths
+* Relaying transactions
+* Facilitating marketplace coordination
+
+They are rewarded with:
+
+* A portion of RHEO gas fees from transactions they relay
+* Scheduled FOAF distributions from the node pool
+* Optional FOAF staking to increase visibility and earnings
+
+---
+
+**RHEO Usage Framework**
+
+| Action                                                 | RHEO Cost         | Notes                          |
+| ------------------------------------------------------ | ----------------- | ------------------------------ |
+| List an item/service                                   | 0.25 RHEO         | Discourages spam listings      |
+| Claim a listing                                        | 0.5 RHEO          | Paid by requester              |
+| Settle deferred IOU                                    | 1 RHEO            | Finalize credit-based exchange |
+| Multi-hop trust path                                   | +0.1 RHEO per hop | Rewards relay participation    |
+| Coordination task (batch delivery, route optimization) | Variable          | Optional market-priced fee     |
+
+---
+
+**RHEO Emission Model**
+
+* Only **staked FOAF** generates RHEO
+* Base emission rate: **0.1 RHEO per staked FOAF per 30 days**
+* Total emissions are proportional to staked supply, allowing control over inflation
+* Bonus RHEO emissions may be awarded for active participation or verified marketplace contributions
+* No time-based tiers, minimizing incentive for wallet splitting or gaming
+
+---
+
+**Governance (DAO Phase)**
+
+FOAF holders will participate in governance over:
+
+* RHEO emission rates and parameters
+* Treasury disbursement
+* Marketplace rules
+* Node qualification criteria
+
+---
+
+**Vesting Schedule**
+
+| Group              | Lock Period          | Vesting Period                          |
+| ------------------ | -------------------- | --------------------------------------- |
+| Founders           | 12 months            | 36 months linear vesting                |
+| Advisors           | 6 months             | 18 months linear vesting                |
+| Node Rewards       | Released on schedule | Multi-year, protocol-controlled release |
+| Community Airdrops | Some immediate       | Some milestone-based unlocks            |
+
+---
+
+**Ideological Integrity and Utility**
+
+* FOAF remains indivisible and capped, symbolizing trust and long-term alignment
+* RHEO reflects ongoing activity and real-world use, not speculation
+* Credit-based systems reduce fiat dependence, while crypto-backed mechanics provide trust and reward for those maintaining the system
+* FOAF is not required to use the app—users can receive tokens indirectly via their social network, emphasizing inclusion
+
+This token model aligns economic sustainability with community empowerment and long-term resilience.
