@@ -2,7 +2,7 @@
 
 GrowOperative uses a dynamic, value-based fee system designed to reward network participants, prevent spam, and remain accessible — even for users trading small quantities or low-value goods.
 
-All fees are paid in **RHEO**, the platform's utility token. RHEO has a floating value, but for illustration purposes, we assume **1 RHEO ≈ $1 CAD** during onboarding.
+All fees are paid in **RHEO**, the platform's utility token. RHEO has a floating value, but for illustration purposes, we assume **1 RHEO ≈ $1 USD (illustrative only)** during onboarding.
 
 ---
 
