@@ -17,11 +17,11 @@ Result: surplus is wasted, coordination is lost, and community resilience declin
 
 ## 🌱 Our Solution: Mutual Credit on a Decentralized Ledger
 
-**GrowOperative** is a mobile app that makes trading food and services as easy as messaging a friend — powered by trust-based, peer-routed networks and blockchain infrastructure.
+**GrowOperative** is a mobile app that helps gardeners share their surplus produce through peer-to-peer coordination — powered by trust-based networks and decentralized infrastructure.
 
 ### Core Features:
-- **Offer & Request Marketplace**  
-  Users list what they have (e.g., tomatoes) and what they need (e.g., bread, childcare).
+- **Offer Marketplace**  
+  Users list what they have to share (e.g., tomatoes, greens, seedlings). This version does not include public requests — discovery is based on supply and social connections. Future FOAF marketplace versions will include full offer-and-request capability.
 
 - **Flexible Settlement**  
   Trades can settle in:
