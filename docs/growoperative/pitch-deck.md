@@ -1,61 +1,89 @@
-# Growoperative Pitch Deck Summary
+# GrowOperative Pitch Deck Summary
 
-**Growoperative** is the flagship application of the **FOAF Foundation**, a Decentralized Autonomous Organization (DAO) fostering community resilience through mutual credit trading. Starting with gardening surplus, Growoperative empowers local communities to trade without fiat reliance, paving the way for the broader **FOAF marketplace**. This summary highlights key points from the pitch deck, updated to reflect flexible trade settlement options and the project’s roadmap, correcting the outdated 10% FOAF fee (Pitch Deck Page 7) to the current 3% RHEO fee.
+**GrowOperative** is the flagship application of the **FOAF Foundation**, a Decentralized Autonomous Organization (DAO) fostering community resilience through mutual credit and trust-based trade. Starting with gardening surplus, GrowOperative empowers local communities to exchange goods without cash reliance — laying the foundation for the broader **FOAF marketplace**. This summary reflects the updated system architecture, replacing the outdated 10% FOAF fee (Pitch Deck Page 7) with a fairer RHEO-based model and clarifying the phased roadmap to native app deployment and DAO control.
 
-## Problem (Pages 2-3)
+---
+
+## Problem (Pages 2–3)
 - **Fiat Dependence**: Cash scarcity limits trade, leaving surplus garden produce wasted.
-- **Untapped Gardening Potential**: Many gardeners grow less than they could because they lack a reliable outlet for surplus, fearing waste.
-- **Food Waste**: 35% of U.S. households garden, yet much of their surplus rots (Pitch Deck Page 2).
-- **Volunteer Burnout**: Traditional Local Exchange Trading Systems (LETS) collapse due to uncompensated maintainers.
-- **Supply Chain Fragility**: Recent disruptions highlight the need for resilient local economies.
+- **Untapped Gardening Potential**: Gardeners grow less when they lack a reliable outlet for excess.
+- **Food Waste**: Up to 40% of food is wasted; gardeners contribute simply because they can’t redistribute.
+- **Volunteer Burnout**: LETS and community exchange systems collapse without sustainable rewards.
+- **Supply Chain Fragility**: Global disruptions highlight the need for local resilience.
 
-## Solution (Pages 3-5)
-- **Peer-to-Peer App**: A user-friendly Progressive Web App (PWA) built with Ruby on Rails, MySQL, and React.js, enabling users to list, request, and trade gardening surplus (e.g., tomatoes for bread).
-- **Flexible Trade Settlement**:
-  - **Cash**: For users preferring traditional currency.
-  - **Mutual Credit**: An encouraged option to earn and spend credits, fostering community resilience.
-  - **RHEO**: The depegged utility token for seamless, community-priced transactions.
-- **Fee Structure**: 3% RHEO transaction fee, plus action fees (e.g., 0.25 RHEO for listing), funds node operators (50%), treasury (30%), and burning (20%).
-- **Inclusive Access**: No tokens required; RHEO flows through trusted networks.
+---
+
+## Solution (Pages 3–5)
+- **Peer-to-Peer Web App**: A user-friendly Progressive Web App (PWA) built with Ruby on Rails, MySQL, and React.js lets users list what they have (produce, seedlings, etc.) for community redistribution.
+- **Flexible Settlement Options**:
+  - **Cash** – eTransfer, PayPal, Venmo, or in-person
+  - **Mutual Credit** – ledger-tracked IOUs in local fiat value
+  - **RHEO** – the required utility token for system fees and optional settlement, routed via trust chains
+- **Fee Model**:
+  - **3% of trade value** in RHEO
+  - **3% of markup** on intermediary resales
+  - **1% per-hop premium** for RHEO routing through trust networks
+  - Fees are **paid by those who profit**, not the buyer
+- **No Token Barrier**: Users don’t need to hold RHEO; it flows through trust paths from FOAF stakers. Obligations are tracked transparently.
+
+---
 
 ## Market Opportunity (Page 6)
-- **Gardening Boom**: 18.3M new gardeners in the U.S. since 2020, with potential to expand gardens if surplus has a market.
-- **Multi-Location Launch**: Initial alpha testing in Crawford Bay, BC, with plans to launch in multiple locations worldwide by May 2026, wherever interested communities (e.g., Kaslo, Nelson, Winlaw, or global resilience groups) join via Signal, Telegram, and Facebook.
-- **Global Potential**: Scalable to resilience communities everywhere (e.g., Kootenays, Asheville).
+- **Gardening Boom**: 18.3M new gardeners in the U.S. since 2020
+- **Initial Focus**: Crawford Bay, BC for May 2026 alpha launch; expansion to other resilience-minded communities (e.g., Kaslo, Nelson, Asheville)
+- **Global Potential**: Scales anywhere people grow food and want to share it — via Signal, Telegram, and grassroots networks
 
-## Business Model (Pages 7-8)
-- **Revenue**: 3% RHEO fee on all trades, depegged from fiat, ensures sustainability.
+---
+
+## Business Model (Pages 7–8)
+- **Revenue**:
+  - RHEO-based transaction and routing fees sustain the network
+  - No flat listing or action fees at launch
 - **Token System**:
-  - **FOAF**: 25M fixed supply for governance and staking.
-  - **RHEO**: Utility token for transactions and fees.
-- **Airdrops**: 8M FOAF (32% of supply) to bootstrap adoption among gardeners and resilience groups across multiple locations.
+  - **FOAF** – 25M fixed supply for governance and RHEO generation
+  - **RHEO** – dynamic utility token for all system fees and optional value transfer
+- **Trust-Chain Logic**: RHEO flows from FOAF holders to users via contact chains, creating decentralized, peer-based microcredit relationships
+
+---
 
 ## Roadmap (Page 12)
-- **Current**: PWA supports listing, requesting, matching, and fulfilling trades.
-- **Q4 2025**: Add payment and mutual credit tracking to PWA.
-- **Q2 2026**: Launch native iOS/Android apps and explainer videos for May 2026 alpha in Crawford Bay and other interested communities.
-- **Q4 2026**: Expand to additional regions and refine based on feedback.
-- **2027**: Scale to global resilience networks, transition to dApp.
+- **Current (2025)**: PWA supports listing, matching, and off-platform settlement
+- **Q4 2025**: Add credit tracking, RHEO routing, and smart contract infrastructure
+- **Q2–Q3 2026**: Launch native iOS/Android apps with explainer videos for alpha in Crawford Bay and other nodes
+- **Q4 2026**: Activate DAO governance over fees, emissions, and expansion logic
+- **2027**: Scale to global resilience networks via the FOAF marketplace and dApp transition
+
+---
 
 ## Funding (Page 13)
-- **Seeking $300K**: To complete PWA, develop native apps, produce marketing and instructional explainer videos, and support multi-location launches.
-- **Impact**: Unlocks expanded gardening, reduces waste, and scales resilient economies globally, starting with community-driven pilots.
+- **Seeking $300K** to:
+  - Finalize the GrowOperative platform
+  - Develop native mobile apps
+  - Produce explainer videos for onboarding
+  - Launch in multiple communities
+
+---
 
 ## Team
-- **Founder and Project Manager**: Leads the vision for resilient economies.
-- **Lead Programmer (Recruiting)**: To enhance PWA and build native apps.
-- **Junior Programmer (Recruiting)**: To support coding tasks.
-- **Graphic Designer (Recruiting)**: To craft intuitive interfaces.
-- **Marketing Representative (Recruiting)**: To drive grassroots adoption via explainer videos and community outreach.
-- **Community Manager (Recruiting)**: To engage resilience groups on Signal, Telegram, and Facebook.
-- **Advisors (Recruiting)**: Seeking expertise in sustainability and technology.
+- **Founder and Project Manager** – Vision and architecture
+- **Lead Programmer (Hiring)** – Smart contract and native app development
+- **Junior Programmer (Hiring)** – Front-end and QA support
+- **Graphic Designer (Hiring)** – Clean, intuitive mobile-first interfaces
+- **Marketing Representative (Hiring)** – Outreach via social channels and explainer video campaigns
+- **Community Manager (Hiring)** – Signal and Telegram coordination with local groups
+- **Advisors (Hiring)** – Focused on sustainability, decentralized tech, and growth strategy
 
-## Why Growoperative?
-- **Expands Gardening**: Encourages gardeners to grow more by providing a reliable market for surplus.
-- **Reduces Waste**: Turns surplus into community wealth.
-- **Empowers Communities**: Offers flexible trading options to suit all users.
-- **Scales Globally**: Launchable in multiple locations, from Crawford Bay to anywhere with interested communities.
-- **Sustainable**: RHEO fees eliminate burnout, ensuring longevity.
-- **Engaging Outreach**: Explainer videos for marketing and instructions simplify adoption for gardeners and resilience groups.
+---
+
+## Why GrowOperative?
+
+- **Incentivizes Abundance**: Gardeners grow more when they know it won’t go to waste
+- **Reduces Waste**: Creates peer-powered local food circulation
+- **Accessible**: Works without requiring crypto literacy or upfront tokens
+- **Resilient**: Designed to scale organically from village gardens to global trust networks
+- **Sustainable**: Burn-resistant, value-based fee model rewards contributors and keeps spam out
+- **DAO-Controlled**: FOAF holders govern fees, emissions, and roadmap priorities transparently
+
+---
 
 Explore more in [pitch](./pitch.md), [tokenomics](../../foaf-foundation/tokenomics.md), and [onboarding](./onboarding.md).
