@@ -45,13 +45,15 @@ GrowOperative helps people trade food, goods, and services — with or without c
 
 ## 📊 FOAF Allocation (25M Supply)
 
-| Purpose                 | Amount   | Notes                                  |
-|------------------------|----------|----------------------------------------|
-| Airdrops               | 8M (32%) | Gardeners, local communities           |
-| Treasury               | 7M (28%) | Development, content, infrastructure   |
-| Team & Advisors        | 5M (20%) | Vested over 3 years                    |
-| Node Operators         | 3M (12%) | Infrastructure incentives              |
-| Reserve (grants/future)| 2M (8%)  | Pilot programs, DAO-aligned expansions |
+| Purpose                 | Allocation | FOAF         | Estimated Price     | Notes                                            |
+|------------------------|------------|--------------|----------------------|--------------------------------------------------|
+| Seed Round             | 20%        | 5,000,000    | $0.06                | Raise ~$300K                                     |
+| Strategic Round (TBD)  | 5–10%      | 1.25M–2.5M   | $0.10–$0.15          | Optional post-MVP or alpha round                |
+| Team & Advisors        | 20%        | 5,000,000    | N/A (vested)         | 3-year vesting; partially replaces salary        |
+| Community Airdrops     | 10–12%     | 2.5M–3M      | N/A (free allocation)| Distributed in region-based onboarding phases    |
+| Node Operators         | 10–12%     | 2.5M–3M      | DAO-managed reward   | Paid out over time based on contribution         |
+| Treasury & DAO Grants  | 20–25%     | 5M–6.25M     | DAO-determined       | Supports growth, proposals, and governance       |
+| Liquidity / Listings   | 5–8%       | 1.25M–2M     | TBD (if needed)      | Reserved for future exchange access or pairing   |
 
 ---
 
@@ -81,8 +83,8 @@ GrowOperative helps people trade food, goods, and services — with or without c
 
 ## 🛠 Road Ahead
 
-- **Airdrop Campaigns**: Distribute 8M FOAF in phases starting May 2026
+- **Airdrop Campaigns**: Distribute 2.5M–3M FOAF across early communities
 - **Explainer Videos**: Onboard users through accessible education
-- **Seed Round**: Raise $300K to finalize app, support launch, and scale
+- **Seed Round ($300K)**: Launch native apps, support trust-chain adoption, and fund rollout
 
 Learn more in [Fee Structure](./fee-structure.md) or [DAO Transition](./dao-transition.md).
