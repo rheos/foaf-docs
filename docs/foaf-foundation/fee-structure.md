@@ -25,18 +25,24 @@ All fees are paid in **RHEO**, the platform's utility token. RHEO has a floating
 
 ---
 
-### 3. Action Fees (Minimal, If Applied)
-Used only when necessary to limit spam or reflect real workload.
+### 3. Action Fees (Used Only if Needed)
 
-| Action               | Fee (RHEO) | Notes                             |
-|----------------------|------------|-----------------------------------|
-| Listing an item      | 0.25       | May be waived in early rollout    |
-| Claiming a listing   | 0.50       | Optional, used for queueing       |
-| Ledgered Credit Entry| 1.00       | Applies when formal IOU is logged |
+GrowOperative aims to minimize friction. Action fees are **disabled by default** and may only be activated if specific abuse patterns or scaling needs arise.
+
+| Action               | Fee (RHEO) | Status       | Notes                                                             |
+|----------------------|------------|--------------|-------------------------------------------------------------------|
+| Listing an item      | 0.25       | *Disabled*   | Reserved for potential spam prevention; not charged at launch     |
+| Claiming a listing   | —          | *Not used*   | No fee; claiming is free unless a reservation system is added     |
+| Ledgered Credit Entry| —          | *Removed*    | Formal credit entries are core functionality and should be free   |
+
+The default assumption is that **participation should be free**, and **fees should only apply when there is measurable cost, abuse risk, or system load**.
+
+GrowOperative prioritizes accessibility and trust over monetization of basic use.
+
 
 ---
 
-## 🔹 How RHEO Moves
+## 🔹 How RHEO Flows
 
 - **RHEO is required for all fees**, but users don’t need to hold it directly.
 - When a user initiates a trade, the required RHEO flows automatically from FOAF stakers through the user’s social trust chain.
