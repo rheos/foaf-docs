@@ -1,6 +1,6 @@
 # FOAF Foundation Technical Roadmap
 
-This roadmap outlines the phased development of the FOAF ecosystem. It begins with GrowOperative and scales toward a broader marketplace for trust-based, fiat-independent trade. Each milestone supports our goal of creating resilient, community-owned infrastructure that works in everyday life.
+This roadmap outlines the phased development of the FOAF ecosystem. It begins with GrowOperative and expands into a broader marketplace for trust-based, fiat-independent trade. Each milestone supports our mission of building community-owned infrastructure for everyday exchange.
 
 ---
 
@@ -8,42 +8,42 @@ This roadmap outlines the phased development of the FOAF ecosystem. It begins wi
 
 ### GrowOperative Platform
 
-- Add support for mutual credit and fiat-based IOUs to the backend
-- Improve per-unit pricing and trade matching logic
-- Prepare frontend UX for trust-based routing and contact visibility
+- Add support for mutual credit and fiat-denominated IOUs in the backend
+- Improve per-unit pricing and trade logic in the user interface
+- Refine visibility and trust-routing UX for contact-based trading
 
 ### Blockchain and DAO Infrastructure
 
 - Deploy initial FOAF and RHEO smart contracts
-- Implement RHEO fee logic for transaction value (3 percent) and per-hop trust routing (1 percent premium per hop)
-- Begin DAO tooling development for staking, voting, and treasury flows
+- Implement RHEO transaction fees (3 percent of value) and trust-routing premiums (1 percent per hop)
+- Begin DAO tooling for staking, voting, and treasury disbursement
 
-### Media and Outreach
+### Outreach and Preparation
 
-- Produce onboarding videos for listing items, trust-based trades, and community credit
-- Begin outreach to early resilience communities in BC and elsewhere
-- Raise $300K to fund development, video production, and mobile app support  
+- Produce onboarding videos explaining listing, trust-based trades, and settlement paths
+- Begin grassroots outreach to early resilience hubs
+- Raise $300K to fund development, apps, content, and infrastructure  
   (see [pitch deck](../growoperative/pitch-deck.md))
 
 ---
 
 ## Q2 2026
 
-### Native App Launch
+### Native and Web Apps
 
-- Release mobile apps on iOS and Android to replace the PWA
-- Support trust-path trade routing with visibility controls and markups
+- Launch native apps for iOS and Android to complement the PWA
+- Maintain browser access for flexibility and ease of use
+- All interfaces support contact-based trade routing and local pricing
 
-### Alpha Testing
+### Alpha Rollout
 
-- Launch GrowOperative alpha in multiple locations
-- Validate RHEO fee handling, credit flows, and contact-based propagation
-- Collect feedback through early user groups and community chats
+- Begin multi-region alpha with real trades, credit flows, and trust-path resolution
+- Collect early feedback through local organizers and community channels
 
-### Education and Engagement
+### Education and Support
 
-- Use explainer videos to help participants understand mutual credit and social trade
-- Support local organizers in setting up nodes or sharing trusted access
+- Release explainer videos focused on mutual credit, contact trust, and RHEO routing
+- Support local testers through Signal, Telegram, and in-app channels
 
 ---
 
@@ -51,44 +51,44 @@ This roadmap outlines the phased development of the FOAF ecosystem. It begins wi
 
 ### FOAF Marketplace Prototype
 
-- Expand listing types to support services and time-based offers
-- Extend backend to track broader trade categories and deeper contact chains
-- Finalize governance onboarding materials for alpha DAO participants
+- Expand backend to support service listings, time-tracking, and multi-party trades
+- Extend database schema to include services, tools, and labor
+- Prepare governance tooling for initial proposals and education
 
-### Token Distribution
+### Airdrop Distribution
 
-- Execute phased FOAF airdrops based on contribution and trade activity  
+- Execute token airdrops for early contributors and trust chain participants  
   (see [airdrops](../../community/airdrops.md))
 
-### Outreach and Feedback
+### Refinement and Engagement
 
-- Release new explainer videos focused on services, labor, and social credit
-- Evaluate alpha data and propose upgrades through DAO participation
+- Release new community-facing videos to grow the contributor base
+- Use alpha data to guide DAO proposal cycles
 
 ---
 
 ## 2027
 
-### FOAF Marketplace Launch
+### Marketplace Launch
 
-- Open full marketplace functionality across multiple trade categories
-- Integrate reputation system to support social trust scoring and delegation
-- Optimize database and smart contract performance for scale
+- Deploy full FOAF Marketplace with expanded trade types and global availability
+- Launch trust-based reputation system with routing indicators
+- Optimize backend and blockchain components for community-scale volume
 
-### Governance and Autonomy
+### Governance Transition
 
-- Transition key technical and treasury decisions to on-chain DAO proposals  
+- Empower DAO with full authority over fees, upgrades, and contributor rewards  
   (see [dao-transition](../foaf-foundation/dao-transition.md))
 
-- Begin community-sourced development funding through treasury votes
+- Begin treasury-funded bounties and community-driven protocol improvements
 
 ---
 
 ## Why It Matters
 
-- **Resilience**: Enables communities to trade value even when cash is limited
-- **Accessibility**: People can join and use the system with no tokens and no technical setup
-- **Sustainability**: Fees in RHEO fund infrastructure and contributors automatically
-- **Scalability**: Trust-path routing and local credit let this grow from one garden to an entire economy
+- **Resilience**: Enables trading and collaboration when money is scarce or supply chains are unreliable
+- **Ease of Use**: People can join with no tokens, no technical setup, and no exposure to crypto complexity
+- **Self Funding**: Every trade sustains the network through small RHEO flows
+- **Growth by Trust**: Trade expands through social networks, not ads or extractive platforms
 
 Explore more in [architecture](./architecture.md), [tokenomics](../foaf-foundation/tokenomics.md), and [vision](../foaf-marketplace/vision.md).
