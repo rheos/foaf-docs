@@ -100,3 +100,4 @@ It starts in the garden — but it scales to every corner of resilient community
 **A system where value stays local and grows outward.**
 
 Learn more in our [Tokenomics](../../foaf-foundation/tokenomics.md) and [Fee Structure](../../foaf-foundation/fee-structure.md).
+
