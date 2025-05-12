@@ -81,7 +81,7 @@
 
 ## Alpha Launch Details (May 2026)
 
-- **Core Locations**: Crawford Bay, Kaslo, Nelson, Boulder, Asheville, and other interested regions.
+- **Core Locations**: Crawford Bay, Kaslo, Nelson, Boulder, Asheville, and other gardening- and resilience-focused communities like Victoria (BC), Sebastopol (CA), Santa Fe (NM), Burlington (VT), Marin County (CA), and Portland (OR).
 - **Join**: Sign up through your community network or directly through the app.
 - **Tools**: Watch onboarding videos, participate in trades, and help test the DAO.
 
