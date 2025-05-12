@@ -9,14 +9,17 @@ The **FOAF Foundation** is a Decentralized Autonomous Organization (DAO) designe
 - **Current State (2025)**  
   The FOAF Foundation is stewarded by a founding team (see [team in pitch-deck](../growoperative/pitch-deck.md)) managing the GrowOperative PWA and initial token distribution.
 
-- **Q4 2023–Q4 2024**  
+- **Q3–Q4 2025**  
   A phased shift to DAO governance with key milestones:
   - **Smart Contract Deployment** – FOAF staking and on-chain proposal/voting contracts
   - **Community Onboarding** – Airdrop of 8M FOAF (32% of supply) to gardeners and resilience communities (see [airdrops](../../community/airdrops.md))
-  - **Pilot Governance** – Crawford Bay alpha testers vote on system parameters (e.g. fees, interface changes)
+  - **Pilot Governance** – Test DAO participation in select communities ahead of alpha
 
-- **Full DAO Control (Q4 2024)**  
-  All major decisions — including fee tuning, token emission rules, and marketplace scope — governed by FOAF holders.
+- **Q2–Q3 2026**  
+  DAO governance pilots launched during the **May 2026 alpha in Crawford Bay**, extended to other early-adopting communities
+
+- **Q4 2026 onward**  
+  Full DAO governance of all platform parameters and treasury functions
 
 ---
 
@@ -89,8 +92,8 @@ The **FOAF Foundation** is a Decentralized Autonomous Organization (DAO) designe
 
 ## 🔭 Next Steps
 
-- **2025**: Deploy governance contracts and begin community-led decision testing via explainer videos
-- **2026**: Pilot DAO voting during the May alpha launch across multiple communities
+- **Late 2025**: Deploy governance contracts and begin community-led decision testing via explainer videos
+- **Mid 2026**: Pilot DAO voting during the May alpha launch across multiple communities
 - **2027**: Mature the DAO alongside full FOAF marketplace deployment
 
 Explore more in [Tokenomics](./tokenomics.md) and [Fee Structure](./fee-structure.md).
