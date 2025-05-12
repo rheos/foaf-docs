@@ -35,11 +35,6 @@ GrowOperative aims to minimize friction. Action fees are **disabled by default**
 | Claiming a listing   | —          | *Not used*   | No fee; claiming is free unless a reservation system is added     |
 | Ledgered Credit Entry| —          | *Removed*    | Formal credit entries are core functionality and should be free   |
 
-The default assumption is that **participation should be free**, and **fees should only apply when there is measurable cost, abuse risk, or system load**.
-
-GrowOperative prioritizes accessibility and trust over monetization of basic use.
-
-
 ---
 
 ## 🔹 How RHEO Flows
