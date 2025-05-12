@@ -1,42 +1,76 @@
-# FOAF Foundation Airdrops
+# FOAF Foundation Contribution Guide
 
-The **FOAF Foundation** leverages airdrops to distribute **FOAF tokens**, fostering adoption of the **Growoperative app** and future **FOAF marketplace**. Airdrops incentivize gardeners, resilience groups, and contributors to join the decentralized trading ecosystem, supporting per-unit pricing in local fiat currency (e.g., $2 CAD per lb), flexible trade settlements (cash, mutual credit as fiat IOUs, or RHEO if accepted), and a friend-of-a-friend trust network. This program targets the May 2026 alpha in Crawford Bay, BC, and other locations, with explainer videos aiding onboarding.
+GrowOperative is a community-first project powered by the **FOAF Foundation**, a decentralized network focused on local trade, mutual credit, and sustainable trust-based exchange. Whether you're a developer, gardener, designer, or organizer, your contributions can directly strengthen local resilience and help reduce reliance on centralized systems.
 
-## Airdrop Overview
-- **Allocation**: 8M FOAF tokens (32% of 25M total supply) reserved for airdrops.
-- **Purpose**: Bootstrap community participation, reward early adopters, and expand the trust network.
-- **Eligibility**: Gardeners, resilience group members, developers, and contributors in alpha communities.
+This guide outlines how to get involved as we prepare for the multi-location alpha in May 2026. From building code to translating documentation, every contribution helps grow the FOAF ecosystem.
 
-## Distribution Plan
-- **2025**:
-  - Initial airdrop to Crawford Bay resilience groups via Signal, Telegram, and Facebook.
-  - 1M FOAF distributed to early users who list goods (e.g., “Tomatoes, $2 CAD per lb”).
-  - Tasks: Sign up, list items, or share explainer videos (hosted on X and YouTube).
-- **Q2 2026**:
-  - Expand airdrops for May 2026 alpha in Crawford Bay and other interested communities (e.g., Kaslo, global resilience networks).
-  - 3M FOAF for users completing trades (cash, mutual credit, or RHEO) or referring new users.
-  - Video-based tasks: Share marketing videos to onboard multi-location participants.
-- **Q4 2026**:
-  - 2M FOAF for FOAF marketplace prototype testers, supporting diverse goods/services.
-  - Reward contributions like bug reports or trust network expansion.
-- **2027**:
-  - Final 2M FOAF for global marketplace launch, targeting resilience communities.
-  - Incentivize governance participation via DAO voting (see [dao-transition](../foaf-foundation/dao-transition.md)).
+## Why Contribute?
 
-## Example Airdrop
-- **Task**: A gardener in Crawford Bay lists “Zucchini, $1.50 CAD per lb” and completes a trade.
-- **Reward**: 50 FOAF tokens, stakable for governance or future rewards.
-- **Outcome**: User joins trust network, trades surplus, and earns voting power.
+- **Empower Communities**: Enable gardeners to expand production and trade surplus, reducing waste.
+- **Drive Resilience**: Build a fiat-independent economy with mutual credit and RHEO.
+- **Shape the Future**: Participate in DAO governance beginning in late 2026.
+- **Earn Rewards**: Receive FOAF tokens through airdrops (see [airdrops](./airdrops.md)).
 
-## Why It Matters
-- **Adoption**: Airdrops drive engagement in multi-location alpha, encouraging gardeners to expand production.
-- **Resilience**: Builds trust networks for cash-free trading (mutual credit as “$ owed” or RHEO).
-- **Accessibility**: No upfront costs; users earn FOAF and RHEO via participation.
-- **Sustainability**: Funded by treasury (30% of 3% RHEO fees), ensuring longevity.
+---
 
-## How to Participate
-- Sign up for Growoperative (PWA or native apps by Q2 2026).
-- Complete tasks (list, trade, share videos) outlined in community channels.
-- Claim FOAF tokens via wallet address, guided by explainer videos.
+## How to Contribute
 
-Explore more in [tokenomics](../foaf-foundation/tokenomics.md) and [growoperative onboarding](../growoperative/onboarding.md).
+### Documentation
+
+- **Enhance Docs**: Improve clarity, add examples, or translate guides in `foaf-docs`.
+  - Example: Update [onboarding](../growoperative/onboarding.md) with local fiat pricing tips.
+- **Process**:
+  1. Fork `foaf-docs` (https://github.com/rheos/foaf-docs.git).
+  2. Create a branch (`git checkout -b doc-update`).
+  3. Edit markdown files (e.g., add trust network examples).
+  4. Submit a pull request with a clear description.
+- **Needs**: User stories, video script ideas, guides for resilience groups.
+
+### Code
+
+- **Develop Features**: Enhance the PWA (Ruby on Rails, MySQL, React.js) or native apps (Q2 2026).
+  - Example: Implement mutual credit tracking (fiat-based IOUs).
+- **Process**:
+  - Join the codebase repo (to be open-sourced Q4 2025) via GitHub Issues.
+  - Tasks: Add RHEO fee logic, trust network markup support, or video integration.
+- **Skills Needed**: Ruby on Rails, React.js, MySQL, Solidity, React Native.
+
+Whether you're exploring casually, hoping to earn tokens, or interested in applying for a paid role, your contributions are welcome. This is an open door for both volunteers and potential team members.
+
+### Community
+
+You don't need to be a coder to help — feedback, outreach, and community building are just as valuable.
+
+- **Spread the Word**: Share explainer videos or promote GrowOperative on Signal, Telegram, Facebook.
+  - Example: Post about trading surplus in resilience groups.
+- **Host Events**: Organize meetups in Crawford Bay or other alpha locations.
+- **Feedback**: Submit ideas via GitHub Issues or app (post-launch).
+
+---
+
+## Guidelines
+
+- **Respect**: Collaborate kindly, valuing diverse perspectives.
+- **Standards**: Use markdown for docs, follow Ruby/React conventions for code.
+- **Alignment**: Focus on resilience, inclusion, and decentralization (see [overview](../foaf-foundation/overview.md)).
+- **Pseudonymity**: You can contribute under a pseudonym using a wallet address — no legal name or ID required.
+
+---
+
+## Example Contribution
+
+- **Task**: A developer adds a feature to display markups in trust network trades (e.g., “$2.50 CAD per lb from Peter vs. $2 CAD from Bob”).
+- **Process**: Submit pull request, earn 100 FOAF tokens via airdrop.
+- **Outcome**: Enhances user experience, supports multi-location alpha.
+
+---
+
+## Get Started
+
+- Explore [tokenomics](../foaf-foundation/tokenomics.md) for FOAF/RHEO details.
+- Check GitHub Issues for tasks or join airdrops ([airdrops](./airdrops.md)).
+- Watch explainer videos (Q2 2026) for app and contribution insights.
+
+Contribute to a movement for sustainable, resilient communities!
+
+Explore more in [fee-structure](../foaf-foundation/fee-structure.md) and [growoperative pitch](../growoperative/pitch.md).
