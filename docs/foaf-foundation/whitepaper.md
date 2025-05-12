@@ -78,6 +78,28 @@ Governance is introduced gradually, starting with proposals from early contribut
 
 ---
 
+## Future Optimizations
+
+As the FOAF network grows, several features are planned to improve efficiency, reliability, and adaptability for more structured or large-scale use cases.
+
+### Credit Loop Resolution
+
+In mutual credit systems, circular debt chains can emerge naturally over time. FOAF will include logic to detect and resolve these loops. When a set of users owe each other in a closed cycle, the system can reduce or eliminate those debts automatically. This helps the overall network remain balanced and improves liquidity by freeing up credit lines without requiring new trades.
+
+### Role-Based Trade Flows
+
+While most users interact through peer-to-peer trust paths, some FOAF deployments may benefit from defined role structures. For example, in supply chains where goods move from producers to processors to vendors, participants may hold roles like grower, packer, or distributor. FOAF will support structured flows in these contexts to clarify responsibilities, manage markups, and allow fine-grained visibility across multi-step trade chains.
+
+### Trust Weighting and Routing Confidence
+
+As the network matures, FOAF may introduce ways to measure and weight the quality of trust paths. Participants who consistently fulfill obligations or route value efficiently may be recognized through reputation signals. These indicators can improve routing logic and give users more confidence when trading with distant connections.
+
+---
+
+These enhancements are planned as part of the system’s long-term growth and will be guided by DAO governance, usage patterns, and community demand.
+
+---
+
 ## Why FOAF Matters
 
 People are already helping each other. FOAF gives them a better way to do it. Instead of depending on centralized money or platforms, they can use trust and cooperation to get what they need. This builds stronger communities and reduces financial stress.
