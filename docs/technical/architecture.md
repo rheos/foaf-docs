@@ -1,53 +1,108 @@
 # FOAF Foundation Technical Architecture
 
-The **FOAF Foundation** powers a decentralized trading ecosystem through the **Growoperative app** and future **FOAF marketplace**, built on a robust technical architecture. This document outlines the system design, supporting per-unit pricing in local fiat currency (e.g., $2 CAD per lb), flexible trade settlements (cash, mutual credit recorded as fiat IOUs, or RHEO if accepted), and a friend-of-a-friend trust network. The architecture enables the May 2026 alpha in Crawford Bay, BC, and other locations, with explainer videos aiding adoption.
+The FOAF Foundation powers a decentralized trade network through its growing suite of tools. The architecture supports trust-based value exchange using mutual credit, social routing, and transparent fee flows. It is designed to scale from small groups to entire communities while keeping participation simple and accessible.
+
+This document outlines the structure behind GrowOperative and the broader FOAF Marketplace. All components are built to support pricing in local currencies, multi-path trust routing, and smooth onboarding without technical knowledge.
+
+---
 
 ## System Overview
-- **Progressive Web App (PWA)**: Initial platform for Growoperative, transitioning to native iOS/Android apps by Q2 2026.
-- **Backend**: Ruby on Rails with MySQL for trade data and user management.
-- **Blockchain**: Ethereum-based smart contracts for FOAF (governance) and RHEO (fees, settlements).
-- **Trust Network**: Friend-of-a-friend model for contacts-only listings, with global visibility option.
-- **Media**: Explainer videos hosted on X and YouTube for onboarding and marketing.
 
-## Components
-1. **Frontend (React.js)**:
-   - User interface for listing items (e.g., “Tomatoes, $2 CAD per lb”), browsing, and trading.
-   - Supports global or contacts-only visibility, showing markups for trust network trades.
-   - Integrates explainer video embeds for setup, listing, and trading guides.
-2. **Backend (Ruby on Rails, MySQL)**:
-   - Manages user accounts, listings, and trade history.
-   - Stores mutual credit as fiat-based IOUs (e.g., “Paul owes Peter $2.50 CAD”).
-   - Handles pricing in local fiat and fee calculations (e.g., 3% RHEO fee).
-3. **Blockchain Layer**:
-   - **FOAF Contracts**: Manage 25M fixed tokens for staking and DAO voting.
-   - **RHEO Contracts**: Handle transaction fees (3%), action fees (e.g., 0.25 RHEO for listing), and burns (20% of fees).
-   - Supports pseudonymous interactions via wallet addresses.
-4. **Trust Network**:
-   - Contacts-only listings propagate through contacts’ contacts, with intermediaries setting markups (e.g., $2.50 CAD per lb vs. $2 CAD).
-   - Multi-hop trades incur +0.1 RHEO per hop, tracked on-chain.
-5. **External Services**:
-   - Video hosting (X, YouTube) for marketing and instructional content.
-   - Signal, Telegram, and Facebook APIs for community outreach and notifications.
+- **Progressive Web App**  
+  The initial access point for GrowOperative. The PWA will continue to be supported alongside mobile apps.
 
-## Example Trade Flow
-- **Listing**: Bob lists “Tomatoes, $2 CAD per lb, 5 lbs” (0.25 RHEO fee), contacts-only.
-- **Request**: Paul, via Peter, requests 1 lb at $2.50 CAD (0.5 RHEO claiming fee).
-- **Settlement**: Peter collects 1 lb from Bob ($2 CAD, mutual credit), delivers to Paul ($2.50 CAD credit). Fees (0.075 RHEO for Peter, 0.06 RHEO for Bob) apply if RHEO used.
-- **Data**: MySQL stores trade details; blockchain records fees and credit settlement (1 RHEO).
+- **Native Apps (Q2 2026)**  
+  Complementary iOS and Android apps with the same features as the PWA, optimized for mobile interaction and offline caching.
 
-## Scalability
-- **Multi-Location Support**: Deployable in any community, with localized fiat pricing (e.g., CAD, USD).
-- **High Throughput**: Rails/MySQL handles thousands of trades; blockchain offloads non-critical data.
-- **Global Reach**: Videos and trust network enable adoption in diverse resilience groups.
+- **Backend Infrastructure**  
+  Ruby on Rails with MySQL manages listings, trust paths, and fiat-denominated credit records.
 
-## Roadmap
-- **2025**: Add payment and mutual credit tracking to PWA, integrate blockchain fees.
-- **Q2 2026**: Launch native apps and videos for May 2026 alpha in Crawford Bay and beyond.
-- **2027**: Scale to FOAF marketplace, supporting diverse goods/services.
+- **Blockchain Layer**  
+  Smart contracts on Ethereum for FOAF (governance and staking) and RHEO (fee flow, supply regulation, and trust-based routing).
 
-## Security
-- **Pseudonymous Access**: Wallet-based logins minimize personal data.
-- **Smart Contract Audits**: Ensure FOAF and RHEO contract integrity.
-- **Data Privacy**: Encrypt sensitive trade data in MySQL.
+- **Trust Routing Logic**  
+  Every user has a contact network. Listings and payments can propagate through trusted connections with dynamic markups and trust-based RHEO forwarding.
 
-Explore more in [roadmap](./roadmap.md) and [tokenomics](../foaf-foundation/tokenomics.md).
+---
+
+## Key Components
+
+### Frontend (React)
+
+- Interface for listing, browsing, and fulfilling offers  
+- Allows item-level and service listings with unit pricing  
+- Controls visibility settings (global or contact-based)  
+- Surfaces routing details when intermediaries are involved  
+- Embeds video onboarding content
+
+### Backend (Rails and MySQL)
+
+- Stores user records, trades, balances, and trust path metadata  
+- Tracks fiat-denominated IOUs for mutual credit  
+- Calculates fees and routing flows before invoking blockchain contracts  
+- Logs credit creation and settlement timing
+
+### Smart Contracts
+
+- **FOAF**  
+  Used for DAO voting and staking. Fixed supply, held by contributors, airdrop recipients, and node operators.
+
+- **RHEO**  
+  Used for paying transaction fees. Three percent of trade value is collected, plus one percent per intermediary hop. Users do not need to hold RHEO directly. The system routes it through trust connections automatically.
+
+- Treasury logic is on-chain. Fees are divided as follows:  
+  - Fifty percent to node operators  
+  - Thirty percent to the DAO treasury  
+  - Twenty percent permanently removed from supply
+
+### Trust Path Layer
+
+- Listings can be shared with contacts only or flow through trusted links  
+- Intermediaries may apply a markup when relaying an offer  
+- Routing fees are embedded transparently into the trade  
+- Each hop adds a small RHEO premium (one percent of forwarded value)  
+- Credit and reputation scores may evolve into future trust weighting
+
+---
+
+## Data Flow Example
+
+1. Alice lists tutoring at ten dollars per hour  
+2. Bob, her direct contact, forwards this offer to Clara at twelve dollars per hour  
+3. Clara accepts the trade. She owes Bob twenty-four dollars in credit  
+4. Bob owes Alice twenty dollars  
+5. RHEO fees are applied automatically. Each participant receives or pays their share  
+6. The backend stores balances and syncs with the blockchain as needed
+
+---
+
+## Scalability and Flexibility
+
+- **Multi-Region Support**  
+  Local fiat pricing adapts to any region
+
+- **Trust-Driven Growth**  
+  Communities grow through relationships, not marketing
+
+- **Lightweight Infrastructure**  
+  Backend handles user-facing load, while the blockchain handles governance and fee flows
+
+- **Flexible Onboarding**  
+  Users can access the system through PWA, mobile apps, or via trusted node operators
+
+---
+
+## Privacy and Security
+
+- **Pseudonymous Participation**  
+  Users may interact with the system using wallet addresses or anonymous handles
+
+- **Encrypted Records**  
+  Trade data is stored securely in MySQL with encrypted fields for credit balances and contacts
+
+- **Audited Contracts**  
+  FOAF and RHEO contracts will be externally reviewed before major releases
+
+---
+
+Explore more in [technical roadmap](./roadmap.md), [tokenomics](../foaf-foundation/tokenomics.md), and [fee structure](../foaf-foundation/fee-structure.md).
