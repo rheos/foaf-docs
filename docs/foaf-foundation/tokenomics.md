@@ -35,7 +35,7 @@ GrowOperative helps people trade food, goods, and services — with or without c
 ### RHEO Token
 - **Purpose**: Required utility token for platform fees and optional settlement
 - **Supply**: Dynamic, created via FOAF staking
-- **Valuation**: Floating; for illustration, 1 RHEO ≈ $1 CAD during onboarding
+- **Valuation**: Floating; for illustration, 1 RHEO ≈ $1 USD (illustrative only) during onboarding
 - **Use**:
   - Pay fees (transaction, markup, routing)
   - Flow through trust networks to enable access
