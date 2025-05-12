@@ -1,40 +1,73 @@
 # FOAF Marketplace Vision
 
-The **FOAF Marketplace** is the next evolution of the **FOAF Foundation**’s mission to foster community resilience and fiat independence through decentralized trading. Building on the **Growoperative app**’s success with gardening surplus, the marketplace expands to include diverse goods and services (e.g., tools, childcare, skills), creating a global, trust-based economy. This vision supports the May 2026 alpha in Crawford Bay, BC, and other locations, using per-unit pricing in local fiat currency, flexible trade settlements (cash, mutual credit, or RHEO if accepted), and explainer videos for adoption.
+The **FOAF Marketplace** is the next step in the mission of the FOAF Foundation. It takes the core idea behind GrowOperative — local trade supported by trust and mutual credit — and expands it to include services, tools, skills, and shared labor.
 
-## Core Vision
-- **Expand Beyond Gardening**: Enable communities to trade anything of value, from handmade furniture to tutoring, using the friend-of-a-friend trust network.
-- **Fiat Independence**: Encourage cash-free trading with mutual credit (recorded as fiat IOUs, e.g., “$5 CAD owed”) or RHEO, while allowing cash settlements.
-- **Global Scalability**: Launch in multiple locations, supported by DAO governance and airdrops (8M FOAF tokens).
-- **Sustainability**: Fund operations with a 3% RHEO transaction fee, eliminating volunteer burnout.
+This is not just about food. It is about creating an entire economic layer that helps people exchange value without relying on cash. Whether you need to borrow a drill, paint a fence, get tutoring, or trade childcare with a neighbor, the marketplace gives you a simple way to do it — using a trust path instead of a price tag.
 
-## Key Features
-- **Diverse Listings**: List goods/services with per-unit prices in local fiat (e.g., $10 CAD per hour for tutoring), with quantities or hours specified.
-- **Trust Network**: Choose global visibility or contacts-only, with items propagating through contacts’ contacts, allowing markups (e.g., $12 CAD per hour via an intermediary).
-- **Flexible Settlements**: Settle in cash, mutual credit, or RHEO (if accepted), with credit recorded in local fiat.
-- **Reputation System**: Build trust through ratings, ensuring reliable trades across communities.
-- **Explainer Videos**: Marketing and instructional videos simplify onboarding, launching with the marketplace in 2027.
+---
+
+## What It Enables
+
+- **Trade Anything**  
+  Go beyond surplus produce. Exchange time, skills, tools, repairs, services, or shared resources.
+
+- **Keep Your Money for What Matters**  
+  People can save their cash for rent and bills, while using mutual credit and trust-based trade for everyday needs.
+
+- **Socially-Routed Value**  
+  RHEO flows through the network based on trust. You do not need to hold it directly. Everyone earns access through participation.
+
+- **Community at the Center**  
+  The marketplace is not managed from above. It is shaped by local activity and DAO governance as new needs emerge.
+
+---
+
+## How It Works
+
+- **Mutual Credit and RHEO**  
+  All trades are valued in local fiat currency, but settled using credit, cash, or RHEO. Fees are paid in RHEO automatically through trust connections.
+
+- **Trust Paths, Not Platforms**  
+  Items or services can be listed as “contacts only.” They flow outward through social links, allowing trusted intermediaries to relay the offer with or without a markup.
+
+- **No App Store Required**  
+  The marketplace will be available on the web and as mobile apps, but the experience is driven by the people who use it — not by centralized servers or payment processors.
+
+---
 
 ## Why It Matters
-- **Resilient Economies**: Enables communities to trade diverse resources, reducing reliance on fragile supply chains.
-- **Inclusive Access**: No tokens required; RHEO fees are earned via trades or airdrops (see [airdrops](../../community/airdrops.md)).
-- **Community-Driven**: DAO governance (Q4 2024) ensures users shape the marketplace’s future.
-- **Scalable Impact**: From Crawford Bay to global resilience networks, supported by videos and grassroots outreach.
 
-## Example Trade
-- **Alice Lists**: Tutoring at $10 CAD per hour, contacts-only.
-- **Bob (Alice’s Contact)**: Offers it at $12 CAD per hour to his contact, Clara.
-- **Trade**: Clara books 2 hours ($24 CAD, mutual credit). Bob settles with Alice for $20 CAD credit.
-- **Fees**: Bob pays 0.72 RHEO (3% on $24) if RHEO used; Alice pays 0.6 RHEO (3% on $20).
-- **Outcome**: Clara learns, Alice and Bob earn, and the system is sustained.
+- **Resilience Through Exchange**  
+  When money is scarce, trust and cooperation can still move value. FOAF makes that possible at scale.
 
-## Roadmap
-- **2026**: Leverage Growoperative’s alpha to test trust network mechanics in multiple locations.
-- **Q4 2026**: Develop marketplace prototype, integrating diverse listings.
-- **2027**: Launch FOAF Marketplace with native apps and explainer videos.
+- **Works Without Crypto Knowledge**  
+  You do not need to understand tokens, wallets, or ledgers. You just participate, and the system handles routing in the background.
 
-## Funding
-- **$300K Need**: Funds native apps, videos, and marketplace development (see [pitch-deck](../growoperative/pitch-deck.md)).
-- **Impact**: Scales resilient trading globally, starting with community pilots.
+- **DAO Shaped and Community Run**  
+  People who use the system get to govern it. You can vote on updates, fees, and funding once you stake FOAF.
 
-Explore more in [tokenomics](../foaf-foundation/tokenomics.md) and [roadmap](./roadmap.md).
+---
+
+## A Simple Example
+
+- **Alice** offers tutoring for $10 per hour to her direct contacts.
+- **Bob**, a trusted contact, lists Alice’s time to **Clara** for $12 per hour.
+- Clara books 2 hours of tutoring. She now owes Bob $24 in credit.
+- Bob owes Alice $20, and the fees (in RHEO) are distributed automatically.
+- Everyone benefits. Clara learns, Bob earns trust credit, and Alice provides value.
+
+---
+
+## Looking Ahead
+
+- The GrowOperative alpha tests the trust-routing model in multiple locations throughout 2026
+- The marketplace will follow, expanding the same system to broader trade
+- A full roadmap is available in [docs/technical/roadmap.md](./roadmap.md)
+
+---
+
+## Join the Movement
+
+If you can grow something, fix something, teach something, or simply connect people — you can participate. The FOAF Marketplace is for anyone who wants to reduce reliance on cash and reconnect with what makes a local economy thrive.
+
+Explore more in [tokenomics](../foaf-foundation/tokenomics.md), [fee structure](../foaf-foundation/fee-structure.md), and [contribution opportunities](../community/contribution.md).
