@@ -1,27 +1,56 @@
 # FOAF Foundation
 
 ## Overview
-The FOAF (Friend of a Friend) Foundation is a Decentralized Autonomous Organization (DAO) dedicated to fostering community resilience and promoting independence from fiat currency systems. Our mission is to create innovative systems and applications that empower individuals and communities to thrive through decentralized, people-powered solutions. By leveraging technology and mutual credit systems, we aim to build a sustainable, equitable future where communities can support themselves outside traditional financial frameworks.
 
-## Mission
-The FOAF Foundation seeks to:
-- **Enhance Community Resilience**: Develop tools and systems that strengthen local networks and reduce reliance on centralized institutions.
-- **Promote Fiat Independence**: Create alternative economic models, such as mutual credit systems, to empower communities with self-sustaining financial mechanisms.
-- **Foster Decentralized Governance**: Operate as a DAO, ensuring that decision-making is transparent, inclusive, and driven by our community of stakeholders.
+The **FOAF Foundation** (Friend of a Friend) is a Decentralized Autonomous Organization (DAO) with a mission to **rebuild local economic resilience** using decentralized tools, mutual credit systems, and scalable peer-to-peer infrastructure.
+
+We believe communities can thrive without relying on banks, government programs, or fragile global supply chains. By combining **blockchain technology** with time-tested social trust models, we’re creating tools for a post-fiat world — starting with GrowOperative.
+
+## Our Mission
+
+- **Strengthen Community Resilience**  
+  Equip people with tools to trade, collaborate, and support each other locally — even when cash is scarce.
+
+- **Break Free from Fiat Dependence**  
+  Build mutual credit and value exchange systems that work without centralized banks or payment rails.
+
+- **Govern Transparently and Democratically**  
+  Operate as a DAO to ensure decisions are made collectively, not imposed from above.
 
 ## Why FOAF?
-The FOAF Foundation stands out due to its unique approach:
-- **Decentralized Governance**: As a DAO, we prioritize community input and collective decision-making, ensuring that our initiatives reflect the needs and values of our members.
-- **Community Empowerment**: Our systems are designed to put power back into the hands of individuals, enabling them to collaborate and support one another effectively.
-- **Scalable Impact**: By starting with targeted projects and expanding to broader applications, we aim to create a ripple effect of resilience and independence across communities worldwide.
 
-## Our First Step: Growoperative
-The FOAF Foundation’s inaugural project is the Growoperative app, a pioneering initiative to bootstrap our mutual credit system. Focused initially on garden sharing as a niche, Growoperative serves as a practical starting point for people-powered money. More details about this app, including its specific goals and features, can be found in the [Growoperative folder docs](./growoperative/).
+We’re not building just another crypto project. We’re designing a **real-world system** powered by people, not just code.
 
-## Structure
-To maintain clarity and scalability, our documentation is organized as follows:
-- **FOAF Foundation (this document)**: Provides an overview of the DAO, its mission, and its governance model.
-- **Growoperative Subdirectory**: Contains detailed documentation about the Growoperative app and its role as the first step in our broader vision.
+- **Decentralized by Design**  
+  Our DAO structure guarantees that direction and control come from the community.
+
+- **Trust at the Core**  
+  FOAF uses social networks to route requests through chains of known contacts — friend-of-a-friend style — reducing fraud and increasing cooperation.
+
+- **Scalable with Purpose**  
+  We start small: surplus garden produce. But our model can scale to entire local economies — goods, services, and supply chains — without dependence on cash or cards.
+
+## Our First Project: GrowOperative
+
+**GrowOperative** is our proof-of-concept: a mobile app that lets users trade homegrown food and services within their contact network using mutual credit. It’s local, private, and trust-based — a new kind of supply chain that builds from the bottom up.
+
+📂 [Explore the GrowOperative docs](./growoperative/)
+
+## Project Structure
+
+Our documentation is structured to support contributors and readers at all levels:
+- **FOAF Foundation** – This file: our mission, governance, and vision
+- **GrowOperative** – Practical implementation of our mutual credit system
+- **Marketplace & Technical** – Architecture, tokenomics, and future roadmap
 
 ## Get Involved
-We welcome participation from gardeners, developers, community organizers, and anyone passionate about building resilient, independent communities. Join us in shaping the future of decentralized systems! For more information, explore our documentation or reach out to our community.
+
+We’re looking for:
+- **Gardeners** ready to share their surplus
+- **Developers** building with purpose
+- **Organizers** who care about local food systems
+- **Decentralists** who want systems that work even when others fail
+
+> FOAF is more than a protocol — it’s a blueprint for economic sovereignty.
+
+Let’s grow something better, together.
