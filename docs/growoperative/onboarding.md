@@ -1,71 +1,90 @@
-# Growoperative Onboarding Guide
+# GrowOperative Onboarding Guide
 
-**Growoperative** is the first application of the **FOAF Foundation**, a Decentralized Autonomous Organization (DAO) empowering communities to trade gardening surplus (e.g., tomatoes, herbs) using flexible settlement options. This guide helps gardeners, neighbors, and resilience enthusiasts join the platform, list goods, and trade, fostering sustainable food systems and local resilience. Instructional explainer videos will accompany this guide to simplify the process, launching alongside the May 2026 alpha in Crawford Bay, BC, and other interested communities worldwide.
+**GrowOperative** is the first application of the **FOAF Foundation**, a Decentralized Autonomous Organization (DAO) empowering communities to trade gardening surplus using flexible, trust-based settlement. This guide helps gardeners, neighbors, and resilience enthusiasts list what they have, request items already listed, and participate in a decentralized network that supports sustainable food systems. Instructional explainer videos will launch alongside the May 2026 alpha.
+
+---
 
 ## Why Join?
-- **Expand Your Garden**: Grow more knowing your surplus has a reliable market, reducing waste and boosting local food production.
-- **Reduce Food Waste**: Share excess produce, addressing the $1,600/year household waste problem (Pitch Deck Page 6).
-- **Build Community**: Trade with neighbors, strengthening local ties via Signal, Telegram, and Facebook resilience groups.
-- **Flexible Trading**: Settle trades with cash or mutual credit (recorded in local fiat currency), with RHEO as an optional cash substitute if agreed.
-- **Sustain the System**: A 3% RHEO transaction fee supports maintainers, eliminating volunteer burnout.
+
+- **Expand Your Garden**: Grow more knowing surplus has a reliable outlet.
+- **Reduce Waste**: Share extra produce before it spoils.
+- **Build Community**: Trade with neighbors through trust paths and local networks.
+- **Flexible Settlement**: Use cash, mutual credit, or RHEO for trades.
+- **Support Sustainability**: RHEO-based fees sustain the system without donations or volunteer burnout.
+
+---
 
 ## Getting Started
-1. **Access the App**:
-   - Use the Progressive Web App (PWA) at launch (May 2026), with native iOS/Android apps to follow.
-   - Watch the **explainer video** (available on X and YouTube) for a quick setup overview.
-   - No crypto knowledge required; the interface is gardener-friendly.
-2. **Create an Account**:
-   - Sign up with an email or pseudonymous wallet address.
-   - Connect with friends or local resilience groups to build your trust network.
-3. **List Your Surplus**:
-   - Add items (e.g., “Tomatoes, $2 CAD per lb”) with photos, per-unit price in local fiat currency, quantity (e.g., 5 lbs), and visibility (global or contacts-only).
-   - Contacts-only items are visible to your direct contacts and their contacts, appearing as if offered by your contact.
-   - Listing fee: 0.25 RHEO (earned later if no tokens yet).
-   - See the **instructional video** on listing for tips.
-4. **Browse and Trade**:
-   - Search for goods (e.g., “Bread, $3 CAD per loaf”), priced per unit in local fiat.
-   - Request a trade, paying a 0.5 RHEO claiming fee, and agree on quantity (e.g., 2 lbs tomatoes for $4 CAD).
-   - Intermediate contacts may add a markup (e.g., $2.50 CAD per lb vs. $2 CAD from the source), set by market dynamics.
-   - Settle with cash or mutual credit; RHEO can replace cash for credit settlements if both parties agree (3% RHEO fee applies).
-   - Watch the **trading video** for a step-by-step guide, including trust network trades.
-5. **Settle Credits**:
-   - Mutual credit is recorded as IOUs in local fiat (e.g., “Paul owes Peter $2.50 CAD”).
-   - Settle IOUs with cash, RHEO (if accepted), or goods/services (1 RHEO settlement fee).
-   - Multi-hop trades (via trusted contacts) cost +0.1 RHEO per hop.
 
-## Pricing and Fees
-- **Local Fiat Pricing**: All items are priced per unit in local fiat currency (e.g., $2 CAD per lb for tomatoes).
-- **Settlement Options**:
-  - **Cash**: Pay the total fiat amount based on quantity (e.g., $4 CAD for 2 lbs).
-  - **Mutual Credit**: Earn/spend credits equivalent to the fiat total, recorded as IOUs (e.g., “$4 CAD owed”).
-  - **RHEO**: Use as a cash substitute for credit settlements, if agreed (valued at community rates, initially 1 RHEO ≈ $1 CAD in 2026).
-- **Fees**:
-  - 3% RHEO transaction fee (e.g., 0.12 RHEO on a $4 CAD trade, if RHEO used).
-  - Action fees: 0.25 RHEO (listing), 0.5 RHEO (claiming), 1 RHEO (credit settlement).
-- **No Tokens Needed**: Earn RHEO through trades or airdrops (see [airdrops](../../community/airdrops.md)).
+### 1. Access the App
+- Use the Progressive Web App (PWA) at launch (May 2026); mobile apps follow.
+- No crypto experience needed — just a phone, browser, or simple wallet if you want one.
+- Explainer videos guide you through setup.
+
+### 2. Create an Account
+- Sign up with email or an optional wallet.
+- Connect with local groups or friends to build your trust chain.
+
+### 3. List What You Have
+- Add items (e.g., “Tomatoes, $2 per lb”) with photos, per-unit pricing in local fiat currency, and quantity.
+- Choose visibility: global or “contacts only” (visible to direct contacts and theirs).
+- No listing fee at launch.
+
+### 4. Request Existing Listings
+- Browse listed items and request what you need.
+- You **cannot post general “wanted” requests** — only respond to existing offers.
+- Intermediate contacts may offer items at a markup.
+
+### 5. Settle the Trade
+- Choose cash (PayPal, eTransfer, Venmo), mutual credit (IOUs), or RHEO.
+- All trades incur a **3% fee on trade value**, paid by the seller or intermediary.
+- If there’s a markup, a **3% fee on markup** also applies.
+- RHEO is required for all fees but flows automatically via trust chains — you don’t need to hold it directly.
+- Multi-hop trust chains apply a **1% routing premium per hop**.
+
+---
 
 ## Example Trade
-- **Bob Lists**: Tomatoes at $2 CAD per lb, 5 lbs available, contacts-only.
-- **Peter (Bob’s Contact)**: Sees Bob’s tomatoes and requests 1 lb ($2 CAD).
-- **Paul and Sara (Peter’s Contacts)**: See tomatoes as if from Peter at $2.50 CAD per lb, each request 1 lb ($2.50 CAD each).
-- **Trade Completes**:
-  - Peter collects 3 lbs from Bob ($6 CAD total, mutual credit).
-  - Peter delivers 1 lb to Paul and 1 lb to Sara, earning $5 CAD credit ($2.50 each).
-  - Bob pays 0.18 RHEO (3% fee on $6) if RHEO used; Peter pays 0.15 RHEO (3% on $5) if RHEO used.
-- **Outcome**: Bob gets credit, Peter earns a markup, Paul and Sara get tomatoes.
+
+- **Bob Lists**: Tomatoes at $2 per lb, 5 lbs available, contacts-only.
+- **Peter (Bob’s Contact)**: Requests 1 lb at $2.
+- **Paul and Sara (Peter’s Contacts)**: See the same tomatoes, offered via Peter at $2.50/lb.
+- **Final Trade**:
+  - Peter buys 3 lbs from Bob ($6 total).
+  - Sells 1 lb each to Paul and Sara ($5 total).
+  - Fees apply:
+    - Bob pays 3% on $6 = 0.18 RHEO
+    - Peter pays 3% on $5 = 0.15 RHEO (if RHEO used)
+    - If routing through others, each hop adds 1% premium
+
+---
+
+## Key Concepts
+
+- **Local Pricing**: All items are priced per unit in the local fiat currency (e.g., USD, CAD, etc.).
+- **No Token Barrier**: You don’t need to buy tokens — RHEO flows from FOAF holders via trust chains.
+- **No Listing Requests**: Only list what you have. Browse to request items already listed.
+- **Trust Network**: Listings can propagate through social trust paths, enabling broader reach.
+- **No Action Fees at Launch**: Listing and claiming are free during alpha; only RHEO-based value fees apply.
+
+---
 
 ## Tips for Success
-- **Start Small**: List a few items to learn the system.
-- **Watch Videos**: Use explainer videos for tutorials on listing, trading, and trust network mechanics.
-- **Engage Locally**: Join resilience groups in Crawford Bay or other communities to grow your network.
-- **Expand Your Garden**: Grow more with confidence, knowing surplus has a market.
-- **Share Feedback**: Submit ideas via the app or [contribution guide](../../community/contribution.md).
 
-## Multi-Location Alpha (May 2026)
-- **Crawford Bay Pilot**: Initial testing in Crawford Bay, BC, with local gardeners and resilience groups.
-- **Global Reach**: Launch in any community with interested users, from Kaslo to international resilience networks, supported by explainer videos.
-- **Join Us**: Sign up early to participate in your location via Signal, Telegram, or Facebook.
+- Start with simple, seasonal surplus.
+- Watch the explainer videos for step-by-step guidance.
+- Join or start a local trust network on Signal, Telegram, or Facebook.
+- Participate in DAO decisions using FOAF (airdropped or earned).
+- Provide feedback via the app or contribution page.
 
-Growoperative is your tool to trade surplus, grow more, and build resilient communities. Start today and join the movement for sustainable local economies.
+---
 
-Explore more in [pitch](./pitch.md) and [fee structure](../../foaf-foundation/fee-structure.md).
+## Alpha Launch Details (May 2026)
+
+- **Core Locations**: Crawford Bay, Kaslo, Nelson, Boulder, Asheville, and other interested regions.
+- **Join**: Sign up through your community network or directly through the app.
+- **Tools**: Watch onboarding videos, participate in trades, and help test the DAO.
+
+GrowOperative helps turn your surplus into value and community power — join the movement for local resilience.
+
+Explore more in [pitch](./pitch.md), [fee structure](../../foaf-foundation/fee-structure.md), and [airdrops](../../community/airdrops.md).
