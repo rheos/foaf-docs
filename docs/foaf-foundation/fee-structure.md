@@ -10,8 +10,8 @@ All fees are paid in **RHEO**, the platform's utility token. RHEO has a floating
 
 ### 1. Transaction Fee
 - **Amount**: 3% of the total trade value
-- **Applies to**: All direct trades (e.g., user buys 5 lbs of tomatoes for $10 = 0.30 RHEO fee)
-- **Paid by**: Buyer (or deducted from seller's payout)
+- **Applies to**: All direct trades (e.g., user sells 5 lbs of tomatoes for $10 = 0.30 RHEO fee)
+- **Paid by**: The party who profits — typically the seller. Fee is deducted from their credited amount.
 
 ---
 
@@ -21,7 +21,7 @@ All fees are paid in **RHEO**, the platform's utility token. RHEO has a floating
 - **Example**:
   - Bob lists tomatoes for $2/lb
   - Peter resells to Paul at $2.50/lb
-  - Peter’s markup: $0.50 → Fee = 0.015 RHEO
+  - Peter’s markup: $0.50 → Fee = 0.015 RHEO (paid by Peter)
 
 ---
 
@@ -39,7 +39,7 @@ Used only when necessary to limit spam or reflect real workload.
 ## 🔹 How RHEO Moves
 
 - **RHEO is required for all fees**, but users don’t need to hold it directly.
-- When a user initiates a trade, the required RHEO flows automatically from FOAF stakers through the social trust chain.
+- When a user initiates a trade, the required RHEO flows automatically from FOAF stakers through the user’s social trust chain.
 - The originating FOAF holder is credited, and each intermediary is compensated.
 
 ---
@@ -96,12 +96,12 @@ This model sustains the system without relying on donations or volunteers.
 
 ## Summary
 
-| Fee Type         | Basis                     | Rate              |
-|------------------|---------------------------|-------------------|
-| Transaction      | Trade value               | 3%                |
-| Routing (Multi-Hop)| Markup on resale         | 3% of markup      |
-| RHEO Routing Premium | Per hop RHEO forwarding | 1% of RHEO passed |
-| Listing / Action | Flat (if applied)         | 0.25–1.00 RHEO    |
+| Fee Type             | Basis                     | Rate              |
+|----------------------|---------------------------|-------------------|
+| Transaction          | Trade value               | 3%                |
+| Routing (Multi-Hop)  | Markup on resale          | 3% of markup      |
+| RHEO Routing Premium | Per hop RHEO forwarding   | 1% of RHEO passed |
+| Listing / Action     | Flat (if applied)         | 0.25–1.00 RHEO    |
 
 RHEO-based fees ensure fairness, scale with value, and support the ecosystem sustainably.
 
