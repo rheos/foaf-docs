@@ -1,44 +1,94 @@
 # FOAF Foundation Technical Roadmap
 
-The **FOAF Foundation** drives decentralized trading through the **Growoperative app** and future **FOAF marketplace**, with a technical roadmap to ensure robust development and scalability. This roadmap supports per-unit pricing in local fiat currency (e.g., $2 CAD per lb), flexible trade settlements (cash, mutual credit as fiat IOUs, or RHEO if accepted), and a friend-of-a-friend trust network, enabling the May 2026 alpha in Crawford Bay, BC, and other locations. Explainer videos will aid adoption.
+This roadmap outlines the phased development of the FOAF ecosystem. It begins with GrowOperative and scales toward a broader marketplace for trust-based, fiat-independent trade. Each milestone supports our goal of creating resilient, community-owned infrastructure that works in everyday life.
+
+---
 
 ## 2025
-- **PWA Enhancements**:
-  - Integrate payment tracking and mutual credit system (recorded as fiat IOUs, e.g., “$4 CAD owed”) into Ruby on Rails backend with MySQL.
-  - Add support for per-unit pricing in local fiat (e.g., $2 CAD per lb).
-- **Blockchain Integration**:
-  - Deploy Ethereum smart contracts for FOAF (governance) and RHEO (3% transaction fee, action fees like 0.25 RHEO for listing).
-  - Implement multi-hop trade fees (+0.1 RHEO per hop).
-- **Videos**: Produce initial explainer videos for listing, trading, and trust network mechanics, hosted on X and YouTube.
-- **Funding**: Secure $300K for development, videos, and marketing (see [pitch-deck](../growoperative/pitch-deck.md)).
+
+### GrowOperative Platform
+
+- Add support for mutual credit and fiat-based IOUs to the backend
+- Improve per-unit pricing and trade matching logic
+- Prepare frontend UX for trust-based routing and contact visibility
+
+### Blockchain and DAO Infrastructure
+
+- Deploy initial FOAF and RHEO smart contracts
+- Implement RHEO fee logic for transaction value (3 percent) and per-hop trust routing (1 percent premium per hop)
+- Begin DAO tooling development for staking, voting, and treasury flows
+
+### Media and Outreach
+
+- Produce onboarding videos for listing items, trust-based trades, and community credit
+- Begin outreach to early resilience communities in BC and elsewhere
+- Raise $300K to fund development, video production, and mobile app support  
+  (see [pitch deck](../growoperative/pitch-deck.md))
+
+---
 
 ## Q2 2026
-- **Native Apps**:
-  - Launch iOS/Android apps, replacing PWA for the May 2026 alpha in Crawford Bay and other communities.
-  - Support global or contacts-only listings with markups (e.g., $2.50 CAD per lb vs. $2 CAD).
-- **Alpha Testing**:
-  - Test trust network, fiat pricing, and settlement options (cash, credit, RHEO if accepted).
-  - Use videos to onboard users across multiple locations.
-- **Community Feedback**: Refine based on alpha user input via Signal, Telegram, and Facebook groups.
+
+### Native App Launch
+
+- Release mobile apps on iOS and Android to replace the PWA
+- Support trust-path trade routing with visibility controls and markups
+
+### Alpha Testing
+
+- Launch GrowOperative alpha in multiple locations
+- Validate RHEO fee handling, credit flows, and contact-based propagation
+- Collect feedback through early user groups and community chats
+
+### Education and Engagement
+
+- Use explainer videos to help participants understand mutual credit and social trade
+- Support local organizers in setting up nodes or sharing trusted access
+
+---
 
 ## Q4 2026
-- **Marketplace Prototype**:
-  - Extend backend to support diverse goods/services (e.g., $15 CAD per hour for repairs).
-  - Enhance MySQL schema for broader trade categories.
-- **Airdrops**: Distribute 8M FOAF tokens to new users (see [airdrops](../../community/airdrops.md)).
-- **Video Expansion**: Release additional marketing videos to promote multi-location adoption.
+
+### FOAF Marketplace Prototype
+
+- Expand listing types to support services and time-based offers
+- Extend backend to track broader trade categories and deeper contact chains
+- Finalize governance onboarding materials for alpha DAO participants
+
+### Token Distribution
+
+- Execute phased FOAF airdrops based on contribution and trade activity  
+  (see [airdrops](../../community/airdrops.md))
+
+### Outreach and Feedback
+
+- Release new explainer videos focused on services, labor, and social credit
+- Evaluate alpha data and propose upgrades through DAO participation
+
+---
 
 ## 2027
-- **FOAF Marketplace Launch**:
-  - Deploy full marketplace with native apps, supporting global resilience networks.
-  - Integrate advanced features like reputation systems and cross-community trading.
-- **DAO Governance**: Complete transition to DAO control for technical decisions (see [dao-transition](../foaf-foundation/dao-transition.md)).
-- **Scalability**: Optimize Rails/MySQL and blockchain for high trade volumes.
+
+### FOAF Marketplace Launch
+
+- Open full marketplace functionality across multiple trade categories
+- Integrate reputation system to support social trust scoring and delegation
+- Optimize database and smart contract performance for scale
+
+### Governance and Autonomy
+
+- Transition key technical and treasury decisions to on-chain DAO proposals  
+  (see [dao-transition](../foaf-foundation/dao-transition.md))
+
+- Begin community-sourced development funding through treasury votes
+
+---
 
 ## Why It Matters
-- **Resilience**: Enables fiat-independent trading across communities.
-- **Accessibility**: Fiat pricing and videos lower barriers for non-technical users.
-- **Sustainability**: RHEO fees (50% to nodes, 30% to treasury, 20% burned) ensure longevity.
-- **Scalability**: Multi-location alpha paves the way for global expansion.
 
-Explore more in [architecture](./architecture.md) and [tokenomics](../foaf-foundation/tokenomics.md).
+- **Resilience**: Enables communities to trade value even when cash is limited
+- **Accessibility**: People can join and use the system with no tokens and no technical setup
+- **Sustainability**: Fees in RHEO fund infrastructure and contributors automatically
+- **Scalability**: Trust-path routing and local credit let this grow from one garden to an entire economy
+
+Explore more in [architecture](./architecture.md), [tokenomics](../foaf-foundation/tokenomics.md), and [vision](../foaf-marketplace/vision.md).
