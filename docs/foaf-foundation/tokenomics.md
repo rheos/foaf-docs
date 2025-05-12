@@ -3,10 +3,10 @@
 The **FOAF Foundation** supports local trade and community resilience through a dual-token system designed for real-world utility, not speculation.
 
 We use two tokens:
-- **FOAF** – fixed-supply governance and staking token
-- **RHEO** – flexible-use utility token for transaction fees and optional settlement
+- **FOAF** – a fixed-supply governance and staking token
+- **RHEO** – a flexible-use utility token for transaction fees and trust-based trade settlement
 
-This document outlines how both support the GrowOperative app and broader FOAF marketplace — launching with a multi-location rollout beginning in **Crawford Bay, BC (May 2026)**.
+This document outlines how both tokens support the GrowOperative app and broader FOAF marketplace — launching with a multi-location rollout beginning in **Crawford Bay, BC (May 2026)**.
 
 ---
 
@@ -14,11 +14,11 @@ This document outlines how both support the GrowOperative app and broader FOAF m
 
 GrowOperative helps people trade food, goods, and services — with or without cash. Listings are priced in local currency (e.g., $2 CAD per pound of tomatoes), and trades can settle in:
 
-- **Cash** – paid at pickup
+- **Cash (broadly defined)** – via eTransfer, PayPal, Venmo, or in-person
 - **Mutual Credit** – ledger-based IOUs recorded in fiat value
-- **RHEO** – used optionally to settle credit, pay fees, or transfer value
+- **RHEO** – used for fees and optional value transfer
 
-> Users don’t need to pre-own tokens — RHEO can be earned through participation or passed through social trust chains.
+> Users do not need to hold RHEO directly. Required fees flow through social trust chains, ultimately originating from FOAF holders who stake to generate RHEO. Each intermediary earns a small premium. This makes participation seamless and compensates liquidity providers.
 
 ---
 
@@ -28,18 +28,18 @@ GrowOperative helps people trade food, goods, and services — with or without c
 - **Purpose**: Governance and staking
 - **Supply**: 25,000,000 (indivisible, fixed)
 - **Use**:
-  - Vote on fee structures, rules, and feature changes
-  - Stake to earn RHEO rewards
-  - Align long-term participation and DAO control
+  - Vote on system rules (fees, airdrops, roadmap)
+  - Stake to generate RHEO
+  - Establish routing paths for network access
 
 ### RHEO Token
-- **Purpose**: Utility token for all platform fees and optional trade settlement
-- **Supply**: Dynamic, generated through staking and usage
-- **Valuation**: Market-driven (non-pegged). For illustration, early onboarding targets 1 RHEO ≈ $1 CAD
+- **Purpose**: Required utility token for platform fees and optional settlement
+- **Supply**: Dynamic, created via FOAF staking
+- **Valuation**: Floating; for illustration, 1 RHEO ≈ $1 CAD during onboarding
 - **Use**:
-  - Pay fees (transaction, listing, credit settlement)
-  - Settle trades (if parties agree)
-  - Flow through contact chains as local cash replacement
+  - Pay fees (transaction, markup, routing)
+  - Flow through trust networks to enable access
+  - Compensate intermediaries
 
 ---
 
@@ -48,61 +48,41 @@ GrowOperative helps people trade food, goods, and services — with or without c
 | Purpose                 | Amount   | Notes                                  |
 |------------------------|----------|----------------------------------------|
 | Airdrops               | 8M (32%) | Gardeners, local communities           |
-| Treasury               | 7M (28%) | Dev, marketing, infrastructure         |
-| Team & Advisors        | 5M (20%) | 3-year vesting                         |
-| Node Operators         | 3M (12%) | Ongoing infrastructure rewards         |
-| Reserve (future grants)| 2M (8%)  | Strategic expansions & pilots          |
+| Treasury               | 7M (28%) | Development, content, infrastructure   |
+| Team & Advisors        | 5M (20%) | Vested over 3 years                    |
+| Node Operators         | 3M (12%) | Infrastructure incentives              |
+| Reserve (grants/future)| 2M (8%)  | Pilot programs, DAO-aligned expansions |
 
 ---
 
-## 💸 Fee System (RHEO-Based)
+## 💸 Fees and RHEO Circulation
 
-All fees are paid in RHEO. These support platform sustainability and reward contributors.
+### Trade-Related Fees (in RHEO)
+- **Transaction Fee**: 3% of total trade value (paid by the seller or profit-maker)
+- **Multi-Hop Routing Fee**: 3% of intermediary markup
+- **RHEO Routing Premium**: 1% of RHEO passed per hop
 
-### Core Fees
-
-| Action              | Fee (RHEO)             | Notes                                 |
-|---------------------|------------------------|----------------------------------------|
-| Transaction         | **3% of trade value**   | Paid by buyer or deducted from trade   |
-| Listing             | 0.25                   | Per listing posted                     |
-| Claiming a trade    | 0.5                    | Optional action fee                    |
-| Credit settlement   | 1.0                    | For formal ledger entries              |
-
-> As the value of RHEO increases, fewer RHEO are required per transaction. The fee system is **value-based**, not fixed in token quantity.
+### Fee Routing Logic
+- Fees flow transparently through social trust chains
+- Each intermediary earns a 1% routing premium
+- The originating FOAF holder receives full RHEO value
+- The last party (end-user) accrues small, fair obligations across the chain
 
 ---
 
-### ⚙️ Updated Multi-Hop Fee: 3% of Markup
+## 🔐 Why It Works
 
-When a trade passes through multiple people (e.g., Bob → Peter → Paul), each intermediary pays a routing fee based on the **value they add**.
-
-> **Routing Fee = 3% of your markup (in RHEO)**
-
-#### Example:
-- Bob sells tomatoes to Peter at $2.00/lb  
-- Peter sells to Paul at $2.50/lb  
-- Peter’s markup = $0.50  
-- Routing fee = **3% of $0.50 = 0.015 RHEO**
-
-This model:
-- Scales fairly across high and low margin trades
-- Makes multi-hop trades sustainable and cooperative
-- Reflects real value transfer without punishing microtransactions
+- **Accessible**: No crypto experience required; fiat pricing and peer-based flow make it usable by anyone
+- **Fair & Scalable**: Fees match value created, not flat rates
+- **Sustainable**: Network rewards stakers and contributors
+- **Decentralized**: FOAF staking anchors the system; RHEO circulates on demand
 
 ---
 
-## 🧮 Example Trade Flow
+## 🛠 Road Ahead
 
-1. **Bob** lists 5 lbs tomatoes at $2.00/lb, contacts-only.
-2. **Peter** (his contact) buys 2 lbs to resell.
-3. **Paul** (Peter’s contact) buys 1 lb at $2.50.
-4. **Peter** earns a $0.50 markup, pays 0.015 RHEO routing fee.
-5. **Bob** may pay 0.12 RHEO (3% of $4.00 trade) if RHEO is used.
+- **Airdrop Campaigns**: Distribute 8M FOAF in phases starting May 2026
+- **Explainer Videos**: Onboard users through accessible education
+- **Seed Round**: Raise $300K to finalize app, support launch, and scale
 
-Each participant pays a **proportional** fee based on their role and earnings.
-
----
-
-## 🔐 Why This Works
-
-- **Proportional and Fair**:
+Learn more in [Fee Structure](./fee-structure.md) or [DAO Transition](./dao-transition.md).
