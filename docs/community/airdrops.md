@@ -1,42 +1,84 @@
 # FOAF Foundation Airdrops
 
-The **FOAF Foundation** leverages airdrops to distribute **FOAF tokens**, fostering adoption of the **Growoperative app** and future **FOAF marketplace**. Airdrops incentivize gardeners, resilience groups, and contributors to join the decentralized trading ecosystem, supporting per-unit pricing in local fiat currency (e.g., $2 CAD per lb), flexible trade settlements (cash, mutual credit as fiat IOUs, or RHEO if accepted), and a friend-of-a-friend trust network. This program targets the May 2026 alpha in Crawford Bay, BC, and other locations, with explainer videos aiding onboarding.
+The **FOAF Foundation** uses airdrops to distribute **FOAF tokens**, bootstrapping adoption of the **GrowOperative app** and building the trust-layered ecosystem behind the future **FOAF marketplace**.
+
+FOAF tokens are issued directly to gardeners, resilience communities, node builders, and contributors — enabling them to earn RHEO via staking, participate in governance, and extend access to others through trust chains.
+
+---
 
 ## Airdrop Overview
-- **Allocation**: 8M FOAF tokens (32% of 25M total supply) reserved for airdrops.
-- **Purpose**: Bootstrap community participation, reward early adopters, and expand the trust network.
-- **Eligibility**: Gardeners, resilience group members, developers, and contributors in alpha communities.
 
-## Distribution Plan
-- **2025**:
-  - Initial airdrop to Crawford Bay resilience groups via Signal, Telegram, and Facebook.
-  - 1M FOAF distributed to early users who list goods (e.g., “Tomatoes, $2 CAD per lb”).
-  - Tasks: Sign up, list items, or share explainer videos (hosted on X and YouTube).
-- **Q2 2026**:
-  - Expand airdrops for May 2026 alpha in Crawford Bay and other interested communities (e.g., Kaslo, global resilience networks).
-  - 3M FOAF for users completing trades (cash, mutual credit, or RHEO) or referring new users.
-  - Video-based tasks: Share marketing videos to onboard multi-location participants.
-- **Q4 2026**:
-  - 2M FOAF for FOAF marketplace prototype testers, supporting diverse goods/services.
-  - Reward contributions like bug reports or trust network expansion.
-- **2027**:
-  - Final 2M FOAF for global marketplace launch, targeting resilience communities.
-  - Incentivize governance participation via DAO voting (see [dao-transition](../foaf-foundation/dao-transition.md)).
+- **Allocation**: 2.5M–3M FOAF tokens (10–12% of 25M total supply)
+- **Purpose**:
+  - Jumpstart network participation in targeted pilot regions
+  - Seed trust chains for RHEO flow
+  - Reward contributors and early adopters
+- **Eligibility**:
+  - Join through an approved trust chain or community
+  - Complete one or more qualifying tasks (below)
+  - All airdrops are traceable to a FOAF holder or verified node organizer
 
-## Example Airdrop
-- **Task**: A gardener in Crawford Bay lists “Zucchini, $1.50 CAD per lb” and completes a trade.
-- **Reward**: 50 FOAF tokens, stakable for governance or future rewards.
-- **Outcome**: User joins trust network, trades surplus, and earns voting power.
+---
 
-## Why It Matters
-- **Adoption**: Airdrops drive engagement in multi-location alpha, encouraging gardeners to expand production.
-- **Resilience**: Builds trust networks for cash-free trading (mutual credit as “$ owed” or RHEO).
-- **Accessibility**: No upfront costs; users earn FOAF and RHEO via participation.
-- **Sustainability**: Funded by treasury (30% of 3% RHEO fees), ensuring longevity.
+## Tiered Airdrop Tasks
+
+| Tier            | Criteria                                      | FOAF Reward |
+|-----------------|-----------------------------------------------|-------------|
+| **Level 1**     | Sign up + list at least one garden item       | 10–25 FOAF  |
+| **Level 2**     | Complete a trade (cash, credit, or RHEO)      | 25–50 FOAF  |
+| **Level 3**     | Refer a new user who also completes a trade   | 25 FOAF     |
+| **Level 4**     | Participate in a DAO vote or governance pilot | 50 FOAF     |
+
+All activity must be verifiable through the app or trusted contact linkages. Referrals and rewards are chain-aware.
+
+---
+
+## Phased Distribution Plan
+
+### **Q1 2026 – Early Airdrops**
+- Regions: Crawford Bay, Kaslo, Nelson, Victoria, Boulder, Asheville, and other gardening-centered communities
+- 750K FOAF allocated for users who:
+  - Sign up through trusted contacts or verified groups
+  - List produce with local pricing
+  - Share onboarding content or complete their first trade
+
+### **Q2 2026 – Alpha Launch Campaign**
+- Expanded airdrops tied to native app rollout and real trade activity
+- 1.25M FOAF distributed based on:
+  - Completing trades and credit cycles
+  - Referring new users into trust chains
+  - Participation in onboarding or feedback loops
+
+### **Q4 2026 – FOAF Marketplace Testing**
+- 500K–750K FOAF for testing new verticals (services, tools), submitting bugs, and DAO governance pilots
+
+### **2027 – DAO-Led Expansion**
+- Further airdrops determined by on-chain proposals and treasury approval
+- Focus: new node launches, rural network growth, long-term contributors
+
+---
+
+## Example Airdrop Flow
+
+- **Task**: A gardener in Boulder lists “Zucchini, $2 USD/lb” and completes a trade
+- **Reward**: 50 FOAF, stakable for RHEO generation or DAO voting
+- **Outcome**: That user becomes a trusted source of liquidity and expands the network
+
+---
+
+## Why Airdrops Matter
+
+- **Incentivized Growth**: Gardeners earn tokens for contributing abundance
+- **Trust Chain Expansion**: FOAF creates credit pathways even for users without tokens
+- **No Barriers**: Participation is free — tokens are earned, not bought
+- **Sustainable**: Funded by the DAO treasury and reinforced by circulating RHEO fees
+
+---
 
 ## How to Participate
-- Sign up for Growoperative (PWA or native apps by Q2 2026).
-- Complete tasks (list, trade, share videos) outlined in community channels.
-- Claim FOAF tokens via wallet address, guided by explainer videos.
+
+1. Join through an approved community or trusted contact
+2. Complete at least one qualifying task
+3. FOAF tokens are issued to your wallet with onboarding guidance
 
 Explore more in [tokenomics](../foaf-foundation/tokenomics.md) and [growoperative onboarding](../growoperative/onboarding.md).
