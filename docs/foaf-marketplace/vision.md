@@ -1,6 +1,6 @@
 # FOAF Marketplace Vision
 
-The **FOAF Marketplace** is the next step in the mission of the FOAF Foundation. It takes the core idea behind GrowOperative — local trade supported by trust and mutual credit — and expands it to include services, tools, skills, and shared labor.
+The **FOAF Marketplace** is the next step in the mission of the FOAF Foundation. It takes the core idea behind GrowOperative, which is local trade supported by trust and mutual credit, and expands it to include services, tools, skills, and shared labor.
 
 This is not just about food. It is about creating an entire economic layer that helps people exchange value without relying on cash. Whether you need to borrow a drill, paint a fence, get tutoring, or trade childcare with a neighbor, the marketplace gives you a simple way to do it using a trust path instead of a price tag.
 
