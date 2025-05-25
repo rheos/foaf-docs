@@ -18,7 +18,13 @@ We are not inventing these ideas from scratch. Mutual credit, community exchange
 
 ## GrowOperative and the First Use Case
 
-(Existing content continues here...)
+GrowOperative is the first application built on the FOAF protocol. It helps neighbors share surplus food using the same trust-based credit system that will eventually power a much broader range of local economies.
+
+The app allows users to list garden produce, request what they need, and fulfill orders through personal contact networks. While the MVP supports listing and delivery, upcoming releases will integrate mutual credit tracking and allow participants to earn and spend credit directly inside the app.
+
+This first use case was chosen intentionally. Food is immediate, tangible, and deeply local. By starting with a need that is universal and recurring, FOAF can demonstrate real utility while building the social graph that will later support tools, services, and more complex exchanges.
+
+GrowOperative is not the end goal. It is the on-ramp to a larger system that empowers communities to trade across every area of life, without depending on fiat currency or centralized platforms.
 
 ---
 
