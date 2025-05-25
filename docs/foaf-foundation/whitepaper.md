@@ -16,96 +16,82 @@ We are not inventing these ideas from scratch. Mutual credit, community exchange
 
 ---
 
-## GrowOperative and the FOAF Marketplace
+## GrowOperative and the First Use Case
 
-FOAF begins with GrowOperative, an app that allows people to list, trade, and share garden produce and household goods. Over time, this grows into the FOAF Marketplace, where people can also offer services, labor, tools, and time.
-
-Everything is priced in local currency, but settled in mutual credit or RHEO. Credit can flow through friends and contacts. RHEO flows automatically through trust chains, so users do not need to hold or understand tokens.
+(Existing content continues here...)
 
 ---
 
-## Core Components
+## How FOAF Works
 
-- **Mutual Credit**: Trade is tracked as IOUs in local currency. Positive and negative balances are shared transparently within trust paths.
-- **Trust Network**: Users can choose to share listings with direct contacts or allow them to flow through extended networks. Intermediaries can apply markups and are rewarded for routing.
-- **RHEO**: The utility token used to pay transaction fees. Routed automatically.
-- **FOAF**: The governance token used to stake, vote, and shape how the system grows.
+FOAF is designed to make trust-based trade as seamless as possible, even in the absence of money. The system follows a simple flow:
 
----
+1. **Post** — A user lists something they need or want to offer (e.g., help fixing a fence, extra garden produce, language tutoring).
+2. **Propagate** — That listing spreads only through the user's contact network, appearing as if it came directly from each contact who shares it. This preserves privacy and relevance.
+3. **Settle** — When a match is made, the system routes value through the shortest trust path between participants. Settlement can happen in mutual credit, cash, or in-kind agreements — all recorded transparently in the ledger.
 
-## Token Model
+This model depends on **trust paths**: chains of verified relationships where credit and obligations can flow. These paths allow users to transact confidently even when they don't know each other directly.
 
-### FOAF
-- Fixed supply of 25 million
-- Used for DAO governance and staking
-- Distributed through airdrops, contributor rewards, and sales
-- Staked tokens can earn voting rights and treasury influence
-
-### RHEO
-- No fixed supply
-- Used for transaction and routing fees
-- Three percent of trade value is paid in RHEO
-- One percent per trust hop is added to the routed amount
-- Users earn RHEO by participating in trades or staking FOAF
-- Fees are distributed: 50 percent to node operators, 30 percent to the treasury, 20 percent burned
+Each transaction strengthens the underlying network and creates a visible trail of how value moved through the system. FOAF’s credit layer works quietly behind the scenes, enabling fluid exchange without requiring traditional payment rails.
 
 ---
 
-## Architecture Overview
+## Token Architecture
 
-- Web and mobile clients allow listing, trading, and messaging
-- Backend uses Ruby on Rails and MySQL
-- Smart contracts on Ethereum track FOAF and RHEO usage
-- Trust routing is handled through social graphs built into the platform
-- No user is required to hold tokens directly to participate
+FOAF uses a two-token model that separates governance and utility. This makes the system both sustainable and simple for everyday users.
 
----
+**FOAF** is a fixed-supply token for governance and staking. It is not used for payments, but instead enables holders to generate RHEO and participate in decisions about protocol rules, upgrades, and funding.
 
-## Governance
+**RHEO** is a flexible-use utility token that powers transactions and credit routing. Most users never hold it directly. Fees are passed through social trust paths and ultimately originate from FOAF holders who earn a small premium.
 
-FOAF operates as a DAO. Anyone who holds and stakes FOAF can vote on proposals. These include changes to fee structures, new funding requests, expansion plans, and contributor onboarding.
-
-Governance is introduced gradually, starting with proposals from early contributors and expanding to full community control by 2027.
+This system ensures that:
+- Trades can happen without cash or wallets
+- Contributors are rewarded automatically
+- FOAF remains accessible while being economically self-sustaining
 
 ---
 
-## Roadmap Highlights
+## Governance and DAO Transition
 
-- 2025: Complete GrowOperative with mutual credit and trust path routing
-- Q2 2026: Launch native apps and test multi-location alpha
-- Q4 2026: Release FOAF Marketplace prototype with services and tools
-- 2027: Begin full DAO governance and expand to global participants
+FOAF begins with centralized coordination to launch and stabilize the ecosystem, but is designed from the ground up for decentralized governance.
 
----
+The long-term goal is to transition all critical protocol functions — rule-setting, fee management, credit parameters, and treasury spending — to a DAO governed by FOAF token holders.
 
-## Future Optimizations
+### How it works:
+- FOAF holders can stake tokens to participate in voting
+- Proposals can be submitted for system upgrades, economic changes, or funding allocations
+- Voting weight corresponds to staked FOAF and is recorded on-chain
+- DAO tools will be phased in as the user base and ecosystem mature
 
-As the FOAF network grows, several features are planned to improve efficiency, reliability, and adaptability for more structured or large-scale use cases.
-
-### Credit Loop Resolution
-
-In mutual credit systems, circular debt chains can emerge naturally over time. FOAF will include logic to detect and resolve these loops. When a set of users owe each other in a closed cycle, the system can reduce or eliminate those debts automatically. This helps the overall network remain balanced and improves liquidity by freeing up credit lines without requiring new trades.
-
-### Role-Based Trade Flows
-
-While most users interact through peer-to-peer trust paths, some FOAF deployments may benefit from defined role structures. For example, in supply chains where goods move from producers to processors to vendors, participants may hold roles like grower, packer, or distributor. FOAF will support structured flows in these contexts to clarify responsibilities, manage markups, and allow fine-grained visibility across multi-step trade chains.
-
-### Trust Weighting and Routing Confidence
-
-As the network matures, FOAF may introduce ways to measure and weight the quality of trust paths. Participants who consistently fulfill obligations or route value efficiently may be recognized through reputation signals. These indicators can improve routing logic and give users more confidence when trading with distant connections.
+This model allows the community to evolve the protocol transparently while ensuring those most invested have a meaningful voice.
 
 ---
 
-These enhancements are planned as part of the system’s long-term growth and will be guided by DAO governance, usage patterns, and community demand.
+## Roadmap
+
+The FOAF protocol has moved from vision to working prototype. GrowOperative, our first application, is live and supports listing, requesting, and fulfillment through contact-based networks. While financial settlement is not yet live in the app, this next layer is under active development alongside full mobile deployment.
+
+**Recent milestones:**
+- MVP deployed with live networked listings and propagation logic
+- Smart contracts drafted for FOAF and RHEO token mechanics
+- DAO and staking framework in design
+
+**Next steps:**
+- Implement mutual credit tracking and transaction settlement inside the app
+- Launch native apps for iOS and Android
+- Expand pilot programs with early adopter communities
+- Complete and launch decentralized governance features
+
+For a full development timeline, see the [technical roadmap](../technical/roadmap.md).
 
 ---
 
-## Why FOAF Matters
+## Why It Matters
 
-People are already helping each other. FOAF gives them a better way to do it. Instead of depending on centralized money or platforms, they can use trust and cooperation to get what they need. This builds stronger communities and reduces financial stress.
+Traditional systems of exchange — from local currencies to volunteer-run barter networks — have struggled to scale or survive long-term. Centralized platforms extract value, fiat currencies restrict who can participate, and burnout is built into most community-led systems.
 
-FOAF is not a product. It is a protocol for mutual support. The more people use it, the stronger it becomes.
+FOAF offers a new path.
 
----
+By rooting exchange in trust, automating settlement, and rewarding contributors through built-in incentives, FOAF creates an economic layer that is accessible, resilient, and adaptable.
 
-Explore more in [tokenomics](../foaf-foundation/tokenomics.md), [fee structure](../foaf-foundation/fee-structure.md), and [contribution](../community/contribution.md).
+This isn't just about software — it's about creating infrastructure for a post-capitalist future, where people can meet needs locally without waiting for permission or liquidity from above.
