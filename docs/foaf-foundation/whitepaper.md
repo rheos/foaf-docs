@@ -10,7 +10,7 @@ The FOAF Foundation is building a trust-based trading network that helps communi
 
 Most people have something to offer, but lack easy ways to trade what they have for what they need. FOAF bridges that gap by replacing the need for cash with social credit and trust. Participants can grow food, fix tools, share skills, and support each other, even when money is tight.
 
-Many past projects have explored similar ideas — systems like Local Exchange Trading Systems (LETS), Community Exchange Systems (CES), and more recently, blockchain-based attempts at peer-to-peer credit and trust. These efforts helped define the space but often failed to scale because of complex interfaces, lack of incentives, or a missing social fabric. FOAF builds on what they introduced, grounding it in real-world relationships and a model where value flows automatically through trust paths.
+Many past projects have explored similar ideas - systems like Local Exchange Trading Systems (LETS), Community Exchange Systems (CES), and more recently, blockchain-based attempts at peer-to-peer credit and trust. These efforts helped define the space but often failed to scale because of complex interfaces, lack of incentives, or a missing social fabric. FOAF builds on what they introduced, grounding it in real-world relationships and a model where value flows automatically through trust paths.
 
 We are not inventing these ideas from scratch. Mutual credit, community exchange, and reputation-based trust have been explored before. FOAF builds on these insights with tools that are simple, scalable, and rooted in everyday relationships.
 
@@ -26,9 +26,9 @@ We are not inventing these ideas from scratch. Mutual credit, community exchange
 
 FOAF is designed to make trust-based trade as seamless as possible, even in the absence of money. The system follows a simple flow:
 
-1. **Post** — A user lists something they need or want to offer (e.g., help fixing a fence, extra garden produce, language tutoring).
-2. **Propagate** — That listing spreads only through the user's contact network, appearing as if it came directly from each contact who shares it. This preserves privacy and relevance.
-3. **Settle** — When a match is made, the system routes value through the shortest trust path between participants. Settlement can happen in mutual credit, cash, or in-kind agreements — all recorded transparently in the ledger.
+1. **Post** - A user lists something they need or want to offer (e.g., help fixing a fence, extra garden produce, language tutoring).
+2. **Propagate** - That listing spreads only through the user's contact network, appearing as if it came directly from each contact who shares it. This preserves privacy and relevance.
+3. **Settle** - When a match is made, the system routes value through the shortest trust path between participants. Settlement can happen in mutual credit, cash, or in-kind agreements - all recorded transparently in the ledger.
 
 This model depends on **trust paths**: chains of verified relationships where credit and obligations can flow. These paths allow users to transact confidently even when they don't know each other directly.
 
@@ -55,7 +55,7 @@ This system ensures that:
 
 FOAF begins with centralized coordination to launch and stabilize the ecosystem, but is designed from the ground up for decentralized governance.
 
-The long-term goal is to transition all critical protocol functions — rule-setting, fee management, credit parameters, and treasury spending — to a DAO governed by FOAF token holders.
+The long-term goal is to transition all critical protocol functions - rule-setting, fee management, credit parameters, and treasury spending - to a DAO governed by FOAF token holders.
 
 ### How it works:
 - FOAF holders can stake tokens to participate in voting
@@ -88,10 +88,10 @@ For a full development timeline, see the [technical roadmap](../technical/roadma
 
 ## Why It Matters
 
-Traditional systems of exchange — from local currencies to volunteer-run barter networks — have struggled to scale or survive long-term. Centralized platforms extract value, fiat currencies restrict who can participate, and burnout is built into most community-led systems.
+Traditional systems of exchange - from local currencies to volunteer-run barter networks - have struggled to scale or survive long-term. Centralized platforms extract value, fiat currencies restrict who can participate, and burnout is built into most community-led systems.
 
 FOAF offers a new path.
 
 By rooting exchange in trust, automating settlement, and rewarding contributors through built-in incentives, FOAF creates an economic layer that is accessible, resilient, and adaptable.
 
-This isn't just about software — it's about creating infrastructure for a post-capitalist future, where people can meet needs locally without waiting for permission or liquidity from above.
+This isn't just about software - it's about creating infrastructure for a post-capitalist future, where people can meet needs locally without waiting for permission or liquidity from above.
