@@ -61,4 +61,4 @@ I am open to the following structures:
 
 ## Bottom Line
 
-I’m not looking for someone to *talk about* funding — I’m looking for someone who can pick up the phone or drop a message and get real conversations started with aligned investors. They don’t need to believe in the entire crypto space, but they *do* need to believe in this project enough to take some shared risk.
+I’m not looking for someone to *talk about* funding.. I’m looking for someone who can pick up the phone or drop a message and get real conversations started with aligned investors. They don’t need to believe in the entire crypto space, but they *do* need to believe in this project enough to take some shared risk.
