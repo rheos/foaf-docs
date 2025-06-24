@@ -1,9 +1,4 @@
-# GrowOperative
-## Scaling Real Food Systems Through Technology
-
-*Building the infrastructure for global food security - profitably*
-
-**By FOAF Foundation DAO**
+# Pitch Deck
 
 ---
 
