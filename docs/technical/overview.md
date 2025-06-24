@@ -1,20 +1,3 @@
-I'll analyze the codebase to understand the complete supply chain management system. Let me start by examining the key components and data flow.
-Search files...
-Let me continue examining the key models and controllers to understand the complete workflow:
-Read file: app/models/request_contract.rb
-Read file: app/models/inventory.rb
-Read file: app/models/item.rb
-Read file: app/models/user.rb
-Now let me examine the order management and shipping workflow:
-Read file: app/controllers/api/v1/orders_controller.rb
-Ran tool
-Search files...
-Let me examine the database schema to get a complete picture of the data relationships:
-Read file: db/schema.rb
-Search files...
-Now let me create a comprehensive diagram to visualize the complete supply chain management system:
-Ran tool
-Based on my analysis of the codebase, here's how the complete request, confirmation, shipment, and supply chain management system works:
 
 ## **Supply Chain Management System Overview**
 
