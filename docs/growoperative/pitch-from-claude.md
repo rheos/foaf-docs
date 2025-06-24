@@ -153,13 +153,15 @@ $1B annual volume → $30M RHEO fees → $12 annual yield per FOAF
 
 **Slide 9: Competitive Advantages**
 
-## Competitive Advantages
+## Why GrowOperative Works
 
-🌍 **Proven at community scale** - 2+ years of real users  
-🤝 **Trust-chain routing** - only platform using social graphs for commerce  
-🚫 **No crypto barriers** - blockchain benefits without complexity  
-🏛️ **Community ownership** - DAO structure with investor governance participation  
-📈 **Network effects** - each user exponentially increases value
+✅ **MVP Complete**: 2+ years of PWA development with working mutual credit system  
+🌱 **Incentivizes Abundance**: Gardeners grow more when they know surplus won't waste  
+🔄 **Reduces Food Waste**: Creates peer-powered local food circulation  
+🚫 **No Crypto Barriers**: Works without requiring blockchain literacy or upfront tokens  
+🌍 **Organically Scalable**: Designed to grow from village gardens to global trust networks  
+💰 **Sustainable Economics**: Value-based fee model rewards contributors and prevents spam  
+🏛️ **DAO-Controlled**: FOAF holders govern fees, expansion strategy, and roadmap priorities
 
 *Technology that serves communities, not the other way around*
 
@@ -170,19 +172,19 @@ $1B annual volume → $30M RHEO fees → $12 annual yield per FOAF
 ## Roadmap: Community to Global Scale
 
 ### 2025: GrowOperative Foundation
-- ✅ GrowOperative live with mutual credit
+- ✅ GrowOperative PWA ready for community deployment
 - 🎯 FOAF token deployment and DAO infrastructure  
-- 🎯 Partnership with food security organizations
+- 🎯 Alpha launch in resilience-minded gardening communities
 
 ### 2026: GrowOperative Scale
-- 📱 Native mobile apps for producers and buyers
-- 🌱 Multi-community GrowOperative networks
-- 🗳️ Community governance activation
+- 📱 Native iOS/Android apps replacing PWA
+- 🌱 Multi-community GrowOperative networks with explainer videos
+- 🗳️ Community governance activation with FOAF holder voting
 
 ### 2027+: GrowOperative Global
-- 🌍 Cross-border food network connections
-- 🏢 Enterprise adoption for supply chain finance
-- 🎯 Impact: 10M+ people accessing GrowOperative networks
+- 🌍 Cross-border food network connections via FOAF marketplace
+- 🏢 Enterprise adoption for supply chain finance and B2B trade
+- 🎯 Impact: 10M+ people accessing GrowOperative networks globally
 
 ---
 
@@ -191,9 +193,9 @@ $1B annual volume → $30M RHEO fees → $12 annual yield per FOAF
 ## Team & Funding: $300K for GrowOperative Scale
 
 **Current Foundation**
-- **Founder**: 2+ years building GrowOperative with community validation
+- **Founder**: 2+ years building GrowOperative MVP with working mutual credit system
 - **Community network**: Established relationships with food security advocates
-- **Technical foundation**: Scalable Rails architecture ready for blockchain integration
+- **Technical foundation**: Proven Rails/MySQL/React.js PWA ready for mobile migration
 
 **Hiring for GrowOperative Growth + Advisory Board**
 - **Blockchain Developer**: Smart contracts and token economics
@@ -202,7 +204,12 @@ $1B annual volume → $30M RHEO fees → $12 annual yield per FOAF
 - **Food Systems Advisor**: Agricultural and nutrition expertise
 - **Strategic Advisors**: Seeking investor-advisors with aligned values and expertise
 
-**$300K Use of Funds**: 50% GrowOperative development, 30% community partnerships, 20% team growth
+**$300K Use of Funds**: 
+- **50% Development** ($150K): Native iOS/Android apps, smart contracts
+- **18% Design** ($55K): Mobile-first UI/UX and user experience optimization  
+- **17% Marketing** ($50K): Explainer videos and community onboarding content
+- **12% Team** ($35K): Key hires and operational costs
+- **3% Infrastructure** ($10K): Servers, hosting, and technical maintenance
 
 ---
 
@@ -354,3 +361,6 @@ $1B annual volume → $30M RHEO fees → $12 annual yield per FOAF
 - **Body**: Clean, readable (Open Sans, Lato)
 - **Data**: Monospace for numbers/code (Roboto Mono)
 
+---
+
+**Ready for professional design treatment!**
