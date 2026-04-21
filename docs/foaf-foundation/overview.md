@@ -2,7 +2,9 @@
 
 ## Overview
 
-The **FOAF Foundation** (Friend of a Friend) is a Decentralized Autonomous Organization (DAO) with a mission to rebuild local economic resilience. We are doing this by developing systems for mutual credit, trust-based value exchange, and peer-to-peer cooperation that reduce dependence on fiat currency.
+The **FOAF Foundation** (Friend of a Friend) is a Decentralized Autonomous Organization (DAO) with a mission to rebuild local economic resilience. We are doing this by activating and expanding a trust-based mutual credit protocol that has been in development since 2018.
+
+**FOAF has deep roots.** Our governance token was deployed to Ethereum in December 2018, representing 7+ years of patient development through multiple market cycles. Rather than chase trends, we've focused on building real utility for local economic cooperation.
 
 We believe people and communities can support each other directly, without always needing banks, cash, or centralized platforms. Our tools are designed to work in the real world, starting with simple local trade and growing into a larger ecosystem for community exchange.
 
@@ -19,13 +21,16 @@ We believe people and communities can support each other directly, without alway
 
 ## Why FOAF?
 
-This is not just a crypto experiment. It is an attempt to build economic systems that work for real people in real communities. We are building on earlier ideas that pointed in the right direction but struggled to gain traction. FOAF applies those concepts in a way that is grounded, human-centered, and adaptable to everyday life.
+**This is infrastructure, not speculation.** FOAF represents 7+ years of consistent development toward cooperative economics. We deployed our token during the 2018 crypto winter when builders were focused on utility, not hype. We've spent the years since developing the actual protocol that gives these tokens meaning.
+
+- **Proven Commitment**  
+  Our founding team held 100% of tokens through multiple market cycles without selling, demonstrating long-term vision over short-term gains.
 
 - **Rooted in Trust**  
   The network uses friend-of-a-friend connections to route credit and access. People exchange through social trust paths, which increases accountability and creates space for cooperation.
 
 - **Accessible by Design**  
-  Anyone can participate. You do not need to hold tokens or understand crypto. RHEO flows through trust paths in the background, allowing users to contribute and trade without any technical barrier.
+  Anyone can participate through custodial wallets that require zero crypto knowledge. RHEO flows through trust paths in the background, allowing users to contribute and trade without technical barriers.
 
 - **Grows with the Community**  
   We are starting with food surplus and garden exchange. But this framework can grow to support tools, services, childcare, repairs, and more. FOAF adapts to what each community values and wants to share.
@@ -45,6 +50,17 @@ The project is organized so that contributors and readers can find what they nee
 - **FOAF Foundation** – This document: our mission, governance, and overall vision
 - **GrowOperative** – First application of our mutual credit and trust system
 - **Marketplace and Technical** – Architectural details, token design, and development plans
+
+## 2026: Activation Year
+
+After years of protocol development, 2026 marks FOAF's public launch:
+
+**Q1-Q2:** Community funding through Canadian exemptions  
+**Q3:** International expansion via regulatory-friendly jurisdictions  
+**Q4:** Global token distribution and GrowOperative alpha launch  
+**2027+:** Full protocol deployment on Radix with community governance
+
+**We're not building from zero.** We're activating mature infrastructure that's been thoughtfully developed for cooperative economics. The foundation exists. Now we're opening it to the communities it's designed to serve.
 
 ## Get Involved
 
