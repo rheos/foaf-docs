@@ -1,6 +1,6 @@
 # FOAF Team Vesting
 
-This document defines the vesting structure for FOAF tokens allocated to the founding team, core contributors, and future hires under the Team & Advisors allocation (20% of total FOAF supply per [Tokenomics](./tokenomics.md)).
+This document defines the vesting structure for FOAF tokens allocated to the founding team, core contributors, and future hires under the Team & Advisors allocation (16% of total FOAF supply per [Tokenomics](./tokenomics.md)).
 
 **This is a design document, not a legal contract.** Actual team agreements are separate legal documents that codify the principles here into binding terms. Before using this structure in signed agreements, it must be reviewed by legal counsel qualified in the relevant jurisdictions.
 
@@ -26,7 +26,7 @@ The structure includes a time-based backstop to prevent perverse outcomes if the
 
 ## Structure Overview
 
-**Allocation:** 20% of total FOAF supply, or 5,000,000 FOAF, distributed across founding team and core contributors per allocations defined in individual team agreements.
+**Allocation:** 16% of total FOAF supply, or 4,000,000 FOAF, distributed across founding team and core contributors per allocations defined in individual team agreements.
 
 **Grant start date:** the date the individual team member's agreement becomes effective.
 
@@ -291,7 +291,7 @@ As DAO takes control, governance of vesting structure transitions. By DAO Phase 
 
 This document may be amended to improve clarity, fix errors, or respond to changed circumstances. Amendments may not:
 
-- Reduce the total percentage of team tokens allocated (still 20% of 25M = 5M).
+- Reduce the total percentage of team tokens allocated (still 16% of 25M = 4M).
 - Reduce the total vesting unlock across all milestones (still 100%).
 - Retroactively require a team member to meet new conditions for already-triggered milestones.
 
@@ -350,7 +350,7 @@ Foundation claims Milestone 2 triggered based on adoption metrics. Community rev
 
 This document operates alongside:
 
-- [Tokenomics](./tokenomics.md) — defines the 20% team allocation being vested under this structure.
+- [Tokenomics](./tokenomics.md) — defines the 16% team allocation being vested under this structure.
 - [Governance](./governance.md) — defines rFOAF, the locked-commitment position that team FOAF is recommended to be locked into upon vesting. Strong recommendation: team members lock their vested FOAF into rFOAF at maximum duration as a signal of long-term commitment to the network.
 - [Treasury and Operations](./treasury-and-operations.md) — vesting schedule affects foundation's tradeable FOAF supply and LP planning.
 - [DAO Transition](./dao-transition.md) — Milestone 5 depends on DAO transition completion per that document's timeline.

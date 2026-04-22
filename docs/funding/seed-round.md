@@ -62,7 +62,7 @@ Fully allocated to cover:
 
 Contributors may optionally choose to receive part or all of their compensation in **FOAF tokens** valued at **$0.06 per token**, instead of cash. This decision is entirely voluntary and based on their confidence in the project’s long-term vision. Token-based compensation may be subject to vesting terms negotiated individually.
 
-In the event of runway pressure or scaling needs, the **team allocation (5M FOAF)** may also be partially used to raise additional funds through future token sales at higher valuations, subject to vesting and governance transparency.
+In the event of runway pressure or scaling needs, the **team allocation (4M FOAF)** may also be partially used to raise additional funds through future token sales at higher valuations, subject to vesting and governance transparency.
 
 ---
 
