@@ -99,6 +99,67 @@ rFOAF decays linearly as time remaining decreases, incentivizing lock extensions
 
 ---
 
+## Threshold-tiered voting (design direction under consideration)
+
+The stake-weighted voting described above is the original design. We are actively considering replacing it with a threshold-tiered cooperative model that aligns better with the foundation's mission and reduces legal exposure.
+
+The core insight: separate the two reasons to hold FOAF.
+
+**Operational capacity** (more FOAF = more RHEO generation = more ability to back transactions in your network) scales linearly with holdings. Unbounded. This is the "patronage" reason to acquire FOAF, and the more activity you generate, the more you reasonably want.
+
+**Governance weight** is capped per qualifying account. Stake determines which tiers of decisions you qualify to vote on, not how loud your voice is within a tier. Each qualifying account gets one vote per qualifying tier.
+
+This separation maps onto traditional cooperative law: returns scale with patronage (how much you use the network), control does not scale with capital. Co-ops are not securities specifically because of this distinction.
+
+### Tier structure (illustrative)
+
+| Tier | Decision type | Required rFOAF |
+|---|---|---|
+| 0 | Minor proposals, signaling, comments | Any FOAF holder |
+| 1 | Community programs, ambassador budgets, regional grants | 10+ rFOAF |
+| 2 | Parameter changes within established ranges | 100+ rFOAF |
+| 3 | Treasury moves, fee structure, governance mechanics | 1,000+ rFOAF |
+| 4 | Constitutional changes, protocol upgrades | 10,000+ rFOAF |
+
+At each tier, every qualifying account casts one vote. The threshold is qualification, not weight.
+
+Specific thresholds will be calibrated to circulating rFOAF supply and expected participant numbers. The structure is the load-bearing element, not the exact numbers.
+
+### Why this is sybil-resistant
+
+Splitting wallets to multiply votes has push-pull pressure built in.
+
+If you have 1,000 FOAF and split it into 100 wallets of 10 each, you can now cast 100 votes on Tier 1 decisions. But you cast zero votes on Tier 2-4 decisions because no individual wallet meets the higher thresholds. To influence high-stakes decisions, you have to consolidate. Whoever wants real protocol influence faces a choice: many low-tier votes or one high-tier vote. They cannot have both.
+
+The mechanism is also self-balancing because rFOAF requires time-lock commitment. Sybil-splitting becomes expensive when all 100 sybil wallets need to time-lock their stake for years to qualify for higher tiers.
+
+Reactive sybil management (community challenges, anomaly detection, KYC at the highest tiers) handles edge cases on top of the structural defense.
+
+### Implications for the existing rFOAF revenue share
+
+The existing design distributes protocol revenue pro-rata to rFOAF holders, sometimes denominated in stablecoins or XRD. This is dividend-shaped and creates the strongest possible Howey exposure. Under the threshold-tiered direction, that distribution is replaced by:
+
+- **Burn-based deflation** as the primary mechanism for returning value to holders. Fees burn RHEO (or, in the long run, partially burn FOAF), creating supply pressure that benefits all holders without a direct payment.
+- **Active-participation gates** for any direct revenue routed to holders. If revenue does flow to participants, it routes only to those who voted on a meaningful share of proposals in the period — making it explicitly compensation for governance work, not passive income.
+
+### What this gives up
+
+Speculative passive demand for FOAF is reduced. Buying FOAF does not increase your governance leverage; it only increases your operational capacity and qualification level. People who buy FOAF for "passive yield" or "governance influence proportional to capital" find no purchase here.
+
+This is intentional. That class of demand is the most legally exposed and the most misaligned with the cooperative mission. The remaining demand (operators, heavy users, generous network members, governance-active participants, subnet treasuries) is exactly the demand that aligns with how the network is meant to operate.
+
+### Status
+
+This is design thinking, not committed protocol. The threshold-tiered model is being weighed against the original stake-weighted design. The original design above remains documented because:
+
+1. The decision is not final
+2. Some elements (rFOAF time-lock for governance access, council structure, proposal lifecycle) carry over either way
+3. The choice has implications across tokenomics, fundraising narrative, and legal posture that need to be settled together
+
+Final design will be locked in before the protocol moves to Phase 3 (Radix Babylon deployment), since that's when on-chain governance contracts get written.
+
+---
+
 ## Governance Mechanics
 
 ### Proposal lifecycle
