@@ -4,7 +4,7 @@ The **FOAF Foundation** supports local trade and community resilience through a 
 
 ## Token History and Legitimacy
 
-**FOAF tokens already exist!** The FOAF contract was deployed to Ethereum mainnet in **December 2018** at address `0x51300E946bcd4850Db3bE28D1FcC4076Ba4a9288`. This 7-year development history provides regulatory legitimacy and demonstrates long-term commitment to the protocol vision.
+**FOAF tokens already exist!** The FOAF contract was deployed to Ethereum mainnet in **December 2018** at address [`0x51300E946bcd4850Db3bE28D1FcC4076Ba4a9288`](https://etherscan.io/token/0x51300E946bcd4850Db3bE28D1FcC4076Ba4a9288). This 7-year development history provides regulatory legitimacy and demonstrates long-term commitment to the protocol vision.
 
 We use two tokens:
 - **FOAF** – a fixed-supply governance and staking token (existing since 2018)
@@ -30,7 +30,7 @@ GrowOperative helps people trade food, goods, and services — with or without c
 
 ### FOAF Token
 - **Contract**: ERC-20 on Ethereum (deployed December 2018)
-- **Address**: `0x51300E946bcd4850Db3bE28D1FcC4076Ba4a9288`
+- **Address**: [`0x51300E946bcd4850Db3bE28D1FcC4076Ba4a9288`](https://etherscan.io/token/0x51300E946bcd4850Db3bE28D1FcC4076Ba4a9288)
 - **Purpose**: Governance and staking
 - **Supply**: 25,000,000 (indivisible, fixed)
 - **Current Status**: 100% held by original creator, never distributed
