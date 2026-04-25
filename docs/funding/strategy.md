@@ -1,64 +1,41 @@
-## What I’m Looking For
+# Fundraising partner
 
-I’m looking for a fundraising connector or marketing partner who understands the startup and crypto landscape and is willing to work on a performance-based model. This person or team should be capable of making high-quality introductions to angel investors, VCs, and ecosystem funds that are a fit for the GrowOperative project and the FOAF protocol. Ideally, they also understand how to position a decentralized, mission-driven project to appeal to values-aligned funders.
+I'm looking for someone who actually knows how to raise money, with a working network of real investors, willing to take a percentage of what they bring in instead of a fat retainer up front. Crypto and Web3 background helps a lot. Mission-aligned helps even more.
 
-### Core Qualities:
+The pitch is real. I have a working app, a token contract that's been on Ethereum since December 2018, and a soft launch already running in Crawford Bay. I'm not looking for someone to write a deck, build a CRM, or "develop an investor strategy" for three months. I'm looking for someone who can pick up the phone and start conversations with people who would actually fund a mutual credit project for community food sharing.
 
-* Proven track record of raising funds for early-stage startups (especially in crypto or Web3)
-* Strong, active network of investors (not just theoretical or cold contacts)
-* Willingness to work on a success-based compensation structure (e.g. a percentage of funds raised)
-* Strategic input on pitch refinement and investor targeting
-* Familiarity with values-driven, sustainability, or regenerative economy projects is a major plus
+## What good looks like
 
-### Compensation Structure:
+The right person has raised money for early-stage crypto projects before, and can name them. They know investors who care about regenerative economy or community resilience, not just yield-chasers. They can give honest feedback on the pitch instead of polite agreement. Bonus if they've worked with values-driven projects in the past, but it's not required.
 
-I am open to the following structures:
+What I don't need: someone whose network is mostly cold LinkedIn connections, someone whose track record gets vague when you ask follow-up questions, or someone who needs hand-holding through what the project actually is.
 
-* **Success Fee**: Typically 5% to 10% of total funds raised, depending on the scale and involvement.
+## How I'd compensate
 
- * For smaller raises (\$25k–\$100k), 10% is reasonable
- * For larger raises (\$250k+), 5% is more typical
-* **Equity Compensation**: Available for those contributing significant strategic value or ongoing involvement
-* **Hybrid**: A modest monthly retainer paired with a reduced success fee (e.g. 2%–5%), only if there's measurable progress and warm leads delivered
+Default is a success fee, scaled to the size of the raise.
 
-## Strategy to Find the Right Partner
+* For smaller raises in the $25K to $100K range, 10% is reasonable.
+* For larger raises at $250K and up, 5% is more typical.
+* Equity is on the table for someone who wants to stay involved on strategy after the raise.
+* A small monthly retainer plus a reduced success fee (2 to 5%) is possible, but only after warm leads have shown up. No retainer for promises.
 
-### 1. **Leverage My Existing Network**
+There's no money for "exploration calls" or "investor list research." Real introductions or real strategic input is what I'm paying for.
 
-* Reach out to previous contacts in crypto conferences, events, and Telegram/Discord communities
-* Ask trusted peers if they know anyone who specializes in early-stage fundraising for Web3 projects
+## Where I'm looking
 
-### 2. **Target Crypto-Specific Communities and Platforms**
+Start with my own network. The right person is usually one referral away, not someone you find cold. After that:
 
-* Post in targeted groups like:
+* Crypto and DAO communities I'm already in or can get warm intros to
+* LinkedIn and AngelList for people who list fundraising as their actual specialty, with results to back it up
+* Web3 talent platforms (Braintrust, CryptoJobsList, WorkOnChain)
+* Pitch forums and investor matching events, less to pitch from the stage and more to meet the connectors who run them
 
- * DAO Coordination communities
- * Crypto Twitter threads focused on project funding
- * Discord servers related to Web3 acceleration and launchpads
- * Reddit communities like r/cryptostartups and r/web3
+I'd rather take longer to find one good person than rush into an arrangement with someone whose value-add is mostly hopeful.
 
-### 3. **Search for Proven Fundraisers on Professional Platforms**
+## What I'll commit to
 
-* Use LinkedIn and AngelList (Wellfound) to identify individuals who list fundraising or startup growth as a specialty
-* Look for profiles that mention actual capital raised, not vague marketing fluff
-* Message with a direct and clear value proposition, emphasizing shared upside
+A clear written agreement before any commitment. Defined deliverables, a timeline, and what counts as a "successful introduction." No exclusivity unless there's a retainer that makes exclusivity reasonable. Honest communication about whether the leads are actually working.
 
-### 4. **Use Selective Freelance Platforms**
+## Bottom line
 
-* Explore Toptal or specialized Web3 talent platforms like Braintrust, CryptoJobsList, or WorkOnChain
-* Prioritize those with verified histories, testimonials, and prior involvement in capital raises
-
-### 5. **Attend Events and Pitch Forums**
-
-* Join demo days, virtual investor matching sessions, and Web3-focused pitch events
-* Not necessarily to pitch myself right away — but to meet the connectors who *bring* projects to these events
-
-### 6. **Maintain Clear Boundaries and Agreements**
-
-* Always formalize terms before any payment or exclusive commitment
-* Structure agreements that clarify scope, deliverables, timelines, and what constitutes a successful introduction or raise
-* Make it clear that without verifiable traction, there is no upfront payment
-
-## Bottom Line
-
-I’m not looking for someone to *talk about* funding.. I’m looking for someone who can pick up the phone or drop a message and get real conversations started with aligned investors. They don’t need to believe in the entire crypto space, but they *do* need to believe in this project enough to take some shared risk.
+I'm not looking for someone to talk about funding. I'm looking for someone who can pick up the phone and get real conversations started with aligned investors. They don't have to believe in everything in crypto, but they do have to believe in this project enough to take some shared risk.
