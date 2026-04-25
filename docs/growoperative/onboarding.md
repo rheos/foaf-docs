@@ -50,12 +50,12 @@
 - **Peter (Bob’s Contact)**: Requests 1 lb at $2.
 - **Paul and Sara (Peter’s Contacts)**: See the same tomatoes, offered via Peter at $2.50/lb.
 - **Final Trade**:
-  - Peter buys 3 lbs from Bob ($6 total).
-  - Sells 1 lb each to Paul and Sara ($5 total).
-  - Fees apply:
-    - Bob pays 3% on $6 = 0.18 RHEO
-    - Peter pays 3% on $5 = 0.15 RHEO (if RHEO used)
-    - If routing through others, each hop adds 1% premium
+ - Peter buys 3 lbs from Bob ($6 total).
+ - Sells 1 lb each to Paul and Sara ($5 total).
+ - Fees apply:
+ - Bob pays 3% on $6 = 0.18 RHEO
+ - Peter pays 3% on $5 = 0.15 RHEO (if RHEO used)
+ - If routing through others, each hop adds 1% premium
 
 ---
 
@@ -87,4 +87,4 @@
 
 GrowOperative helps turn your surplus into value and community power — join the movement for local resilience.
 
-Explore more in [pitch](./pitch.md), [fee structure](../../foaf-foundation/fee-structure.md), and [airdrops](../../community/airdrops.md).
+Explore more in [pitch](./pitch.md), [fee structure](../foaf-foundation/fee-structure.md), and [airdrops](../community/airdrops.md).

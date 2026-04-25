@@ -16,8 +16,8 @@ I am open to the following structures:
 
 * **Success Fee**: Typically 5% to 10% of total funds raised, depending on the scale and involvement.
 
-  * For smaller raises (\$25k–\$100k), 10% is reasonable
-  * For larger raises (\$250k+), 5% is more typical
+ * For smaller raises (\$25k–\$100k), 10% is reasonable
+ * For larger raises (\$250k+), 5% is more typical
 * **Equity Compensation**: Available for those contributing significant strategic value or ongoing involvement
 * **Hybrid**: A modest monthly retainer paired with a reduced success fee (e.g. 2%–5%), only if there's measurable progress and warm leads delivered
 
@@ -32,10 +32,10 @@ I am open to the following structures:
 
 * Post in targeted groups like:
 
-  * DAO Coordination communities
-  * Crypto Twitter threads focused on project funding
-  * Discord servers related to Web3 acceleration and launchpads
-  * Reddit communities like r/cryptostartups and r/web3
+ * DAO Coordination communities
+ * Crypto Twitter threads focused on project funding
+ * Discord servers related to Web3 acceleration and launchpads
+ * Reddit communities like r/cryptostartups and r/web3
 
 ### 3. **Search for Proven Fundraisers on Professional Platforms**
 

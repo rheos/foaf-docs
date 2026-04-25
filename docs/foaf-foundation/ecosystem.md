@@ -49,9 +49,9 @@ Past attendees include organizations with direct relevance to FOAF:
 ## Parallel Implementations
 
 ### VimbisoPay / Credex Ecosystem
-**Organization:** Great Sun Group  
-**Location:** Zimbabwe (Harare/Mbare), with technical leadership in Halifax, Canada  
-**URLs:** https://mycredex.app, https://docs.mycredex.app  
+**Organization:** Great Sun Group 
+**Location:** Zimbabwe (Harare/Mbare), with technical leadership in Halifax, Canada 
+**URLs:** https://mycredex.app, https://docs.mycredex.app 
 **GitHub:** https://github.com/Great-Sun-Group/credex-core
 
 **Team:**

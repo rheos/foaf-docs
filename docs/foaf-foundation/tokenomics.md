@@ -14,7 +14,7 @@ This document outlines how both tokens support the GrowOperative app and broader
 
 ---
 
-## 🌱 How It Works
+## How It Works
 
 GrowOperative helps people trade food, goods, and services — with or without cash. Listings are priced in local currency (e.g., $2 CAD per pound of tomatoes), and trades can settle in:
 
@@ -26,7 +26,7 @@ GrowOperative helps people trade food, goods, and services — with or without c
 
 ---
 
-## 🔁 Token Overview
+## Token Overview
 
 ### FOAF Token
 - **Contract**: ERC-20 on Ethereum (deployed December 2018)
@@ -56,11 +56,11 @@ FOAF tokens are freely tradeable. Users can choose their commitment level throug
 - **Generation**: Created via FOAF staking at rate determined by DAO governance
 - **Policy Management**: Treasury uses formula-driven burns and airdrops to optimize network liquidity
 - **Use**:
-  - Pay fees (transaction, markup, routing)
-  - Flow through trust networks to enable access
-  - Compensate intermediaries
+ - Pay fees (transaction, markup, routing)
+ - Flow through trust networks to enable access
+ - Compensate intermediaries
 
-## 🏦 Algorithmic RHEO Monetary Policy
+## Algorithmic RHEO Monetary Policy
 
 **Treasury as Central Bank:** The 3M FOAF treasury stake generates substantial RHEO (~12,000 daily at full rFOAF) which enables active monetary policy management.
 
@@ -82,18 +82,18 @@ FOAF tokens are freely tradeable. Users can choose their commitment level throug
 
 ```
 RHEO_Policy = f(
-  rheo_velocity,
-  transaction_volume_trend,
-  average_user_balance,
-  rheo_price_deviation,
-  new_user_onboarding
+ rheo_velocity,
+ transaction_volume_trend,
+ average_user_balance,
+ rheo_price_deviation,
+ new_user_onboarding
 )
 
 If expansion_signal > threshold:
-  → Airdrop 0.5-2.0 RHEO per active user
-  
+ → Airdrop 0.5-2.0 RHEO per active user
+ 
 If contraction_signal > threshold:
-  → Burn 5-15% of monthly treasury RHEO generation
+ → Burn 5-15% of monthly treasury RHEO generation
 ```
 
 **Benefits:**
@@ -104,14 +104,14 @@ If contraction_signal > threshold:
 
 ---
 
-## 📊 FOAF Allocation (25M Supply)
+## FOAF Allocation (25M Supply)
 
-| Purpose                 | Allocation | FOAF         | Notes                                            |
+| Purpose | Allocation | FOAF | Notes |
 |------------------------|------------|--------------|--------------------------------------------------|
-| Community Airdrops     | 32%        | 8,000,000    | Distributed via custodial wallets for UX        |
-| Seed Rounds            | 40%        | 10,000,000   | Seed 1: 5M, Seed 2: 5M (friends/family → international) |
-| Team & Advisors        | 16%        | 4,000,000    | Milestone-based vesting                          |
-| Treasury & Operations  | 12%        | 3,000,000    | Development, partnerships, governance            |
+| Community Airdrops | 32% | 8,000,000 | Distributed via custodial wallets for UX |
+| Seed Rounds | 40% | 10,000,000 | Seed 1: 5M, Seed 2: 5M (friends/family → international) |
+| Team & Advisors | 16% | 4,000,000 | Milestone-based vesting |
+| Treasury & Operations | 12% | 3,000,000 | Development, partnerships, governance |
 
 **Distribution Strategy:**
 
@@ -133,7 +133,7 @@ If contraction_signal > threshold:
 
 ---
 
-## 💸 Fees and RHEO Circulation
+## Fees and RHEO Circulation
 
 ### Trade-Related Fees (in RHEO)
 - **Transaction Fee**: 3% of total trade value (paid by the seller or profit-maker)
@@ -148,7 +148,7 @@ If contraction_signal > threshold:
 
 ---
 
-## 🔐 Why It Works
+## Why It Works
 
 - **Accessible**: No crypto experience required; fiat pricing and peer-based flow make it usable by anyone
 - **Fair & Scalable**: Fees match value created, not flat rates
@@ -157,7 +157,7 @@ If contraction_signal > threshold:
 
 ---
 
-## 💳 Custodial Wallet Innovation
+## Custodial Wallet Innovation
 
 **Capital Efficient Distribution:**
 - Users receive vFOAF allocations in app-managed wallets
@@ -170,13 +170,13 @@ If contraction_signal > threshold:
 - Progressive decentralization - learn at your own pace
 - Withdraw to self-custody anytime
 
-## 🌉 Multi-Chain Architecture
+## Multi-Chain Architecture
 
 **Ethereum:** Original 2018 contract, treasury management, legitimacy
 **Radix:** Primary utility layer for staking, governance, RHEO operations
 **Bridge:** Official bridge to move FOAF between chains as needed
 
-## 🛠 Road Ahead
+## Road Ahead
 
 **2026 Q1-Q2:** Friends & family bootstrap funding
 **2026 Q3:** International entity setup (Dubai/Singapore)

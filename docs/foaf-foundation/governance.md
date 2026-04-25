@@ -62,7 +62,7 @@ rFOAF_multiplier = 1 + 3 × (time_remaining / max_lock_duration)
 
 Examples:
 - 100 FOAF locked for 2 years = 400 rFOAF voting weight (4x multiplier)
-- 100 FOAF locked for 1 year = 250 rFOAF voting weight (2.5x multiplier)  
+- 100 FOAF locked for 1 year = 250 rFOAF voting weight (2.5x multiplier) 
 - 100 FOAF locked for 6 months = 175 rFOAF voting weight (1.75x multiplier)
 
 rFOAF decays linearly as time remaining decreases, incentivizing lock extensions.
@@ -114,8 +114,8 @@ rFOAF decays linearly as time remaining decreases, incentivizing lock extensions
 **5. Voting period.** A minimum 5-day voting window during which rFOAF holders cast votes (for, against, abstain). Votes can be changed until the window closes.
 
 **6. Quorum and approval.** For the proposal to pass, both conditions must be met:
-   - **Quorum:** total participating vote weight ≥ 10% of total rFOAF supply.
-   - **Approval:** supermajority of weighted votes in favor, typically 50% + 1 (or higher for specific categories — see Proposal Categories below).
+ - **Quorum:** total participating vote weight ≥ 10% of total rFOAF supply.
+ - **Approval:** supermajority of weighted votes in favor, typically 50% + 1 (or higher for specific categories — see Proposal Categories below).
 
 **7. Execution timelock.** Approved proposals don't execute immediately. A 48-hour timelock allows the community to review the decision and, if something has gone wrong (critical flaw discovered, governance attack detected), a final security review vote can cancel execution.
 

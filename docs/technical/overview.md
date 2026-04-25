@@ -3,7 +3,7 @@
 
 This is a multi-tier B2B supply chain platform that connects **Producers → Brokers → Retailers → Consumers** with automated request routing, pricing, and order fulfillment.
 
-### **🏗️ Core Architecture**
+### **️ Core Architecture**
 
 **User Hierarchy:**
 - **Admin**: System administrator with full access
@@ -20,7 +20,7 @@ This is a multi-tier B2B supply chain platform that connects **Producers → Bro
 - `Order`: Groups related requests for shipment
 - `Relationship`: Network connections between users
 
-### **📋 Request & Confirmation Workflow**
+### ** Request & Confirmation Workflow**
 
 #### **1. Request Creation**
 ```ruby
@@ -55,7 +55,7 @@ POST /v1/items/requests/:request_id/accept
 - Contract only proceeds when ALL steps are `accepted`
 - Inventory status changes to `reserved` when contract is fully accepted
 
-### **🚚 Shipment & Order Management**
+### ** Shipment & Order Management**
 
 #### **3. Order Creation**
 ```ruby
@@ -90,7 +90,7 @@ POST /v1/items/requests/:request_id/sign
 - Updates `signed_at` timestamp
 - If multi-step chain, creates next order automatically
 
-### **💰 Pricing & Markup System**
+### ** Pricing & Markup System**
 
 **Hierarchical Pricing:**
 1. **Base Price**: Producer's original price
@@ -101,18 +101,18 @@ POST /v1/items/requests/:request_id/sign
 ```ruby
 # Price calculation in helpers/item_helper.rb
 def get_relation_price(user_id, friend_id)
-  # 1. Check custom relationship price
-  relation_price = UserRelationshipPrice.find_by(user_id: user_id, friend_id: friend_id)
-  return relation_price.price if relation_price&.price
-  
-  # 2. Fall back to user's category markup
-  return get_user_markup(user_id)
+ # 1. Check custom relationship price
+ relation_price = UserRelationshipPrice.find_by(user_id: user_id, friend_id: friend_id)
+ return relation_price.price if relation_price&.price
+ 
+ # 2. Fall back to user's category markup
+ return get_user_markup(user_id)
 end
 ```
 
 **Final Price = Base Price + Sum(Markups for each step in chain)**
 
-### **📊 Dashboard Views by User Type**
+### ** Dashboard Views by User Type**
 
 **Producer Dashboard:**
 - **My Store**: Items they've created
@@ -131,26 +131,26 @@ end
 - **Requested**: Items they've requested
 - Simplified view with unit options (oz, bottles, etc.)
 
-### **🔄 Multi-Tier Chain Example**
+### ** Multi-Tier Chain Example**
 
 **Scenario:** Consumer wants apples from Producer
 1. **Path Discovery**: Consumer → Retailer → Broker → Producer
 2. **Contract Creation**: 
-   - `RequestContract` with `steps: 3`
-   - 3 `ItemRequest` records created
+ - `RequestContract` with `steps: 3`
+ - 3 `ItemRequest` records created
 3. **Acceptance Chain**:
-   - Producer accepts (step 3)
-   - Broker accepts (step 2) 
-   - Retailer accepts (step 1)
+ - Producer accepts (step 3)
+ - Broker accepts (step 2) 
+ - Retailer accepts (step 1)
 4. **Shipping Chain**:
-   - Producer ships to Broker
-   - Broker receives & signs → ownership transfers
-   - Broker ships to Retailer  
-   - Retailer receives & signs → ownership transfers
-   - Retailer ships to Consumer
-   - Consumer receives & signs → final ownership transfer
+ - Producer ships to Broker
+ - Broker receives & signs → ownership transfers
+ - Broker ships to Retailer 
+ - Retailer receives & signs → ownership transfers
+ - Retailer ships to Consumer
+ - Consumer receives & signs → final ownership transfer
 
-### **🎯 Key Features**
+### ** Key Features**
 
 **Smart Routing**: Automatically finds shortest/cheapest path through supply network
 **Atomic Transactions**: Full chain must be accepted or entire request fails

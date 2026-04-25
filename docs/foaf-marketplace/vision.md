@@ -8,43 +8,43 @@ This is not just about food. It is about creating an entire economic layer that 
 
 ## What It Enables
 
-- **Trade Anything**  
-  Go beyond surplus produce. Exchange time, skills, tools, repairs, services, or shared resources.
+- **Trade Anything** 
+ Go beyond surplus produce. Exchange time, skills, tools, repairs, services, or shared resources.
 
-- **Keep Your Money for What Matters**  
-  People can save their cash for rent and bills while using mutual credit and trust-based trade for everyday needs.
+- **Keep Your Money for What Matters** 
+ People can save their cash for rent and bills while using mutual credit and trust-based trade for everyday needs.
 
-- **Socially Routed Value**  
-  RHEO flows through the network based on trust. You do not need to hold it directly. Everyone earns access through participation.
+- **Socially Routed Value** 
+ RHEO flows through the network based on trust. You do not need to hold it directly. Everyone earns access through participation.
 
-- **Community at the Center**  
-  The marketplace is not managed from above. It is shaped by local activity and DAO governance as new needs emerge.
+- **Community at the Center** 
+ The marketplace is not managed from above. It is shaped by local activity and DAO governance as new needs emerge.
 
 ---
 
 ## How It Works
 
-- **Mutual Credit and RHEO**  
-  All trades are valued in local fiat currency but settled using credit, cash, or RHEO. Fees are paid in RHEO automatically through trust connections.
+- **Mutual Credit and RHEO** 
+ All trades are valued in local fiat currency but settled using credit, cash, or RHEO. Fees are paid in RHEO automatically through trust connections.
 
-- **Trust Paths, Not Platforms**  
-  Items or services can be listed as “contacts only.” They flow outward through social links, allowing trusted intermediaries to relay the offer with or without a markup.
+- **Trust Paths, Not Platforms** 
+ Items or services can be listed as “contacts only.” They flow outward through social links, allowing trusted intermediaries to relay the offer with or without a markup.
 
-- **Accessible Everywhere**  
-  The marketplace will be available on the web and as mobile apps, but the experience is driven by the people who use it. It does not rely on centralized servers or payment processors.
+- **Accessible Everywhere** 
+ The marketplace will be available on the web and as mobile apps, but the experience is driven by the people who use it. It does not rely on centralized servers or payment processors.
 
 ---
 
 ## Why It Matters
 
-- **Resilience Through Exchange**  
-  When money is scarce, trust and cooperation can still move value. FOAF makes that possible at scale.
+- **Resilience Through Exchange** 
+ When money is scarce, trust and cooperation can still move value. FOAF makes that possible at scale.
 
-- **No Crypto Knowledge Required**  
-  You do not need to understand tokens, wallets, or ledgers. You simply participate, and the system handles routing behind the scenes.
+- **No Crypto Knowledge Required** 
+ You do not need to understand tokens, wallets, or ledgers. You simply participate, and the system handles routing behind the scenes.
 
-- **Governed by the People Who Use It**  
-  Those who use the system get to help govern it. You can vote on changes once you stake FOAF and participate in DAO decisions.
+- **Governed by the People Who Use It** 
+ Those who use the system get to help govern it. You can vote on changes once you stake FOAF and participate in DAO decisions.
 
 ---
 

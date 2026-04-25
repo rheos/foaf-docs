@@ -16,14 +16,14 @@
 ## Solution (Pages 3–5)
 - **Peer-to-Peer Web App**: A user-friendly Progressive Web App (PWA) built with Ruby on Rails, MySQL, and React.js lets users list what they have (produce, seedlings, etc.) for community redistribution.
 - **Flexible Settlement Options**:
-  - **Cash** – eTransfer, PayPal, Venmo, or in-person
-  - **Mutual Credit** – ledger-tracked IOUs in local fiat value
-  - **RHEO** – the required utility token for system fees and optional settlement, routed via trust chains
+ - **Cash** – eTransfer, PayPal, Venmo, or in-person
+ - **Mutual Credit** – ledger-tracked IOUs in local fiat value
+ - **RHEO** – the required utility token for system fees and optional settlement, routed via trust chains
 - **Fee Model**:
-  - **3% of trade value** in RHEO
-  - **3% of markup** on intermediary resales
-  - **1% per-hop premium** for RHEO routing through trust networks
-  - Fees are **paid by those who profit**, not the buyer
+ - **3% of trade value** in RHEO
+ - **3% of markup** on intermediary resales
+ - **1% per-hop premium** for RHEO routing through trust networks
+ - Fees are **paid by those who profit**, not the buyer
 - **No Token Barrier**: Users don’t need to hold RHEO; it flows through trust paths from FOAF stakers. Obligations are tracked transparently.
 
 ---
@@ -37,11 +37,11 @@
 
 ## Business Model (Pages 7–8)
 - **Revenue**:
-  - RHEO-based transaction and routing fees sustain the network
-  - No flat listing or action fees at launch
+ - RHEO-based transaction and routing fees sustain the network
+ - No flat listing or action fees at launch
 - **Token System**:
-  - **FOAF** – 25M fixed supply for governance and RHEO generation
-  - **RHEO** – dynamic utility token for all system fees and optional value transfer
+ - **FOAF** – 25M fixed supply for governance and RHEO generation
+ - **RHEO** – dynamic utility token for all system fees and optional value transfer
 - **Trust-Chain Logic**: RHEO flows from FOAF holders to users via contact chains, creating decentralized, peer-based microcredit relationships
 
 ---
@@ -57,10 +57,10 @@
 
 ## Funding (Page 13)
 - **Seeking $300K** to:
-  - Finalize the GrowOperative platform
-  - Develop native mobile apps
-  - Produce explainer videos for onboarding
-  - Launch in multiple communities
+ - Finalize the GrowOperative platform
+ - Develop native mobile apps
+ - Produce explainer videos for onboarding
+ - Launch in multiple communities
 
 ---
 
@@ -86,4 +86,4 @@
 
 ---
 
-Explore more in [pitch](./pitch.md), [tokenomics](../../foaf-foundation/tokenomics.md), and [onboarding](./onboarding.md).
+Explore more in [pitch](./pitch.md), [tokenomics](../foaf-foundation/tokenomics.md), and [onboarding](./onboarding.md).

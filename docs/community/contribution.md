@@ -18,21 +18,21 @@ This guide outlines how to get involved as we prepare for the multi-location alp
 ### Documentation
 
 - **Enhance Docs**: Improve clarity, add examples, or translate guides in `foaf-docs`.
-  - Example: Update [onboarding](../growoperative/onboarding.md) with local fiat pricing tips.
+ - Example: Update [onboarding](../growoperative/onboarding.md) with local fiat pricing tips.
 - **Process**:
-  1. Fork `foaf-docs` (https://github.com/rheos/foaf-docs.git).
-  2. Create a branch (`git checkout -b doc-update`).
-  3. Edit markdown files (e.g., add trust network examples).
-  4. Submit a pull request with a clear description.
+ 1. Fork `foaf-docs` (https://github.com/rheos/foaf-docs.git).
+ 2. Create a branch (`git checkout -b doc-update`).
+ 3. Edit markdown files (e.g., add trust network examples).
+ 4. Submit a pull request with a clear description.
 - **Needs**: User stories, video script ideas, guides for resilience groups.
 
 ### Code
 
 - **Develop Features**: Enhance the PWA (Ruby on Rails, MySQL, React.js) or native apps (Q2 2026).
-  - Example: Implement mutual credit tracking (fiat-based IOUs).
+ - Example: Implement mutual credit tracking (fiat-based IOUs).
 - **Process**:
-  - Join the codebase repo (to be open-sourced Q4 2025) via GitHub Issues.
-  - Tasks: Add RHEO fee logic, trust network markup support, or video integration.
+ - Join the codebase repo (to be open-sourced Q4 2025) via GitHub Issues.
+ - Tasks: Add RHEO fee logic, trust network markup support, or video integration.
 - **Skills Needed**: Ruby on Rails, React.js, MySQL, Solidity, React Native.
 
 Whether you're exploring casually, hoping to earn tokens, or interested in applying for a paid role, your contributions are welcome. This is an open door for both volunteers and potential team members.
@@ -42,7 +42,7 @@ Whether you're exploring casually, hoping to earn tokens, or interested in apply
 You don't need to be a coder to help — feedback, outreach, and community building are just as valuable.
 
 - **Spread the Word**: Share explainer videos or promote GrowOperative on Signal, Telegram, Facebook.
-  - Example: Post about trading surplus in resilience groups.
+ - Example: Post about trading surplus in resilience groups.
 - **Host Events**: Organize meetups in Crawford Bay or other alpha locations.
 - **Feedback**: Submit ideas via GitHub Issues or app (post-launch).
 

@@ -32,35 +32,35 @@ item_units - Measurement units (lbs, oz, boxes, bottles, grams)
 ### Supply Chain Management
 ```sql
 request_contracts - Master contract for supply chain requests
-  ├── user_id, item_id, inventory_id
-  ├── quantity, status (pending/accepted/completed/cancelled)
-  ├── steps, current_step (for multi-hop routing)
-  
+ ├── user_id, item_id, inventory_id
+ ├── quantity, status (pending/accepted/completed/cancelled)
+ ├── steps, current_step (for multi-hop routing)
+ 
 item_requests - Individual steps in supply chain
-  ├── user_id, friend_id (sender/receiver for this step)
-  ├── price, status, step (position in chain)
-  ├── accepted_at, shipped_at, signed_at (workflow timestamps)
-  ├── order_id (for grouping shipments)
+ ├── user_id, friend_id (sender/receiver for this step)
+ ├── price, status, step (position in chain)
+ ├── accepted_at, shipped_at, signed_at (workflow timestamps)
+ ├── order_id (for grouping shipments)
 
 orders - Grouped shipments between users
-  ├── user_id, friend_id, order_status
-  ├── estimated_date, shipped_on, signed_on
-  ├── order_total, order_label
+ ├── user_id, friend_id, order_status
+ ├── estimated_date, shipped_on, signed_on
+ ├── order_total, order_label
 ```
 
 ### Network & Relationships
 ```sql
 relationships - User connections with pricing
-  ├── user_id, friend_id, status
-  ├── user_label, friend_label (custom names)
-  ├── actions_state, friend_actions_state (permissions)
+ ├── user_id, friend_id, status
+ ├── user_label, friend_label (custom names)
+ ├── actions_state, friend_actions_state (permissions)
 
 user_relationship_prices - Custom markups between users
-  ├── user_id, friend_id, category_id
-  ├── price (markup amount), relationship_id
+ ├── user_id, friend_id, category_id
+ ├── price (markup amount), relationship_id
 
 user_groups - Role assignments
-  ├── user_id, group_label (consumer/producer/broker/retailer/admin)
+ ├── user_id, group_label (consumer/producer/broker/retailer/admin)
 ```
 
 ## Current User Roles & Hierarchy
@@ -69,7 +69,7 @@ user_groups - Role assignments
 ```
 Admin (bob) - System administrator
 ├── Producer (dianna, sara, john) - Create original items
-├── Broker (peter, paul, mary, bruce, clark, barry) - Intermediaries  
+├── Broker (peter, paul, mary, bruce, clark, barry) - Intermediaries 
 ├── Retailer (arthur, oliver) - Sell to consumers
 └── Consumer (mark) - End buyers
 
@@ -106,7 +106,7 @@ shortest = { total: BigDecimal::INFINITY, path: [], prices: [] }
 # RequestContract statuses
 enum status: [:pending, :accepted, :completed, :cancelled]
 
-# ItemRequest statuses  
+# ItemRequest statuses 
 enum status: [:pending, :accepted, :completed, :cancelled, :reserved]
 
 # Inventory statuses
@@ -117,21 +117,21 @@ enum status: [:unavailable, :available, :reserved, :in_order]
 **File**: `app/models/item_request.rb`
 ```ruby
 def accept_request
-  # Updates status to accepted/reserved
-  # Creates or updates Order for shipment grouping
-  # Changes inventory status to reserved when all steps accepted
+ # Updates status to accepted/reserved
+ # Creates or updates Order for shipment grouping
+ # Changes inventory status to reserved when all steps accepted
 end
 
 def ship
-  # Sets shipped_at timestamp
-  # Changes status to completed  
+ # Sets shipped_at timestamp
+ # Changes status to completed 
 end
 
-def sign  
-  # Records signed_at timestamp
-  # Transfers inventory ownership to recipient
-  # Creates next order in chain if multi-step
-  # Completes contract when final step signed
+def sign 
+ # Records signed_at timestamp
+ # Transfers inventory ownership to recipient
+ # Creates next order in chain if multi-step
+ # Completes contract when final step signed
 end
 ```
 
@@ -139,12 +139,12 @@ end
 **File**: `app/helpers/item_helper.rb`
 ```ruby
 def get_relation_price(user_id, friend_id)
-  # 1. Check custom relationship price
-  relation_price = UserRelationshipPrice.find_by(user_id: user_id, friend_id: friend_id)
-  return relation_price.price if relation_price&.price
-  
-  # 2. Fall back to category markup
-  # 3. Fall back to global default
+ # 1. Check custom relationship price
+ relation_price = UserRelationshipPrice.find_by(user_id: user_id, friend_id: friend_id)
+ return relation_price.price if relation_price&.price
+ 
+ # 2. Fall back to category markup
+ # 3. Fall back to global default
 end
 
 # Final price = base_price + sum(markups_in_chain)
@@ -157,11 +157,11 @@ end
 
 #### Producer Dashboard
 - **My Store**: Items they've created and own
-- **Requested**: Incoming requests for their items  
+- **Requested**: Incoming requests for their items 
 - **Shipped**: Items they've sent out
 - **Around**: Geographic area items
 
-#### Broker/Retailer Dashboard  
+#### Broker/Retailer Dashboard 
 - **Available**: Items they can purchase from network
 - **Requested**: Items they've requested from others
 - **Holding**: Items they own (received inventory)
@@ -176,7 +176,7 @@ end
 ```javascript
 // platform/src/components/inventory/sections/
 available.js - Browse and request items
-requested.js - Track pending requests  
+requested.js - Track pending requests 
 holding.js - Manage owned inventory
 shipped.js - View shipping history
 my.js - Manage personal store items
@@ -212,7 +212,7 @@ POST /v1/users/accept_invitation - Join network via invitation code
 ### Services (docker-compose.yml)
 ```yaml
 backend: Rails API (port 3001)
-frontend: React app (port 3000)  
+frontend: React app (port 3000) 
 db: MySQL 8.0
 ```
 
@@ -238,19 +238,19 @@ db: MySQL 8.0
 ## Ready for Mutual Credit Enhancement
 
 ### Strong Foundation
-✅ **User relationship network** established  
-✅ **Multi-hop routing** algorithm working  
-✅ **Complex state management** for supply chains  
-✅ **Role-based permissions** system  
-✅ **Transaction completion** hooks for credit creation  
-✅ **Pricing/markup** infrastructure  
+ **User relationship network** established 
+ **Multi-hop routing** algorithm working 
+ **Complex state management** for supply chains 
+ **Role-based permissions** system 
+ **Transaction completion** hooks for credit creation 
+ **Pricing/markup** infrastructure 
 
 ### Extension Points
-✅ **Relationship model** can add credit_limit fields  
-✅ **ItemRequest.sign** can create credit transactions  
-✅ **User model** can track credit balances  
-✅ **Dashboard** can add financial overview sections  
-✅ **API controllers** can add credit management endpoints  
+ **Relationship model** can add credit_limit fields 
+ **ItemRequest.sign** can create credit transactions 
+ **User model** can track credit balances 
+ **Dashboard** can add financial overview sections 
+ **API controllers** can add credit management endpoints 
 
 The current system is perfectly positioned to evolve into a mutual credit platform with minimal disruption to existing functionality.
 

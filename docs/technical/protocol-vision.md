@@ -24,6 +24,36 @@ Most "decentralized private" ambitions founder on problems that don't exist in F
 
 ---
 
+## Credit loops, not settlement — the foundational economic insight
+
+The single insight that shapes everything downstream. In traditional finance, debts accumulate and must eventually be paid with money from outside the system. In mutual credit at network scale, **debts circulate and cancel**. Real goods and services move; trust relationships absorb all the accounting. No settlement required, ever, in the ideal case.
+
+### The mechanism: credloops
+
+Concrete example:
+
+- Alice owes Bob $100 (fees she borrowed through him)
+- Bob bought tomatoes from Carol: owes Carol $100
+- Carol hired Alice for garden labor: owes Alice $100
+
+Cycle detected → all three debts net to zero. Three people exchanged three real things, and the ledger simply closes the triangle. Nobody needed cash. Nobody needed a bank. Detecting and canceling credit loops (credloops) is the single most important operational function of a mature mutual credit network.
+
+### What this means for the system
+
+- **Debts are fuel for circulation, not obligations to individually pay off.** They're destined for cycle discovery, not explicit settlement.
+- **Credit loop discovery is mission-critical infrastructure.** Distributed cycle-finding runs continuously; if cycles don't get found and canceled, debt accumulates and the system degrades toward traditional finance.
+- **The right health metrics change.** Not transaction volume — instead: *velocity of credit*, *percentage of debts canceled via loops*, *mean debt age before netting*. A healthy network doesn't accumulate much outstanding debt.
+
+### Why graph density matters
+
+Credit loops need a dense, diverse, frequently-trading graph. Tight community networks produce loops naturally; sparse one-off-strangers markets don't. This is why the community-first starting point isn't just a go-to-market strategy — it's **the structural condition that makes mutual credit actually operate without settlement**. Subnets preserve graph density as the network scales.
+
+### The philosophical payoff
+
+If the community trades enough, money is never needed. The social graph becomes the economy. Resilience means the ability to keep trading regardless of external financial conditions — not "we use crypto instead of dollars" but "we've built a credit fabric dense enough to route around needing currency at all." This is what David Graeber argued in *Debt: The First 5000 Years*: most human economic history was credit-based, with debts cycling through village-scale social networks. Cash economies are the anomaly. Mutual credit rediscovers the older pattern at software-enabled scale.
+
+---
+
 ## Three layers
 
 The system is built in three logical layers, each with pluggable implementations.

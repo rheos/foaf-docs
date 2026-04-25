@@ -1,0 +1,111 @@
+site_name: FOAF Foundation
+site_description: Decentralized trust infrastructure for community-scale value exchange
+site_url: https://docs.foaf.foundation
+repo_url: https://github.com/rheos/foaf-docs
+repo_name: rheos/foaf-docs
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: deep purple
+      accent: pink
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Red Hat Display
+    code: JetBrains Mono
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.tabs.link
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/rheos/foaf-docs
+      name: FOAF on GitHub
+
+nav:
+  - Home: index.md
+  - GrowOperative:
+      - Pitch: growoperative/pitch.md
+      - Pitch Deck: growoperative/pitch-deck.md
+      - Onboarding: growoperative/onboarding.md
+      - Decentralization Roadmap: growoperative/decentralization-roadmap.md
+      - AI Integration: growoperative/ai-integration.md
+  - FOAF Foundation:
+      - Overview: foaf-foundation/overview.md
+      - Governance: foaf-foundation/governance.md
+      - DAO Transition: foaf-foundation/dao-transition.md
+      - Tokenomics: foaf-foundation/tokenomics.md
+      - Fee Structure: foaf-foundation/fee-structure.md
+      - Treasury & Operations: foaf-foundation/treasury-and-operations.md
+      - Team Vesting: foaf-foundation/team-vesting.md
+      - Ecosystem: foaf-foundation/ecosystem.md
+      - Whitepaper: foaf-foundation/whitepaper.md
+  - FOAF Marketplace:
+      - Vision: foaf-marketplace/vision.md
+      - Roadmap: foaf-marketplace/roadmap.md
+  - Technical:
+      - Overview: technical/overview.md
+      - Architecture: technical/architecture.md
+      - Protocol Vision: technical/protocol-vision.md
+      - Roadmap: technical/roadmap.md
+      - Node Operators: technical/node-operators.md
+  - Community:
+      - Contribution: community/contribution.md
+      - Airdrops: community/airdrops.md
+  - Education:
+      - FAQ: education/faq.md
+      - Explainer Guide: education/explainer-guide.md
+  - Funding:
+      - Strategy: funding/strategy.md
+      - Seed Round: funding/seed-round.md

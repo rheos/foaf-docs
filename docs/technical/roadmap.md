@@ -22,8 +22,8 @@ This roadmap outlines the phased development of the FOAF ecosystem. It begins wi
 
 - Produce onboarding videos explaining listing, trust-based trades, and settlement paths
 - Begin grassroots outreach to early resilience hubs
-- Raise $300K to fund development, apps, content, and infrastructure  
-  (see [pitch deck](../growoperative/pitch-deck.md))
+- Raise $300K to fund development, apps, content, and infrastructure 
+ (see [pitch deck](../growoperative/pitch-deck.md))
 
 ---
 
@@ -57,8 +57,8 @@ This roadmap outlines the phased development of the FOAF ecosystem. It begins wi
 
 ### Airdrop Distribution
 
-- Execute token airdrops for early contributors and trust chain participants  
-  (see [airdrops](../../community/airdrops.md))
+- Execute token airdrops for early contributors and trust chain participants 
+ (see [airdrops](../community/airdrops.md))
 
 ### Refinement and Engagement
 
@@ -77,8 +77,8 @@ This roadmap outlines the phased development of the FOAF ecosystem. It begins wi
 
 ### Governance Transition
 
-- Empower DAO with full authority over fees, upgrades, and contributor rewards  
-  (see [dao-transition](../foaf-foundation/dao-transition.md))
+- Empower DAO with full authority over fees, upgrades, and contributor rewards 
+ (see [dao-transition](../foaf-foundation/dao-transition.md))
 
 - Begin treasury-funded bounties and community-driven protocol improvements
 

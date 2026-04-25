@@ -10,30 +10,30 @@ We believe people and communities can support each other directly, without alway
 
 ## Our Mission
 
-- **Replace Fiat Dependence**  
-  Make it possible for people to meet everyday needs through mutual credit and trust rather than money.
+- **Replace Fiat Dependence** 
+ Make it possible for people to meet everyday needs through mutual credit and trust rather than money.
 
-- **Strengthen Local Economies**  
-  Help communities increase their capacity to support one another through trade, shared resources, and personal connection.
+- **Strengthen Local Economies** 
+ Help communities increase their capacity to support one another through trade, shared resources, and personal connection.
 
-- **Govern Together**  
-  Operate as a DAO where decisions are made collectively by those who participate and contribute.
+- **Govern Together** 
+ Operate as a DAO where decisions are made collectively by those who participate and contribute.
 
 ## Why FOAF?
 
 **This is infrastructure, not speculation.** FOAF represents 7+ years of consistent development toward cooperative economics. We deployed our token during the 2018 crypto winter when builders were focused on utility, not hype. We've spent the years since developing the actual protocol that gives these tokens meaning.
 
-- **Proven Commitment**  
-  Our founding team held 100% of tokens through multiple market cycles without selling, demonstrating long-term vision over short-term gains.
+- **Proven Commitment** 
+ Our founding team held 100% of tokens through multiple market cycles without selling, demonstrating long-term vision over short-term gains.
 
-- **Rooted in Trust**  
-  The network uses friend-of-a-friend connections to route credit and access. People exchange through social trust paths, which increases accountability and creates space for cooperation.
+- **Rooted in Trust** 
+ The network uses friend-of-a-friend connections to route credit and access. People exchange through social trust paths, which increases accountability and creates space for cooperation.
 
-- **Accessible by Design**  
-  Anyone can participate through custodial wallets that require zero crypto knowledge. RHEO flows through trust paths in the background, allowing users to contribute and trade without technical barriers.
+- **Accessible by Design** 
+ Anyone can participate through custodial wallets that require zero crypto knowledge. RHEO flows through trust paths in the background, allowing users to contribute and trade without technical barriers.
 
-- **Grows with the Community**  
-  We are starting with food surplus and garden exchange. But this framework can grow to support tools, services, childcare, repairs, and more. FOAF adapts to what each community values and wants to share.
+- **Grows with the Community** 
+ We are starting with food surplus and garden exchange. But this framework can grow to support tools, services, childcare, repairs, and more. FOAF adapts to what each community values and wants to share.
 
 We support what people already know how to do: grow food, help neighbors, and trade what they have. FOAF gives them a simple structure to do more of it, and to do it with trust and resilience in mind.
 
@@ -41,7 +41,7 @@ We support what people already know how to do: grow food, help neighbors, and tr
 
 Our first application is called **GrowOperative**. It helps people share homegrown food and other goods within their social circles. It is simple and local, but it is also a gateway to something much larger. GrowOperative gives people a way to experience mutual credit in action, and to build the trust connections that will support broader economic participation over time.
 
-📂 [Explore the GrowOperative docs](./growoperative/)
+ [Explore the GrowOperative docs](../growoperative/pitch.md)
 
 ## Our Documents
 
@@ -55,9 +55,9 @@ The project is organized so that contributors and readers can find what they nee
 
 After years of protocol development, 2026 marks FOAF's public launch:
 
-**Q1-Q2:** Community funding through Canadian exemptions  
-**Q3:** International expansion via regulatory-friendly jurisdictions  
-**Q4:** Global token distribution and GrowOperative alpha launch  
+**Q1-Q2:** Community funding through Canadian exemptions 
+**Q3:** International expansion via regulatory-friendly jurisdictions 
+**Q4:** Global token distribution and GrowOperative alpha launch 
 **2027+:** Full protocol deployment on Radix with community governance
 
 **We're not building from zero.** We're activating mature infrastructure that's been thoughtfully developed for cooperative economics. The foundation exists. Now we're opening it to the communities it's designed to serve.

@@ -4,7 +4,7 @@
 
 ---
 
-## 🚧 The Problem: Cash Scarcity & System Fatigue
+## The Problem: Cash Scarcity & System Fatigue
 
 Local communities are held back by two core problems:
 
@@ -15,41 +15,41 @@ Result: surplus is wasted, coordination is lost, and community resilience declin
 
 ---
 
-## 🌱 Our Solution: Mutual Credit on a Decentralized Ledger
+## Our Solution: Mutual Credit on a Decentralized Ledger
 
 **GrowOperative** is a mobile app that helps gardeners share their surplus produce through peer-to-peer coordination — powered by trust-based networks and decentralized infrastructure.
 
 ### Core Features:
-- **Offer Marketplace**  
-  Users list what they have to share (e.g., tomatoes, greens, seedlings). This version does not include public requests — discovery is based on supply and social connections. Future FOAF marketplace versions will include full offer-and-request capability.
+- **Offer Marketplace** 
+ Users list what they have to share (e.g., tomatoes, greens, seedlings). This version does not include public requests — discovery is based on supply and social connections. Future FOAF marketplace versions will include full offer-and-request capability.
 
-- **Flexible Settlement**  
-  Trades can settle in:
-  - **Cash (broadly defined)** – including eTransfer, PayPal, Venmo, or in-person. The payer marks the transaction as sent; the receiver confirms receipt in the app.
-  - **Mutual Credit** – ledger-tracked IOUs in local currency, settled later via any method agreed by the parties
-  - **RHEO** – a utility token used for all system fees and optional trade settlement
+- **Flexible Settlement** 
+ Trades can settle in:
+ - **Cash (broadly defined)** – including eTransfer, PayPal, Venmo, or in-person. The payer marks the transaction as sent; the receiver confirms receipt in the app.
+ - **Mutual Credit** – ledger-tracked IOUs in local currency, settled later via any method agreed by the parties
+ - **RHEO** – a utility token used for all system fees and optional trade settlement
 
-  The app facilitates transparency and record-keeping — but users handle payment directly in whatever form works best for them.
+ The app facilitates transparency and record-keeping — but users handle payment directly in whatever form works best for them.
 
-- **Smart Fee Model**  
-  - **3% of trade value** in RHEO for standard transactions  
-  - **3% of markup** (in RHEO) for multi-hop intermediaries — so someone making $100 pays $3, while a $1 markup costs only $0.03  
-  - **Small action fees** (e.g., 0.25 RHEO to list)
+- **Smart Fee Model** 
+ - **3% of trade value** in RHEO for standard transactions 
+ - **3% of markup** (in RHEO) for multi-hop intermediaries — so someone making $100 pays $3, while a $1 markup costs only $0.03 
+ - **Small action fees** (e.g., 0.25 RHEO to list)
 
-  Fees are **proportional to value created**, making the system fair, scalable, and microtransaction-friendly.
+ Fees are **proportional to value created**, making the system fair, scalable, and microtransaction-friendly.
 
 ---
 
-## 🔗 Token System
+## Token System
 
 ### FOAF Token
-- Fixed 25M supply  
-- Used for governance, staking, and long-term alignment  
+- Fixed 25M supply 
+- Used for governance, staking, and long-term alignment 
 - FOAF holders stake to generate RHEO and vote on system parameters
 
 ### RHEO Token
-- Required utility token for all platform fees and trade settlement  
-- Dynamic, non-pegged supply; for illustration, early onboarding assumes ~1 RHEO ≈ $1 CAD  
+- Required utility token for all platform fees and trade settlement 
+- Dynamic, non-pegged supply; for illustration, early onboarding assumes ~1 RHEO ≈ $1 CAD 
 - Flows through the network automatically via trust connections
 
 > Users don’t need to hold RHEO directly. When a trade or action requires RHEO, it is passed through the social trust chain — ultimately originating from a FOAF holder. Those FOAF stakers generate RHEO and extend it across their contact networks, creating transparent credit relationships. As long as someone in your extended network holds FOAF, you can fully participate.
@@ -58,7 +58,7 @@ This architecture keeps the experience simple for non-technical users while main
 
 ---
 
-## 🌍 Market Opportunity
+## Market Opportunity
 
 - **Gardening First**: 35% of U.S. households garden, often producing more than they can use
 - **Global Relevance**: Communities from the Kootenays to Asheville need better local exchange tools
@@ -66,7 +66,7 @@ This architecture keeps the experience simple for non-technical users while main
 
 ---
 
-## 🧠 The Team
+## The Team
 
 - **Project Lead** – Strategy and system design
 - **Lead Developer** – Platform and ledger architecture
@@ -76,7 +76,7 @@ This architecture keeps the experience simple for non-technical users while main
 
 ---
 
-## 💸 The Ask: $300K Seed Round
+## The Ask: $300K Seed Round
 
 We’re raising **$300,000** to:
 - Finalize the GrowOperative app and RHEO integration
@@ -84,20 +84,20 @@ We’re raising **$300,000** to:
 - Fund explainer content, node operator infrastructure, and scaling
 - Begin transition to a full dApp in Q4 2023
 
-Detailed breakdown available in the [Pitch Deck (Page 13)](../../growoperative/pitch-deck.md)
+Detailed breakdown available in the [Pitch Deck (Page 13)](pitch-deck.md)
 
 ---
 
-## 🌟 Why It Matters
+## Why It Matters
 
 GrowOperative isn’t just an app — it’s a **blueprint for post-fiat community infrastructure**:
 
-- **Fiat-optional local trade**, powered by trust and transparent networks  
-- **Decentralized, user-aligned value routing**, without centralized gatekeepers  
+- **Fiat-optional local trade**, powered by trust and transparent networks 
+- **Decentralized, user-aligned value routing**, without centralized gatekeepers 
 - **Sustainable economics**, with rewards tied to real value creation
 
-It starts in the garden — but it scales to every corner of resilient community life.  
+It starts in the garden — but it scales to every corner of resilient community life. 
 **A system where value stays local and grows outward.**
 
-Learn more in our [Tokenomics](../../foaf-foundation/tokenomics.md) and [Fee Structure](../../foaf-foundation/fee-structure.md).
+Learn more in our [Tokenomics](../foaf-foundation/tokenomics.md) and [Fee Structure](../foaf-foundation/fee-structure.md).
 
