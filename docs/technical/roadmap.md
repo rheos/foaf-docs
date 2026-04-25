@@ -78,7 +78,7 @@ This roadmap outlines the phased development of the FOAF ecosystem. It begins wi
 ### Governance Transition
 
 - Empower DAO with full authority over fees, upgrades, and contributor rewards 
- (see [dao-transition](../foaf-foundation/dao-transition.md))
+ (see [dao-transition](../foundation/dao-transition.md))
 
 - Begin treasury-funded bounties and community-driven protocol improvements
 
@@ -91,4 +91,4 @@ This roadmap outlines the phased development of the FOAF ecosystem. It begins wi
 - **Self Funding**: Every trade sustains the network through small RHEO flows
 - **Growth by Trust**: Trade expands through social networks, not ads or extractive platforms
 
-Explore more in [architecture](./architecture.md), [tokenomics](../foaf-foundation/tokenomics.md), and [vision](../foaf-marketplace/vision.md).
+Explore more in [architecture](./architecture.md), [tokenomics](../foundation/tokenomics.md), and [vision](../foaf-marketplace/vision.md).

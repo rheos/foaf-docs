@@ -272,4 +272,4 @@ These seams were drawn in the right places from the start.
 - [Technical roadmap](./roadmap.md)
 - [Decentralization roadmap](../growoperative/decentralization-roadmap.md)
 - [FOAF Marketplace vision](../foaf-marketplace/vision.md)
-- [Foundation governance](../foaf-foundation/governance.md)
+- [Foundation governance](../foundation/governance.md)

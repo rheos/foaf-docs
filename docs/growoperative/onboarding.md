@@ -87,4 +87,4 @@
 
 GrowOperative helps turn your surplus into value and community power — join the movement for local resilience.
 
-Explore more in [pitch](./pitch.md), [fee structure](../foaf-foundation/fee-structure.md), and [airdrops](../community/airdrops.md).
+Explore more in [pitch](./pitch.md), [fee structure](../foundation/fee-structure.md), and [airdrops](../community/airdrops.md).

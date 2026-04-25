@@ -70,4 +70,4 @@ This is not just about food. It is about creating an entire economic layer that 
 
 If you can grow something, fix something, teach something, or simply connect people, you can participate. The FOAF Marketplace is for anyone who wants to reduce reliance on cash and reconnect with what makes a local economy thrive.
 
-Explore more in [tokenomics](../foaf-foundation/tokenomics.md), [fee structure](../foaf-foundation/fee-structure.md), and [contribution opportunities](../community/contribution.md).
+Explore more in [tokenomics](../foundation/tokenomics.md), [fee structure](../foundation/fee-structure.md), and [contribution opportunities](../community/contribution.md).

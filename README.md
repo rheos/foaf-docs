@@ -20,7 +20,7 @@ The FOAF Foundation is a community-led DAO building practical tools for food sov
 
 ## 📚 Explore the Docs
 
-- [FOAF Foundation Overview](./docs/foaf-foundation/overview.md) – Governance, tokenomics, and vision
+- [FOAF Foundation Overview](./docs/foundation/overview.md) – Governance, tokenomics, and vision
 - [GrowOperative Project](./docs/growoperative/) – Community-powered trade in action
 - [Technical Roadmap](./docs/technical/roadmap.md) – Development milestones and next steps
 

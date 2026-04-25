@@ -81,4 +81,4 @@ All activity must be verifiable through the app or trusted contact linkages. Ref
 2. Complete at least one qualifying task
 3. FOAF tokens are issued to your wallet with onboarding guidance
 
-Explore more in [tokenomics](../foaf-foundation/tokenomics.md) and [growoperative onboarding](../growoperative/onboarding.md).
+Explore more in [tokenomics](../foundation/tokenomics.md) and [growoperative onboarding](../growoperative/onboarding.md).

@@ -86,4 +86,4 @@
 
 ---
 
-Explore more in [pitch](./pitch.md), [tokenomics](../foaf-foundation/tokenomics.md), and [onboarding](./onboarding.md).
+Explore more in [pitch](./pitch.md), [tokenomics](../foundation/tokenomics.md), and [onboarding](./onboarding.md).

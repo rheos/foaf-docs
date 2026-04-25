@@ -52,7 +52,7 @@ You don't need to be a coder to help — feedback, outreach, and community build
 
 - **Respect**: Collaborate kindly, valuing diverse perspectives.
 - **Standards**: Use markdown for docs, follow Ruby/React conventions for code.
-- **Alignment**: Focus on resilience, inclusion, and decentralization (see [overview](../foaf-foundation/overview.md)).
+- **Alignment**: Focus on resilience, inclusion, and decentralization (see [overview](../foundation/overview.md)).
 - **Pseudonymity**: You can contribute under a pseudonym using a wallet address — no legal name or ID required.
 
 ---
@@ -67,10 +67,10 @@ You don't need to be a coder to help — feedback, outreach, and community build
 
 ## Get Started
 
-- Explore [tokenomics](../foaf-foundation/tokenomics.md) for FOAF/RHEO details.
+- Explore [tokenomics](../foundation/tokenomics.md) for FOAF/RHEO details.
 - Check GitHub Issues for tasks or join airdrops ([airdrops](./airdrops.md)).
 - Watch explainer videos (Q2 2026) for app and contribution insights.
 
 Contribute to a movement for sustainable, resilient communities!
 
-Explore more in [fee-structure](../foaf-foundation/fee-structure.md) and [growoperative pitch](../growoperative/pitch.md).
+Explore more in [fee-structure](../foundation/fee-structure.md) and [growoperative pitch](../growoperative/pitch.md).
