@@ -22,7 +22,7 @@ The FOAF Foundation is a community-led initiative building practical tools for f
 
 **If you're new to FOAF**, these are the most useful entry points:
 
-- [What is FOAF?](foundation/overview.md) — The foundation, its purpose, and how it works
+- [What is FOAF?](about/overview.md) — The foundation, its purpose, and how it works
 - [GrowOperative Pitch](growoperative/pitch.md) — The first app, explained simply
 - [FAQ](education/faq.md) — Common questions answered
 - [FOAF Marketplace Vision](foaf-marketplace/vision.md) — Where we're headed beyond food
@@ -36,10 +36,10 @@ The FOAF Foundation is a community-led initiative building practical tools for f
 
 ## For Token / Economics Thinkers
 
-- [Tokenomics](foundation/tokenomics.md) — FOAF + RHEO token design
-- [Fee Structure](foundation/fee-structure.md) — How fees work (value-added model)
-- [Treasury & Operations](foundation/treasury-and-operations.md) — Foundation finances
-- [Whitepaper](foundation/whitepaper.md) — The full picture
+- [Tokenomics](about/tokenomics.md) — FOAF + RHEO token design
+- [Fee Structure](about/fee-structure.md) — How fees work (value-added model)
+- [Treasury & Operations](about/treasury-and-operations.md) — Foundation finances
+- [Whitepaper](about/whitepaper.md) — The full picture
 
 ## For Community Members
 

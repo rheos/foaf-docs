@@ -105,4 +105,4 @@ This document outlines the structure behind GrowOperative and the broader FOAF M
 
 ---
 
-Explore more in [technical roadmap](./roadmap.md), [tokenomics](../foundation/tokenomics.md), and [fee structure](../foundation/fee-structure.md).
+Explore more in [technical roadmap](./roadmap.md), [tokenomics](../about/tokenomics.md), and [fee structure](../about/fee-structure.md).

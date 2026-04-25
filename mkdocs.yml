@@ -82,15 +82,15 @@ nav:
       - Decentralization Roadmap: growoperative/decentralization-roadmap.md
       - AI Integration: growoperative/ai-integration.md
   - FOAF Foundation:
-      - Overview: foundation/overview.md
-      - Governance: foundation/governance.md
-      - DAO Transition: foundation/dao-transition.md
-      - Tokenomics: foundation/tokenomics.md
-      - Fee Structure: foundation/fee-structure.md
-      - Treasury & Operations: foundation/treasury-and-operations.md
-      - Team Vesting: foundation/team-vesting.md
-      - Ecosystem: foundation/ecosystem.md
-      - Whitepaper: foundation/whitepaper.md
+      - Overview: about/overview.md
+      - Governance: about/governance.md
+      - DAO Transition: about/dao-transition.md
+      - Tokenomics: about/tokenomics.md
+      - Fee Structure: about/fee-structure.md
+      - Treasury & Operations: about/treasury-and-operations.md
+      - Team Vesting: about/team-vesting.md
+      - Ecosystem: about/ecosystem.md
+      - Whitepaper: about/whitepaper.md
   - FOAF Marketplace:
       - Vision: foaf-marketplace/vision.md
       - Roadmap: foaf-marketplace/roadmap.md

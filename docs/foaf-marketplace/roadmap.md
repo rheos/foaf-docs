@@ -42,7 +42,7 @@ The Marketplace does not replace GrowOperative. It grows from it. By building on
 - Integrate reputation scoring to support delegation and routing confidence
 - Continue producing content that helps new communities launch independently
 - Finalize treasury mechanics and stake-based proposal system 
- (see [dao-transition](../foundation/dao-transition.md))
+ (see [dao-transition](../about/dao-transition.md))
 
 ---
 
@@ -90,4 +90,4 @@ The Marketplace does not replace GrowOperative. It grows from it. By building on
 
 ---
 
-Explore more in [vision](./vision.md), [technical roadmap](../technical/roadmap.md), and [tokenomics](../foundation/tokenomics.md).
+Explore more in [vision](./vision.md), [technical roadmap](../technical/roadmap.md), and [tokenomics](../about/tokenomics.md).

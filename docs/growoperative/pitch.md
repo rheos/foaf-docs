@@ -99,5 +99,5 @@ GrowOperative isn’t just an app — it’s a **blueprint for post-fiat communi
 It starts in the garden — but it scales to every corner of resilient community life. 
 **A system where value stays local and grows outward.**
 
-Learn more in our [Tokenomics](../foundation/tokenomics.md) and [Fee Structure](../foundation/fee-structure.md).
+Learn more in our [Tokenomics](../about/tokenomics.md) and [Fee Structure](../about/fee-structure.md).
 
