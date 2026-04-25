@@ -7,7 +7,7 @@ The **FOAF Foundation** is a Decentralized Autonomous Organization (DAO) designe
 ## Transition Plan
 
 - **Current State (2025)** 
- The FOAF Foundation is stewarded by a founding team (see [team in pitch-deck](../growoperative/pitch-deck.md)) managing the GrowOperative PWA and initial token distribution.
+ The FOAF Foundation is stewarded by a founding team (see [team in pitch](../growoperative/pitch.md)) managing the GrowOperative PWA and initial token distribution.
 
 - **Q3–Q4 2025** 
  A phased shift to DAO governance with key milestones:

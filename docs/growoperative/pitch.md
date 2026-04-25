@@ -1,103 +1,119 @@
-# GrowOperative Pitch
+# GrowOperative pitch
 
-**GrowOperative** is the first application of the **FOAF Foundation**, introducing mutual credit and decentralized trade to empower local communities — starting with surplus food from backyard gardens.
+GrowOperative is the first application of the FOAF Foundation. It helps neighbors share surplus food using a mutual credit system that runs through trusted social connections rather than banks or payment processors. We've already soft-launched in Crawford Bay, BC, and the underlying infrastructure has been in development since the FOAF token contract was deployed to Ethereum in December 2018.
 
----
+## The problem
 
-## The Problem: Cash Scarcity & System Fatigue
+Local food systems are caught between abundance and inaccessibility. Backyard gardens produce more than households can use, while neighbors three doors down can't easily get any of it. Volunteer-run exchange networks (LETS, time banks, community currencies) keep collapsing because the people who maintain them aren't compensated. Cash scarcity stops people from trading even when they have value to offer.
 
-Local communities are held back by two core problems:
+Up to 40% of food gets wasted before reaching consumers. 820M people face hunger globally despite local production capacity. Small producers can't easily access markets or credit, so they grow less. The infrastructure to connect what people grow with what their neighbors need just doesn't exist at the right scale.
 
-- **Fiat Dependence**: When money is tight, people stop trading — even when they have value to offer.
-- **Volunteer Burnout**: Traditional LETS (Local Exchange Trading Systems) collapse because those maintaining them aren’t compensated.
+## Why now
 
-Result: surplus is wasted, coordination is lost, and community resilience declines.
+Several trends are converging at once.
 
----
+The real food movement has reached critical mass. 77M U.S. households now garden, generating $47B in economic activity, and the $12B farmers market industry has been growing 8% per year. Demand for local food is outpacing the infrastructure that connects it.
 
-## Our Solution: Mutual Credit on a Decentralized Ledger
+Blockchain infrastructure has finally matured enough for non-speculative use. Networks like Radix support actual community-scale applications, not just DeFi. Post-pandemic, community resilience is no longer a fringe priority. Climate urgency is forcing local food system alternatives to scale up.
 
-**GrowOperative** is a mobile app that helps gardeners share their surplus produce through peer-to-peer coordination — powered by trust-based networks and decentralized infrastructure.
+Technology has caught up too. We rebuilt the entire app frontend in under ten days of focused work using AI-assisted development that wasn't possible even a year ago. What used to require a team of five for six months now requires one developer with the right tools.
 
-### Core Features:
-- **Offer Marketplace** 
- Users list what they have to share (e.g., tomatoes, greens, seedlings). This version does not include public requests — discovery is based on supply and social connections. Future FOAF marketplace versions will include full offer-and-request capability.
+## What we're building
 
-- **Flexible Settlement** 
- Trades can settle in:
- - **Cash (broadly defined)** – including eTransfer, PayPal, Venmo, or in-person. The payer marks the transaction as sent; the receiver confirms receipt in the app.
- - **Mutual Credit** – ledger-tracked IOUs in local currency, settled later via any method agreed by the parties
- - **RHEO** – a utility token used for all system fees and optional trade settlement
+GrowOperative is a mobile and web app that lets gardeners list surplus produce and arrange exchanges through their existing social network. Behind the app, the FOAF protocol routes transactions through trust paths instead of payment rails. People who provide value see their balance rise. People who receive value can pay back over time, in cash, or by giving value forward to someone else in the network.
 
- The app facilitates transparency and record-keeping — but users handle payment directly in whatever form works best for them.
+There's no required token to participate. No wallet setup. No crypto literacy. The mutual credit ledger uses local fiat as the unit of account ($2.50 per pound of tomatoes, $15 for a couple hours of help with the garden) and the protocol handles the routing.
 
-- **Smart Fee Model** 
- - **3% of trade value** in RHEO for standard transactions 
- - **3% of markup** (in RHEO) for multi-hop intermediaries — so someone making $100 pays $3, while a $1 markup costs only $0.03 
- - **Small action fees** (e.g., 0.25 RHEO to list)
+## How it works
 
- Fees are **proportional to value created**, making the system fair, scalable, and microtransaction-friendly.
+A concrete example.
 
----
+Maria is an urban farmer with extra microgreens. James runs a restaurant that needs them. They don't know each other. Their mutual friend Sarah is connected to both. When James searches the app, Maria's listing appears because the trust path through Sarah is short enough to surface it.
 
-## Token System
+James reserves the microgreens. Maria delivers. The transaction settles in cash, in mutual credit, or in any combination they agree on. The ledger records who owes what to whom, routed transparently through the trust path. Each intermediary in a multi-hop chain earns a small premium for the role they played in making the connection possible.
 
-### FOAF Token
-- Fixed 25M supply 
-- Used for governance, staking, and long-term alignment 
-- FOAF holders stake to generate RHEO and vote on system parameters
+Technology enabling what communities already want to do.
 
-### RHEO Token
-- Required utility token for all platform fees and trade settlement 
-- Dynamic, non-pegged supply; for illustration, early onboarding assumes ~1 RHEO ≈ $1 CAD 
-- Flows through the network automatically via trust connections
+## Token model
 
-> Users don’t need to hold RHEO directly. When a trade or action requires RHEO, it is passed through the social trust chain — ultimately originating from a FOAF holder. Those FOAF stakers generate RHEO and extend it across their contact networks, creating transparent credit relationships. As long as someone in your extended network holds FOAF, you can fully participate.
+FOAF is a fixed-supply governance and staking token, deployed to Ethereum in December 2018. Total supply is 25,000,000, indivisible, with the contract verified on Etherscan at [`0x51300E946bcd4850Db3bE28D1FcC4076Ba4a9288`](https://etherscan.io/token/0x51300E946bcd4850Db3bE28D1FcC4076Ba4a9288).
 
-This architecture keeps the experience simple for non-technical users while maintaining decentralized integrity and fair compensation for contributors.
+Holders can stake FOAF in two ways.
 
----
+* vFOAF (Vote-Escrowed FOAF) for flexible participation. Stake any time, unstake any time, basic governance weight, baseline operational utility generation.
+* rFOAF (Rooted FOAF) for committed long-term participation. Time-locked from six months to two years, with proportionally enhanced governance weight and operational utility generation.
 
-## Market Opportunity
+RHEO is the network's operational utility credit. It's generated by FOAF stakers and consumed by network operations. Users never need to hold RHEO directly. When a transaction needs to pay for processing, the cost flows through the user's trust path, originating from a FOAF holder who agreed to back that segment of the network. Each intermediary is compensated.
 
-- **Gardening First**: 35% of U.S. households garden, often producing more than they can use
-- **Global Relevance**: Communities from the Kootenays to Asheville need better local exchange tools
-- **Scalable Infrastructure**: Starts with food, expands to services, tools, and decentralized local logistics
+Through Phase 1 of the protocol (where we are now), all network fees are set to zero to maximize adoption. Fees activate progressively in Phase 3 once the protocol moves onto Radix Babylon, with rates governed by the DAO.
 
----
+## Status and credibility
 
-## The Team
+This isn't a pitch for vaporware.
 
-- **Project Lead** – Strategy and system design
-- **Lead Developer** – Platform and ledger architecture
-- **Junior Developer** – Front-end and QA
-- **Marketing Specialist** – Community outreach and onboarding
-- **UI/UX Designer** – Mobile-first simplicity and clarity
+* The FOAF token contract has been on Ethereum since December 2018, years before the wave of mid-2020s speculative tokens. It has never been distributed.
+* The GrowOperative app is functional and has been soft-launched in Crawford Bay, BC, with real users trading real food.
+* The mutual credit ledger and trust-path routing logic are running in production today, on Rails and MySQL, awaiting the protocol-layer migration to Radix.
+* iOS TestFlight build is ready, pending Apple Developer enrollment. App Store and Android follow.
 
----
+## Market opportunity
 
-## The Ask: $300K Seed Round
+Three tiers of opportunity, each larger than the last.
 
-We’re raising **$300,000** to:
-- Finalize the GrowOperative app and RHEO integration
-- Launch in gardening-rich, resilience-oriented communities
-- Fund explainer content, node operator infrastructure, and scaling
-- Begin transition to a full dApp in Q4 2023
+Immediate: the U.S. real food movement. 77M households garden, generating $47B in economic activity. The $12B farmers market industry is growing 8% annually. Local food demand is outpacing the supply infrastructure that hasn't kept up.
 
-Detailed breakdown available in the [Pitch Deck (Page 13)](pitch-deck.md)
+Scale: global food networks. The $8T global food market has massive distribution inefficiencies. 820M people face hunger despite local production capacity. Climate resilience is forcing local food system alternatives that the existing supply chain can't deliver.
 
----
+Future: trust-based commerce beyond food. Once mutual credit infrastructure exists for one trade type, it generalizes. Tools, services, labor, supply chain finance for small producers. The FOAF protocol is designed to support all of it.
 
-## Why It Matters
+## Roadmap
 
-GrowOperative isn’t just an app — it’s a **blueprint for post-fiat community infrastructure**:
+Phase 1 (where we are): foundation and MVP. App functional. Crawford Bay soft-launched. All network fees at zero.
 
-- **Fiat-optional local trade**, powered by trust and transparent networks 
-- **Decentralized, user-aligned value routing**, without centralized gatekeepers 
-- **Sustainable economics**, with rewards tied to real value creation
+Phase 2 (2026): alpha launch and FOAF distribution. Native iOS via TestFlight, then App Store. International foundation incorporation in Dubai DIFC. Strategic token round. First broad airdrops via custodial wallets.
 
-It starts in the garden — but it scales to every corner of resilient community life. 
-**A system where value stays local and grows outward.**
+Phase 3 (Q4 2026 onward): Radix Babylon deployment. vFOAF and rFOAF staking goes live. Fees activate progressively. DAO governance takes effect.
 
-Learn more in our [Tokenomics](../about/tokenomics.md) and [Fee Structure](../about/fee-structure.md).
+Phase 4 (2027+): full dApp on Radix Hyperscale. New applications build on the FOAF protocol (services, labor, tools). Cross-subnet credit clearing.
 
+## The team
+
+Lean by design.
+
+The founder is the primary builder, with 2+ years on the GrowOperative MVP, full-stack development, and system architecture. Hiring with this round:
+
+* Part-time development support for targeted features and platform polish
+* Smart contract specialist for RHEO contract design and audit prep, as a one-time engagement
+* UI/UX designer for a two-month sprint on refinement and marketing assets
+* Growth and marketing lead for community outreach and investor narrative
+* Content creator for ongoing video and written material
+* Strategic advisors with aligned values
+
+We're looking for collaborators who care about the mission, not just employees who execute specs.
+
+## The ask
+
+We're raising $300,000 to:
+
+* Run operations and modest team compensation through the next twelve months ($91K)
+* Fund marketing and community growth, including paid promotion, regional outreach, and an ambassador program ($98K)
+* Cover legal counsel, securities review, and Dubai DIFC foundation incorporation ($35K)
+* Complete smart contract audits and DAO tooling buildout ($23K)
+* Cover infrastructure, hosting, and development hardware ($8K)
+* Maintain a 15% contingency reserve ($45K)
+
+Detailed breakdown in [Seed Round Budget](../funding/seed-round.md).
+
+## Vision
+
+Three phases of impact.
+
+Community: every neighborhood can coordinate the abundance it already has. Surplus food finds the people who need it.
+
+Regional: real food economies start to circulate value among themselves. Producers, restaurants, retailers, and consumers transact through trust networks instead of paying rent to intermediaries.
+
+Global: the protocol underneath GrowOperative becomes infrastructure for any local economy. Food sovereignty in cash-scarce places. Cross-community credit clearing. Beyond food, the same protocol supports services, tools, labor, and supply chain finance.
+
+Every community can feed itself, and trade with itself, through networks it actually controls.
+
+Learn more in [Tokenomics](../about/tokenomics.md), [Fee Structure](../about/fee-structure.md), and [Governance](../about/governance.md).

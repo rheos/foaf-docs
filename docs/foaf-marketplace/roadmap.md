@@ -13,7 +13,7 @@ The Marketplace does not replace GrowOperative. It grows from it. By building on
 - Begin design and development for multi-category trade listings
 - Produce explainer videos to prepare the community for broader use
 - Raise $300K to support mobile apps, infrastructure, and outreach 
- (see [pitch deck](../growoperative/pitch-deck.md))
+ (see [pitch](../growoperative/pitch.md))
 
 ---
 

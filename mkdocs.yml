@@ -77,7 +77,7 @@ nav:
   - Home: index.md
   - GrowOperative:
       - Pitch: growoperative/pitch.md
-      - Pitch Deck: growoperative/pitch-deck.md
+      - Pitch Design Notes: growoperative/pitch-design-notes.md
       - Onboarding: growoperative/onboarding.md
       - Decentralization Roadmap: growoperative/decentralization-roadmap.md
       - AI Integration: growoperative/ai-integration.md

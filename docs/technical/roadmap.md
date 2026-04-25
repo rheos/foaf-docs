@@ -23,7 +23,7 @@ This roadmap outlines the phased development of the FOAF ecosystem. It begins wi
 - Produce onboarding videos explaining listing, trust-based trades, and settlement paths
 - Begin grassroots outreach to early resilience hubs
 - Raise $300K to fund development, apps, content, and infrastructure 
- (see [pitch deck](../growoperative/pitch-deck.md))
+ (see [pitch](../growoperative/pitch.md))
 
 ---
 
