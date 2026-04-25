@@ -6,13 +6,13 @@ GrowOperative is the first application of the FOAF Foundation. It helps neighbor
 
 Local food systems are caught between abundance and inaccessibility. Backyard gardens produce more than households can use, while neighbors three doors down can't easily get any of it. Volunteer-run exchange networks (LETS, time banks, community currencies) keep collapsing because the people who maintain them aren't compensated. Cash scarcity stops people from trading even when they have value to offer.
 
-Up to 40% of food gets wasted before reaching consumers. 820M people face hunger globally despite local production capacity. Small producers can't easily access markets or credit, so they grow less. The infrastructure to connect what people grow with what their neighbors need just doesn't exist at the right scale.
+About a third of all food produced globally is lost or wasted, most of it at the household, retail, and food service stage rather than on farms (UN FAO). 673 million people went hungry worldwide in 2024 and 2.3 billion are food insecure, despite local production capacity that could often meet local need. Small producers can't easily access markets or credit, so they grow less than they could. The infrastructure to connect what people grow with what their neighbors need just doesn't exist at the right scale.
 
 ## Why now
 
 Several trends are converging at once.
 
-The real food movement has reached critical mass. 77M U.S. households now garden, generating $47B in economic activity, and 18.3M of them are new since 2020. The $12B farmers market industry has been growing 8% per year. Demand for local food is outpacing the infrastructure that connects it.
+The real food movement has reached critical mass. 122M U.S. households participated in lawn and garden activity in 2025, spending $52B (National Gardening Survey 2025). 43% of Americans now grow at least some food at home, up from about 35% a few years earlier, and 71% reported planning a food garden this year. Meanwhile farmers market growth has stagnated since 2017. Supply-side enthusiasm is well ahead of the distribution infrastructure meant to circulate it.
 
 Blockchain infrastructure has finally matured enough for non-speculative use. Networks like Radix support actual community-scale applications, not just DeFi. Post-pandemic, community resilience is no longer a fringe priority. Climate urgency is forcing local food system alternatives to scale up.
 
@@ -62,9 +62,9 @@ This isn't a pitch for vaporware.
 
 Three tiers of opportunity, each larger than the last.
 
-Immediate: the U.S. real food movement. 77M households garden, generating $47B in economic activity. The $12B farmers market industry is growing 8% annually. Local food demand is outpacing the supply infrastructure that hasn't kept up.
+Immediate: the U.S. real food movement. 122M households participated in lawn and garden activity in 2025 ($52B in spending). 43% of Americans now grow some of their own food. Direct-to-consumer outlets like farmers markets have plateaued since 2017, leaving a widening gap between what's grown and what actually circulates locally.
 
-Scale: global food networks. The $8T global food market has massive distribution inefficiencies. 820M people face hunger despite local production capacity. Climate resilience is forcing local food system alternatives that the existing supply chain can't deliver.
+Scale: global food networks. The $8.7T global food market has massive distribution inefficiencies. 673M people went hungry worldwide last year and 2.3 billion are food insecure, often despite local production capacity that could meet local need. Climate resilience is forcing local food system alternatives that the existing supply chain can't deliver.
 
 Future: trust-based commerce beyond food. Once mutual credit infrastructure exists for one trade type, it generalizes. Tools, services, labor, supply chain finance for small producers. The FOAF protocol is designed to support all of it.
 
