@@ -100,6 +100,7 @@ nav:
       - Protocol Vision: technical/protocol-vision.md
       - Roadmap: technical/roadmap.md
       - Node Operators: technical/node-operators.md
+      - Bringing FOAF to Radix: technical/radix-bridge.md
   - Community:
       - Contribution: community/contribution.md
       - Airdrops: community/airdrops.md
