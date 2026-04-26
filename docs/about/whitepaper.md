@@ -28,7 +28,7 @@ The first is no native demand. Most attempts asked users to adopt mutual credit 
 
 The most striking case is Stellar. The chain has run continuous peer-to-peer trustline infrastructure and multi-hop pathfinding since 2014, with technical primitives essentially identical to what community mutual credit needs. It is alive, in active use, and its trustline graph contains millions of accounts. The peer-to-peer use case never emerged anyway. The trustlines that exist are between users and institutional anchors moving stablecoins and remittances, not between neighbors. The infrastructure was right and the application layer never showed up.
 
-The second is uncompensated coordination. Volunteers ran the systems, and volunteers eventually quit. Every long-running community currency hit this wall. The work of connecting people, vouching for them, and resolving disputes is real labor, and asking people to do it for free for years is asking too much.
+Native demand is only the precondition. The second failure mode is uncompensated coordination. Volunteers ran the systems, and volunteers eventually quit. Every long-running community currency hit this wall. The work of connecting people, vouching for them, and resolving disputes is real labor, and asking people to do it for free for years is asking too much.
 
 The third is no enforcement against free riders. When someone could accumulate debt and walk away with no consequence, honest participants stopped extending credit, and the network seized up. The systems that worked at scale either had institutional backing (WIR is a Swiss bank) or operated in tight communities where reputation alone was enforcement enough.
 
