@@ -2,102 +2,120 @@
 
 ## Introduction
 
-The FOAF Foundation is building a trust-based trading network that helps communities meet their needs without relying on cash or centralized systems. Using mutual credit, social trust paths, and transparent value routing, FOAF empowers people to exchange goods and services directly. This paper outlines the philosophy, architecture, token model, and roadmap behind the project.
+Most people have something to offer their neighbors. Most people need something their neighbors could provide. The thing in the way is usually money, and not having enough of it.
+
+FOAF is a protocol for trade between people who trust each other, or who trust someone who trusts them. It uses mutual credit instead of cash, routed through real social relationships instead of payment processors. This paper describes what is being built, why it has to be built this way, and how we get there.
 
 ---
 
 ## Vision
 
-Most people have something to offer, but lack easy ways to trade what they have for what they need. FOAF bridges that gap by replacing the need for cash with social credit and trust. Participants can grow food, fix tools, share skills, and support each other, even when money is tight.
+A working local economy does not require everyone to have money. It requires everyone to have something to offer and somewhere to offer it. The protocol exists to provide that somewhere.
 
-Many past projects have explored similar ideas - systems like Local Exchange Trading Systems (LETS), Community Exchange Systems (CES), and more recently, blockchain-based attempts at peer-to-peer credit and trust. These efforts helped define the space but often failed to scale because of complex interfaces, lack of incentives, or a missing social fabric. FOAF builds on what they introduced, grounding it in real-world relationships and a model where value flows automatically through trust paths.
+When someone grows more food than their household can eat, that surplus has value. When someone fixes their neighbor's bicycle, that has value. When a restaurant needs microgreens and a farmer down the road has them, that has value. The work the protocol does is to record and route the value, so that none of it has to evaporate just because the cash to settle is not in the room.
 
-We are not inventing these ideas from scratch. Mutual credit, community exchange, and reputation-based trust have been explored before. FOAF builds on these insights with tools that are simple, scalable, and rooted in everyday relationships.
-
----
-
-## GrowOperative and the First Use Case
-
-GrowOperative is the first application built on the FOAF protocol. It helps neighbors share surplus food using the same trust-based credit system that will eventually power a much broader range of local economies.
-
-The app allows users to list garden produce, request what they need, and fulfill orders through personal contact networks. While the MVP supports listing and delivery, upcoming releases will integrate mutual credit tracking and allow participants to earn and spend credit directly inside the app.
-
-This first use case was chosen intentionally. Food is immediate, tangible, and deeply local. By starting with a need that is universal and recurring, FOAF can demonstrate real utility while building the social graph that will later support tools, services, and more complex exchanges.
-
-GrowOperative is not the end goal. It is the on-ramp to a larger system that empowers communities to trade across every area of life, without depending on fiat currency or centralized platforms.
+The longer-term picture: communities that can feed themselves and trade with themselves through networks they actually control. Not because cash and banks have failed, but because for billions of small exchanges those rails were always overkill.
 
 ---
 
-## How FOAF Works
+## Why prior attempts have failed
 
-FOAF is designed to make trust-based trade as seamless as possible, even in the absence of money. The system follows a simple flow:
+The idea behind FOAF is not new. LETS, time banks, Ithaca HOURS, FairCoin, Trustlines, and a long list of other community currency and mutual credit projects have tried versions of it for forty years. Most are gone. The few that survive at scale, like WIR Bank in Switzerland and Sardex in Italy, work only between businesses, not between regular people in cash-rich economies.
 
-1. **Post** - A user lists something they need or want to offer (e.g., help fixing a fence, extra garden produce, language tutoring).
-2. **Propagate** - That listing spreads only through the user's contact network, appearing as if it came directly from each contact who shares it. This preserves privacy and relevance.
-3. **Settle** - When a match is made, the system routes value through the shortest trust path between participants. Settlement can happen in mutual credit, cash, or in-kind agreements - all recorded transparently in the ledger.
+There are four reasons community-scale attempts have failed, and each one is a design constraint the protocol was built around.
 
-This model depends on **trust paths**: chains of verified relationships where credit and obligations can flow. These paths allow users to transact confidently even when they don't know each other directly.
+The first is no native demand. Most attempts asked users to adopt mutual credit as the use case itself: bill splitting, friend IOUs, time banking. There was nothing underneath it pulling people in. People had to be sold on mutual credit before they had any reason to use it. The successful systems all had a real underlying need that mutual credit happened to lubricate. Businesses needed cash flow smoothing. Cash-scarce communities needed any form of exchange at all. Without that pull, no network ever reached density.
 
-Each transaction strengthens the underlying network and creates a visible trail of how value moved through the system. FOAF’s credit layer works quietly behind the scenes, enabling fluid exchange without requiring traditional payment rails.
+The most striking case is Stellar. The chain has run continuous peer-to-peer trustline infrastructure and multi-hop pathfinding since 2014, with technical primitives essentially identical to what community mutual credit needs. It is alive, in active use, and its trustline graph contains millions of accounts. The peer-to-peer use case never emerged anyway. The trustlines that exist are between users and institutional anchors moving stablecoins and remittances, not between neighbors. The infrastructure was right and the application layer never showed up.
 
----
+The second is uncompensated coordination. Volunteers ran the systems, and volunteers eventually quit. Every long-running community currency hit this wall. The work of connecting people, vouching for them, and resolving disputes is real labor, and asking people to do it for free for years is asking too much.
 
-## Token Architecture
+The third is no enforcement against free riders. When someone could accumulate debt and walk away with no consequence, honest participants stopped extending credit, and the network seized up. The systems that worked at scale either had institutional backing (WIR is a Swiss bank) or operated in tight communities where reputation alone was enforcement enough.
 
-FOAF uses a two-token model that separates governance and utility. This makes the system both sustainable and simple for everyday users.
+The fourth is required crypto literacy. The blockchain-era attempts solved the enforcement problem with smart contracts but introduced a new one. Users had to understand wallets, gas, tokens, and signing. For a network meant to include the cash-poor and the technically casual, that is fatal.
 
-**FOAF** is a fixed-supply token for governance and staking. It is not used for payments, but instead enables holders to generate RHEO and participate in decisions about protocol rules, upgrades, and funding.
-
-**RHEO** is a flexible-use utility token that powers transactions and credit routing. Most users never hold it directly. Fees are passed through social trust paths and ultimately originate from FOAF holders who earn a small premium.
-
-This system ensures that:
-- Trades can happen without cash or wallets
-- Contributors are rewarded automatically
-- FOAF remains accessible while being economically self-sustaining
+The protocol addresses each of these by design. The application layer creates the native demand. Stakers and routing intermediaries are paid in network-issued credit, so coordination is compensated. New participants enter through vouching by existing participants whose stake is at risk, so free-riding has consequences. Custodial wallets and fiat-denominated pricing mean users never have to think about crypto.
 
 ---
 
-## Governance and DAO Transition
+## How FOAF works
 
-FOAF begins with centralized coordination to launch and stabilize the ecosystem, but is designed from the ground up for decentralized governance.
+FOAF is a protocol with a real-world social trust graph underneath it.
 
-The long-term goal is to transition all critical protocol functions - rule-setting, fee management, credit parameters, and treasury spending - to a DAO governed by FOAF token holders.
+Users have contacts. They extend each other credit lines, formally or informally ("I trust you up to $200"), and these credit lines form a graph. When someone wants to trade with someone they do not directly know, the protocol routes the value through a chain of mutual contacts. Each intermediary sees only the segment of the trade adjacent to them. The transaction settles when each pair along the chain updates their bilateral balance.
 
-### How it works:
-- FOAF holders can stake tokens to participate in voting
-- Proposals can be submitted for system upgrades, economic changes, or funding allocations
-- Voting weight corresponds to staked FOAF and is recorded on-chain
-- DAO tools will be phased in as the user base and ecosystem mature
+The flow is:
 
-This model allows the community to evolve the protocol transparently while ensuring those most invested have a meaningful voice.
+1. Post. A user lists something they want to offer or something they need.
+2. Propagate. The listing reaches other users through their shared contact graph, surfacing only when a real social path exists.
+3. Settle. When a match is made, value routes through the trust path. Settlement happens in mutual credit, in cash, or in some combination both parties agree on.
+
+The credit ledger uses local fiat as its unit of account. A pound of tomatoes is worth $2.50. Two hours of garden help is worth $30. The protocol does not introduce a new currency for users to learn. It tracks who owes what to whom, in dollars, and routes the obligations through trust paths until they cancel out or get settled.
+
+Most obligations cancel out. Over time, in a healthy network, debts circulate back to where they started. Maria owes James, James owes Sarah, Sarah owes Maria, and the whole loop dissolves with no money needing to move. This is the deeper logic of mutual credit: not that every debt gets paid, but that most debts cancel themselves through the network's ordinary activity.
+
+---
+
+## GrowOperative as the first application
+
+Food is the first application because food is the keystone good for community-scale mutual credit. Every household either produces it, wants it, or both. It is local, frequent, perishable, and frequently in surplus. It is the closest thing households have to what invoices are for businesses: a steady, varied, recurring stream of value to put through the network.
+
+GrowOperative is a mobile and web app that lets gardeners list surplus produce and arrange exchanges through their existing social network. Behind the app, the protocol routes the trades through trust paths instead of payment rails.
+
+The choice of food is not arbitrary. The marketplace-first principle is what every prior community mutual-credit attempt got wrong. Without a real reason to log in, users do not log in. Without users, there is no network. Food creates the reason. The credit infrastructure runs underneath, doing the work users do not need to know about.
+
+GrowOperative is not the end goal. It is the on-ramp. Once the network has density, the same protocol supports services, tools, labor, and any other locally-produced surplus that wants somewhere to circulate.
+
+---
+
+## Token architecture
+
+Two tokens, separate roles.
+
+FOAF is a fixed-supply token deployed to Ethereum in December 2018. Total supply is 25 million, indivisible. FOAF is held by participants and stakers. It is not used for payments. Its purpose is to back the network's operational capacity and govern the protocol.
+
+RHEO is a flexible-supply utility credit. It is generated by FOAF stakers, consumed by network operations, and routed through trust paths to compensate intermediaries. Most users never hold RHEO directly. Fees, when active, originate from FOAF stakers and travel through the network to where they are consumed.
+
+Every participant holds FOAF from the day they join. Custodial wallets handle the holding, the staking, and the RHEO generation invisibly. New users do not buy a token, install a wallet, or learn what a token is. They join the network and the token is already theirs. In early phases, the token cannot be withdrawn or transferred outside the network. It functions as a membership credential and an operational substrate. The shift to self-custody comes later, once the participant has demonstrated real involvement in the network.
+
+This design is what makes the network legally cleaner than direct token sales. Users are not investors. They have not bought anything. They cannot dump on day one. The token becomes liquid for a participant only after they have used it for the purpose the network exists for.
+
+---
+
+## Governance
+
+Power in the network does not scale linearly with token holdings. Operational capacity does. Staking more FOAF generates more RHEO and gives the staker more of the work and more of the reward. But governance weight is structured to be capped, so that no single holder or coalition can dominate decisions.
+
+The model is cooperative rather than plutocratic. Above a threshold of stake, additional holdings do not buy additional votes. The protocol is run on the principle that the people doing the work and the people using the network should jointly govern it, not the people with the largest balance sheets.
+
+This is a deliberate departure from the standard one-token-one-vote model that most crypto governance uses. It is also a deliberate departure from purely democratic models that ignore the value of long-term commitment. The threshold-tiered design rewards staking and longevity without converting them into kingship.
+
+The detailed mechanism (voting tiers, proposal classes, quorum rules) lives in the governance specification. The principle is what belongs here: governance weight is bounded, and the protocol is owned by the people who use it.
 
 ---
 
 ## Roadmap
 
-The FOAF protocol has moved from vision to working prototype. GrowOperative, our first application, is live and supports listing, requesting, and fulfillment through contact-based networks. While financial settlement is not yet live in the app, this next layer is under active development alongside full mobile deployment.
+The protocol matures in four phases. Each addresses a problem the previous phase could not solve.
 
-**Recent milestones:**
-- MVP deployed with live networked listings and propagation logic
-- Smart contracts drafted for FOAF and RHEO token mechanics
-- DAO and staking framework in design
+Phase 1: Bootstrap. Centralized coordination, fiat-denominated mutual credit, zero protocol fees. The application layer attracts users; the credit infrastructure runs quietly underneath. The goal is density: enough trust paths, enough recurring exchanges, enough circulating surplus to demonstrate the model works without depending on token economics or chain mechanics. FOAF stakers and RHEO are not yet active. The network is sustained by foundation operations and the value users create with each other.
 
-**Next steps:**
-- Implement mutual credit tracking and transaction settlement inside the app
-- Launch native apps for iOS and Android
-- Expand pilot programs with early adopter communities
-- Complete and launch decentralized governance features
+Phase 2: Distribution. FOAF tokens distribute to participants, contributors, and seed supporters. The vFOAF and rFOAF staking tiers go live, generating RHEO. Fees remain at zero to maximize adoption. This phase establishes the FOAF holder base who will back the network's operational capacity once fees activate. Distribution rewards early participation: initial cohorts receive larger allocations than later ones, scaling down toward a floor that ensures every future participant still receives enough FOAF to operate.
 
-For a full development timeline, see the [technical roadmap](../technical/roadmap.md).
+Phase 3: Activation. The protocol moves onto chain. Network fees turn on progressively, paid by participants who profit from a transaction (sellers, intermediaries taking markups), never by buyers. Each intermediary on a transaction path earns a routing premium. Fees originate from FOAF stakers elsewhere in the network and travel through their own trust paths to where they are consumed. DAO governance takes effect. Centralized coordination begins to fade.
+
+Phase 4: Decentralization. New applications build on the FOAF protocol: services, tools, labor, supply-chain finance for small producers. Cross-community credit clearing connects subnets. The protocol becomes infrastructure for any local economy that wants it. The original application becomes one of many. The foundation becomes a contributor among many. The protocol no longer needs centralized stewardship to operate.
+
+Each phase only makes sense after the previous one has produced its output. Bootstrap produces density. Distribution produces stakers. Activation produces a self-sustaining economy. Decentralization produces a substrate other applications can build on. Skipping a step means standing up token mechanics on a network with no transaction demand, or activating fees before the network can pay them. Both are common failure modes of prior attempts.
 
 ---
 
-## Why It Matters
+## Why it matters
 
-Traditional systems of exchange - from local currencies to volunteer-run barter networks - have struggled to scale or survive long-term. Centralized platforms extract value, fiat currencies restrict who can participate, and burnout is built into most community-led systems.
+Most local exchange systems have either failed at scale or scaled by becoming the thing they were trying to avoid. The protocol is an attempt to do this without either outcome.
 
-FOAF offers a new path.
+FOAF pays the people doing the actual work of connecting their communities. Every previous attempt at community-scale mutual credit has asked volunteers to coordinate for free, and the volunteers have eventually quit. That is the failure mode the design refuses to repeat.
 
-By rooting exchange in trust, automating settlement, and rewarding contributors through built-in incentives, FOAF creates an economic layer that is accessible, resilient, and adaptable.
+The protocol is also designed to scale without bifurcating. Most platforms grow by separating their users into a tier with the original product and a tier paying for the version that actually works. The protocol does not have a Pro tier. The community-garden case and the regional farm-to-table case run on the same infrastructure. The same principles that make the network work for two neighbors trading lettuce are the principles that make it work for a hundred orchards distributing fruit across a valley.
 
-This isn't just about software - it's about creating infrastructure for a post-capitalist future, where people can meet needs locally without waiting for permission or liquidity from above.
+What the protocol is ultimately for is harder to say in one line. The shortest version: most of what a local economy needs to do, it can do without money, if there is somewhere to do it. Building that somewhere is the work.

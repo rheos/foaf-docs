@@ -168,7 +168,27 @@ If contraction_signal > threshold:
 **User Experience:**
 - Zero crypto knowledge required
 - Progressive decentralization - learn at your own pace
-- Withdraw to self-custody anytime
+- Withdraw to self-custody after demonstrated participation
+
+## Sybil Resistance
+
+As the network grows and FOAF becomes tradeable on open markets, the airdrop pool becomes an attractive target for sybil farming — attackers creating networks of fake accounts to harvest free tokens. No single mechanism fully prevents this; the protocol's defense is to make the cost of farming exceed the reward at every scale.
+
+**Four mechanisms work together:**
+
+**1. Vouching with stake at risk.** New accounts enter the network through vouching by existing participants. The voucher places FOAF at stake; if the new account is later determined to be a sybil, that stake is slashed. Creating ten fake accounts requires either one participant risking their stake on all ten, or recursively building a vouching chain — which itself requires real FOAF at every step.
+
+**2. Diverse-counterparty requirements.** Self-custody unlock is not satisfied by transaction count alone. The protocol requires interaction with a minimum number of distinct counterparties drawn from outside the entrant's own vouching cluster. This forces a sybil graph to either connect outward to real users (who can decline to trade) or keep extending its own fake graph at increasing vouching cost.
+
+**3. Graph-topology detection.** Sybil clusters have detectable signatures: high internal connection density, low external connectivity, time-correlated activity, shared device fingerprints, geometrically clean transaction amounts. The protocol flags suspicious clusters for tighter unlock rules and slower release schedules.
+
+**4. Real-world entry friction.** First entry to the network requires a signal that is costly to fake at scale: phone verification, in-person meet at a community node, QR onboarding at a verified physical location. This does not stop determined attackers but raises the bar enough that casual farming is not worth attempting.
+
+**Pragmatic floor.** Beyond these mechanisms, the late-cohort airdrop floor itself acts as a deterrent. When the per-signup airdrop drops to its minimum, sybil farming pays only if the FOAF market price exceeds the marginal cost of creating each fake account (vouching collateral + time + slashing risk). For small enough payouts, no rational attacker bothers.
+
+**Structural advantage.** FOAF's protocol is itself a real-world social trust graph. Sybil clusters that do not connect to that graph are structurally self-isolating — they can game internal metrics but cannot access real value flow. There are no real trades happening, no real fees being consumed, no real network effects accruing to their accounts. They can still dump unlocked FOAF on the open market and extract value from the network's reputation, but the cost of building a sybil graph large enough to do so substantially exceeds what they can extract.
+
+The protocol assumes attackers will try to game any single rule. It is designed so that defeating any one rule does not give the attacker the others. Sybil resistance is a property of the graph, not of any single transaction.
 
 ## Multi-Chain Architecture
 
