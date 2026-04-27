@@ -67,6 +67,9 @@ markdown_extensions:
 plugins:
   - search
 
+extra_css:
+  - stylesheets/nav.css
+
 extra:
   social:
     - icon: fontawesome/brands/github

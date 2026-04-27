@@ -1,0 +1,64 @@
+/* Sidebar navigation hierarchy
+ *
+ * Default Material theme renders section labels and page links with too
+ * similar styling, which makes it hard to tell what is clickable. This
+ * sheet differentiates the two.
+ */
+
+/* Section labels: uppercase, smaller, dimmer, with a top divider */
+.md-nav--lifted > .md-nav__list > .md-nav__item--section > .md-nav__link,
+.md-nav__title {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.7rem;
+  font-weight: 700;
+  opacity: 0.55;
+  padding-top: 0.9rem;
+  padding-bottom: 0.4rem;
+  margin-top: 0.6rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  cursor: default;
+}
+
+/* First section in the sidebar should not have a divider above it */
+.md-nav__list > .md-nav__item:first-child > .md-nav__link.md-nav__title,
+.md-nav--lifted > .md-nav__list > .md-nav__item:first-child .md-nav__link.md-nav__title {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Page links: full weight, not uppercased, clear hover affordance */
+.md-nav__item .md-nav__link:not(.md-nav__title) {
+  text-transform: none;
+  letter-spacing: normal;
+  font-size: 0.78rem;
+  font-weight: 400;
+  opacity: 0.85;
+  padding-top: 0.32rem;
+  padding-bottom: 0.32rem;
+  border-top: none;
+  margin-top: 0;
+  cursor: pointer;
+  transition: color 120ms ease, opacity 120ms ease;
+}
+
+.md-nav__item .md-nav__link:not(.md-nav__title):hover {
+  opacity: 1;
+  color: var(--md-accent-fg-color);
+}
+
+/* Active page link: full opacity, accent color, weight 600 */
+.md-nav__link--active:not(.md-nav__title),
+.md-nav__item .md-nav__link--active:not(.md-nav__title) {
+  opacity: 1;
+  font-weight: 600;
+  color: var(--md-accent-fg-color);
+}
+
+/* Light theme tweaks: divider is darker on a light background */
+[data-md-color-scheme="default"] .md-nav--lifted > .md-nav__list > .md-nav__item--section > .md-nav__link,
+[data-md-color-scheme="default"] .md-nav__title {
+  border-top-color: rgba(0, 0, 0, 0.08);
+  opacity: 0.6;
+}
