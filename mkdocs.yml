@@ -98,6 +98,7 @@ nav:
       - Overview: technical/overview.md
       - Architecture: technical/architecture.md
       - Protocol Vision: technical/protocol-vision.md
+      - FOAF as a DeFi Protocol: technical/defi-protocol.md
       - Roadmap: technical/roadmap.md
       - Node Operators: technical/node-operators.md
       - Bringing FOAF to Radix: technical/radix-bridge.md

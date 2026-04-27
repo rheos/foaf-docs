@@ -80,6 +80,8 @@ Every participant holds FOAF from the day they join. Custodial wallets handle th
 
 This design is what makes the network legally cleaner than direct token sales. Users are not investors. They have not bought anything. They cannot dump on day one. The token becomes liquid for a participant only after they have used it for the purpose the network exists for.
 
+Direct protocol interaction lives at a separate portal at foaf.foundation. Stakers, governance participants, multisig admins, validators, and bridge operators work with the on-chain layer there. The application layer remains protocol-invisible by design. Two surfaces, two audiences, one protocol.
+
 ---
 
 ## Governance
@@ -117,5 +119,7 @@ Most local exchange systems have either failed at scale or scaled by becoming th
 FOAF pays the people doing the actual work of connecting their communities. Every previous attempt at community-scale mutual credit has asked volunteers to coordinate for free, and the volunteers have eventually quit. That is the failure mode the design refuses to repeat.
 
 The protocol is also designed to scale without bifurcating. Most platforms grow by separating their users into a tier with the original product and a tier paying for the version that actually works. The protocol does not have a Pro tier. The community-garden case and the regional farm-to-table case run on the same infrastructure. The same principles that make the network work for two neighbors trading lettuce are the principles that make it work for a hundred orchards distributing fruit across a valley.
+
+The protocol is also separable from any single application. GrowOperative is the first thing built on it, but the protocol is its own layer, operated through its own portal at foaf.foundation. The substrate is available to anyone who wants to build on it, integrate with it, or interact with it directly. The application is one example, not the entire thing.
 
 What the protocol is ultimately for is harder to say in one line. The shortest version: most of what a local economy needs to do, it can do without money, if there is somewhere to do it. Building that somewhere is the work.

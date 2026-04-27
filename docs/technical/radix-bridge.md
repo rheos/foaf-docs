@@ -12,6 +12,8 @@ For that migration, FOAF needs to exist on Radix. Hyperlane went live on Radix m
 
 Deploy a Hyperlane warp route between Ethereum and Radix Babylon, with FOAF as the bridged asset and a corresponding FOAF resource on Radix that holders can use, transfer, and eventually stake.
 
+The bridge is a protocol-layer capability. It will live behind the protocol portal at foaf.foundation, alongside staking, governance, and other on-chain operations. The consumer-facing GrowOperative application interacts with the protocol invisibly; the portal is where direct on-chain work happens.
+
 ## What needs to be built
 
 Three pieces.
