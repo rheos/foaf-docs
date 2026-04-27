@@ -1,31 +1,31 @@
-# FOAF Foundation Documentation
+# FOAF Foundation documentation
 
-Welcome to the documentation hub for the **FOAF (Friend of a Friend) Foundation** — a decentralized initiative to strengthen local communities through resilient, trust-based systems. Our first project, **GrowOperative**, turns surplus garden produce into local economic power using mutual credit and blockchain technology.
+This repository contains the documentation site for the FOAF (Friend of a Friend) Foundation, served at [docs.foaf.foundation](https://docs.foaf.foundation).
 
-## 🌱 Our Purpose
+FOAF is an open protocol for community-scale mutual credit. Trustlines between known parties handle the accounting; multi-hop payments route through the trust graph; debts circulate and cancel through credit loops rather than requiring settlement in money from outside the system.
 
-The FOAF Foundation is a community-led DAO building practical tools for food sovereignty, mutual aid, and post-fiat resilience. We believe that **small-scale action and decentralized technology** can empower neighborhoods to become self-sustaining — starting in the garden.
+The first application built on the protocol, GrowOperative, is in soft launch in Crawford Bay, BC. The protocol's eventual home is Radix Babylon.
 
-## 🎯 Our Mission
+## What this site covers
 
-- **Grow Local Resilience**: Build tools for communities to share, trade, and thrive together.
-- **Reduce Fiat Dependence**: Enable peer-to-peer credit systems that work without banks or cash.
-- **Decentralize Governance**: Support transparent, community-driven control of vital systems.
+- The FOAF Foundation, its structure, and tokenomics
+- GrowOperative as the reference client
+- Protocol architecture, both current and the long-term peer-to-peer direction
+- Governance and the move toward a Marshall Islands DAO
+- How to collaborate on building the protocol stack
 
-## 🚀 Our First Project: GrowOperative
+## Contributing to the docs
 
-**GrowOperative** is a mobile and web app for trading surplus food, labor, and services through your personal network. Built around gardening as an accessible entry point, it evolves into a **mutual credit supply chain** — a true “friend-of-a-friend” economy.
+Site is built with [MkDocs](https://www.mkdocs.org/) and the [Material theme](https://squidfunk.github.io/mkdocs-material/). Local preview via Docker:
 
-🔗 [Learn more about GrowOperative](./docs/growoperative/)
+```
+docker run --rm -p 8000:8000 -v "$(pwd):/docs" squidfunk/mkdocs-material serve -a 0.0.0.0:8000
+```
 
-## 📚 Explore the Docs
+Then open http://localhost:8000. The site live-reloads on file save.
 
-- [FOAF Foundation Overview](./docs/about/overview.md) – Governance, tokenomics, and vision
-- [GrowOperative Project](./docs/growoperative/) – Community-powered trade in action
-- [Technical Roadmap](./docs/technical/roadmap.md) – Development milestones and next steps
+To propose changes, fork this repo, edit the markdown in `docs/`, and open a pull request. See the [contribution guide](./docs/community/contribution.md) for the longer version.
 
-## 🤝 Get Involved
+## Getting involved beyond docs
 
-We welcome gardeners, developers, organizers, regenerative thinkers, and decentralized tech enthusiasts. If you're passionate about redesigning local economies — or if you’re part of the movement toward food independence and post-fiat systems — we invite you to join us.
-
-> “The future is decentralized — and it grows from the ground up.”
+If you're interested in building the protocol itself rather than the docs, see [Build with us](./docs/technical/build-with-us.md) for the three current role tracks: the Hyperlane bridge, the Scrypto protocol stack, and the peer-to-peer architecture.
