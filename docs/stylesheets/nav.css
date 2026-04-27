@@ -5,18 +5,19 @@
  * sheet differentiates the two.
  */
 
-/* Section labels: uppercase, smaller, dimmer, with a top divider */
+/* Section labels: uppercase, prominent, with a top divider */
 .md-nav--lifted > .md-nav__list > .md-nav__item--section > .md-nav__link,
 .md-nav__title {
   text-transform: uppercase;
-  letter-spacing: 0.06em;
-  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  font-size: 0.78rem;
   font-weight: 700;
-  opacity: 0.55;
-  padding-top: 0.9rem;
-  padding-bottom: 0.4rem;
+  opacity: 1;
+  color: var(--md-primary-fg-color--light);
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
   margin-top: 0.6rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
   cursor: default;
 }
 
@@ -34,7 +35,7 @@
   letter-spacing: normal;
   font-size: 0.78rem;
   font-weight: 400;
-  opacity: 0.85;
+  opacity: 1;
   padding-top: 0.32rem;
   padding-bottom: 0.32rem;
   border-top: none;
@@ -59,6 +60,7 @@
 /* Light theme tweaks: divider is darker on a light background */
 [data-md-color-scheme="default"] .md-nav--lifted > .md-nav__list > .md-nav__item--section > .md-nav__link,
 [data-md-color-scheme="default"] .md-nav__title {
-  border-top-color: rgba(0, 0, 0, 0.08);
-  opacity: 0.6;
+  border-top-color: rgba(0, 0, 0, 0.1);
+  color: var(--md-primary-fg-color);
+  opacity: 1;
 }
