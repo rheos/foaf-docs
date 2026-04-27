@@ -8,6 +8,20 @@ The protocol's eventual home is Radix Babylon. The first application on the prot
 
 For that migration, FOAF needs to exist on Radix. Hyperlane went live on Radix mainnet in August 2025, which is the path.
 
+## Why Radix
+
+The protocol's design and Radix's design point at each other.
+
+Mutual credit comes down to **resources held under conditional authority**. A trustline isn't a balance in a contract; it's a bilateral agreement with rules about who can change what, and under what circumstances. Asset-oriented programming expresses this directly. A trustline can be a resource with badge-gated transfer rules. vFOAF and rFOAF don't have to be custom token contracts imitating ERC-20s; they are resources whose lock-up and decay rules live in the engine itself, not duct-taped on top of a generic balance ledger. The same primitives that make Scrypto pleasant to write make these patterns feel native rather than bolted on.
+
+Cerberus matters here in a non-marketing way. A credit loop spans many trustlines, and on most chains that means a sequence of transactions with all the failure modes of partial execution. On Radix, an atomic transaction across independent components is a single manifest that either commits everywhere or commits nowhere. For a system that needs participants to trust that their credit position changed exactly the way they signed off on, that property is load-bearing.
+
+The lack of Ethereum-style MEV, predictable fees, and fair ordering matter for users who shouldn't have to think about gas auctions or sandwich attacks to trade vegetables with their neighbour. The audience for FOAF is community-scale, not arbitrage-scale. A chain whose default behaviour is "the transaction does what the manifest says" lets the application stay legible to people who aren't going to read a chain explorer.
+
+Governance gets cleaner for the same reason. vFOAF voting power, rFOAF rewards, badge-gated council actions: each is a resource type with its rules baked in, not a fragile pattern stitched together from token transfers and access modifiers. The audit surface shrinks. The wrong actor can't end up holding the wrong authority because the engine itself tracks it.
+
+The team is betting on Radix because the resource model fits what FOAF actually is. If you've been building in Scrypto and looking for a project where asset-oriented programming earns its keep on something more substantive than another DeFi primitive, this is one.
+
 ## The objective
 
 Deploy a Hyperlane warp route between Ethereum and Radix Babylon, with FOAF as the bridged asset and a corresponding FOAF resource on Radix that holders can use, transfer, and eventually stake.
