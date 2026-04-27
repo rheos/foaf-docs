@@ -78,29 +78,24 @@ FOAF tokens are freely tradeable. Users can choose their commitment level throug
 - RHEO price below target range
 - Network health metrics indicate oversupply
 
-### Monthly Policy Formula
+### Monthly policy formula
 
-```
-RHEO_Policy = f(
- rheo_velocity,
- transaction_volume_trend,
- average_user_balance,
- rheo_price_deviation,
- new_user_onboarding
-)
+The treasury computes a policy signal each month from a basket of network metrics:
 
-If expansion_signal > threshold:
- → Airdrop 0.5-2.0 RHEO per active user
- 
-If contraction_signal > threshold:
- → Burn 5-15% of monthly treasury RHEO generation
-```
+- RHEO velocity
+- Transaction volume trend
+- Average user balance
+- RHEO price deviation from target
+- New-user onboarding rate
 
-**Benefits:**
-- **Self-stabilizing** - automatically responds to network conditions
-- **Transparent** - formula is public and DAO-governed
-- **User-friendly** - maintains optimal liquidity without user intervention
-- **Sustainable** - prevents both scarcity crises and inflation
+When the expansion signal exceeds threshold, the treasury airdrops 0.5 to 2.0 RHEO per active user. When the contraction signal exceeds threshold, the treasury burns 5 to 15 percent of monthly treasury RHEO generation.
+
+The benefits of this approach:
+
+- Self-stabilizing. Responds to network conditions automatically without manual intervention.
+- Transparent. The formula is public and DAO-governed.
+- User-friendly. Maintains optimal liquidity without users needing to do anything.
+- Sustainable. Prevents both scarcity crises and inflation over time.
 
 ---
 
