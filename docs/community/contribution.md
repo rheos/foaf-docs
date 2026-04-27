@@ -20,7 +20,7 @@ This guide outlines how to get involved as we prepare for the multi-location alp
 - **Enhance Docs**: Improve clarity, add examples, or translate guides in `foaf-docs`.
  - Example: Update [onboarding](../growoperative/onboarding.md) with local fiat pricing tips.
 - **Process**:
- 1. Fork `foaf-docs` (https://github.com/rheos/foaf-docs.git).
+ 1. Fork `foaf-docs` (https://github.com/FOAF-Foundation/foaf-docs.git).
  2. Create a branch (`git checkout -b doc-update`).
  3. Edit markdown files (e.g., add trust network examples).
  4. Submit a pull request with a clear description.

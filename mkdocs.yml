@@ -1,8 +1,8 @@
 site_name: FOAF Foundation
 site_description: Decentralized trust infrastructure for community-scale value exchange
 site_url: https://docs.foaf.foundation
-repo_url: https://github.com/rheos/foaf-docs
-repo_name: rheos/foaf-docs
+repo_url: https://github.com/FOAF-Foundation/foaf-docs
+repo_name: FOAF-Foundation/foaf-docs
 edit_uri: edit/main/docs/
 
 theme:
@@ -73,7 +73,7 @@ extra_css:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/rheos/foaf-docs
+      link: https://github.com/FOAF-Foundation/foaf-docs
       name: FOAF on GitHub
 
 nav:
