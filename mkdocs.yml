@@ -104,7 +104,11 @@ nav:
       - FOAF as a DeFi Protocol: technical/defi-protocol.md
       - Roadmap: technical/roadmap.md
       - Node Operators: technical/node-operators.md
-      - Bringing FOAF to Radix: technical/radix-bridge.md
+      - Build with us:
+          - Overview: technical/build-with-us.md
+          - Hyperlane Bridge: technical/radix-bridge.md
+          - Scrypto Protocol Stack: technical/scrypto-protocol.md
+          - P2P Architecture: technical/p2p-architecture.md
   - Community:
       - Contribution: community/contribution.md
       - Airdrops: community/airdrops.md
