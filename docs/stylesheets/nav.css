@@ -64,3 +64,42 @@
   color: var(--md-primary-fg-color);
   opacity: 1;
 }
+
+/* Sidebar scrollbar: same hue as active nav links, softer visual weight */
+.md-sidebar__scrollwrap {
+  scrollbar-color: color-mix(in srgb, var(--md-primary-fg-color--light) 60%, transparent) transparent;
+  scrollbar-width: thin;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar {
+  width: 6px;
+}
+
+.md-sidebar__scrollwrap::-webkit-scrollbar-thumb {
+  background-color: color-mix(in srgb, var(--md-primary-fg-color--light) 60%, transparent);
+  border-radius: 3px;
+}
+
+.md-sidebar__scrollwrap:hover {
+  scrollbar-color: var(--md-primary-fg-color--light) transparent;
+}
+
+.md-sidebar__scrollwrap:hover::-webkit-scrollbar-thumb {
+  background-color: var(--md-primary-fg-color--light);
+}
+
+/* Heading permalinks (pilcrow): hidden until the heading is hovered */
+.md-typeset .headerlink {
+  opacity: 0;
+  transition: opacity 120ms ease;
+}
+
+.md-typeset h1:hover .headerlink,
+.md-typeset h2:hover .headerlink,
+.md-typeset h3:hover .headerlink,
+.md-typeset h4:hover .headerlink,
+.md-typeset h5:hover .headerlink,
+.md-typeset h6:hover .headerlink,
+.md-typeset .headerlink:focus {
+  opacity: 1;
+}
