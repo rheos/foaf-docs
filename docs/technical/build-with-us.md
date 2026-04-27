@@ -28,7 +28,7 @@ See [The peer-to-peer architecture](p2p-architecture.md).
 
 ## What is shared across all three
 
-- Compensation is FOAF allocation with vesting from the 16% team-and-advisors pool. Cash retainers are possible where token allocation is incompatible with the contributor's tax or regulatory situation.
+- Compensation is FOAF allocation with vesting from the 16% team-and-advisors pool. Tokens are the primary compensation. A cash retainer can be part of the package for engagements that need one, but only once the seed round closes.
 - Public attribution in the project's documentation and any released materials.
 - Asynchronous work, reasonable communication cadence, no application form. The first conversation is always a conversation.
 - A working relationship with the Foundation founder. Decisions get made in the same conversation rather than queued behind hierarchy.

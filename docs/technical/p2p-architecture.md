@@ -54,7 +54,9 @@ The chain is optional, not central. Most protocols built around a chain end up b
 
 ## What is offered
 
-Compensation is a FOAF allocation with vesting, drawn from the 16% team-and-advisors pool. Size is negotiated case by case. The default structure is a 6-month cliff with milestone-based unlocks across 12 to 24 months. Cash compensation only if tax or regulatory constraints make token allocation impossible.
+Compensation is a FOAF allocation with vesting, drawn from the 16% team-and-advisors pool. Size is negotiated case by case. The default structure is a 6-month cliff with milestone-based unlocks across 12 to 24 months.
+
+Tokens are the primary compensation. A cash retainer can be part of the package for engagements that need one, but only once the seed round closes. Better to say that up front than have the timing be a surprise later.
 
 Public attribution. A working relationship with the Foundation founder. Continuing involvement welcome but not required.
 

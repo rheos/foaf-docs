@@ -62,7 +62,9 @@ The Radix ecosystem doesn't yet have many reference cases for bringing an existi
 
 ## What is offered
 
-Compensation is a FOAF allocation with vesting, drawn from the 16% team-and-advisors pool. Size is negotiated case by case based on scope. The default structure is a 6-month cliff with milestone-based unlocks across 12 to 24 months. Cash compensation only if tax or regulatory constraints in your jurisdiction make a token allocation impossible.
+Compensation is a FOAF allocation with vesting, drawn from the 16% team-and-advisors pool. Size is negotiated case by case based on scope. The default structure is a 6-month cliff with milestone-based unlocks across 12 to 24 months.
+
+Tokens are the primary compensation. A cash retainer can be part of the package for engagements that need one, but only once the seed round closes. Better to say that up front than have the timing be a surprise later.
 
 Public attribution for the bridge work in the project's documentation and any released materials.
 
