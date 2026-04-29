@@ -36,6 +36,17 @@ Founded by Giuseppe Littera, Gabriele Littera, and Carlo Mancosu — three unemp
 
 **Cross-pattern observation about WIR + Sardex:** Both succeed by being institutional / chartered / regulated, regional, B2B-focused. Neither attempts pure peer-to-peer consumer mutual credit at unrestricted geographic scope. FOAF's design is more ambitious (P2P consumer, geographically open, eventually decentralized) — which means FOAF is doing something WIR/Sardex haven't proven can work, while still claiming the broader category as validated. Worth being honest about that distinction in copy.
 
+**Critical design pattern from both: own unit, pegged 1:1 to host fiat, non-exchangeable.** WIR has CHW (Wir Franc), Sardex has Sardex — each is its own unit denominated equivalently to host fiat (CHF, EUR) at issuance but explicitly non-exchangeable. You can't walk into a bank with WIR or Sardex and walk out with national currency. This is structurally distinct from "denominating tabs in fiat" — and it's probably the cleanest pattern for FOAF to adopt as well.
+
+The own-unit pattern matters for several reasons:
+
+- **Closed-loop legibility.** "FOAF-credit pegged 1:1 to CAD but non-exchangeable" is a different (and clearer) story from "CAD-denominated tabs in a closed circuit." Regulators, users, and tax authorities all parse the first more cleanly.
+- **Defends against "are you trying to be a currency" objections.** WIR and Sardex have run alongside state currency for 90+ and 16+ years without regulatory pushback partly because they're clearly NOT trying to be fiat. They're complementary instruments. FOAF tracking balances directly in CAD blurs that distinction.
+- **Architectural option for unit-of-account swaps.** If balances are conceptually "FOAF-credit pegged to CAD at issue," then re-pegging to silver (the RHEO direction) is a clean unit-of-account migration. If balances are conceptually "CAD," re-pegging is a re-denomination of fiat-equivalent debt — much messier.
+- **Tax treatment is identical either way.** CRA's IT-490 on barter applies regardless of whether the unit is "CAD" or "FOAF-credit-equivalent-to-CAD." The pattern doesn't change the tax obligation; it just makes the regulatory category obvious.
+
+FOAF's protocol design already supports this — trustlines can carry whatever unit-of-account framing the implementation chooses. The current Rails MVP just tracks balances as raw CAD numbers because that was the simplest path for the first implementation. The own-unit-pegged-to-fiat framing is a labeling/conceptual choice that future implementations (Scrypto on Radix, alternative clients) can adopt without a redesign. WIR and Sardex are the empirical validation that the pattern works for decades.
+
 ## Trustlines Foundation deployments
 
 The Trustlines Foundation ran three pilot deployments before the project largely went dormant. Each tells a different story.
